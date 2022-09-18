@@ -1,0 +1,25 @@
+start = reference_list
+reference_list = element reference_list {metaData, letter+}
+#
+metaData = element metaData {source, collection, URL, access_type}
+source = element source {text}
+collection = element collection {text}
+URL = element URL {text}
+access_type = element access_type {text}
+#
+letter = element letter {name, regiment+, date, country_of_origin, country_stationed+, sentiment, factors+}
+name = element name {text}
+regiment = element regiment {text}
+date = element date {month, year}
+month = element month {text}
+year = element year {xsd:integer {minInclusive = "1916" maxInclusive = "1918"}}
+country_of_origin = element country_of_origin {text}
+country_stationed = element country_stationed {text}
+sentiment = element sentiment {"positive" | "negative" | "both" | "neutral"}
+factors = element factors {type?, text}
+type = attribute type {"emotion"|"body"|"battle"|"location"|"language"}
+
+#Had to allow for more than one regiment - the National Archives listed all regiments on record up until
+#time that the letter was written. 
+#Also allowed multiples of country of origin element - some letters mention several.
+#This attribute content model is basic for now - these may be nested under larger categories later to compare as research variants.
