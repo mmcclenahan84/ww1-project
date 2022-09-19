@@ -4,12 +4,12 @@
 Because all of these letters are from a single source, I didn't include "source" as an element.-->
 
 <reference_list>
-    <metaData>
+    <meta_data>
         <source> The National Archives</source>
         <collection> Letters from the First World War, Part 2</collection>
         <URL>https://www.nationalarchives.gov.uk/education/resources/letters-first-world-war-1916-18/</URL>
         <access_type> Open Government License v3.0</access_type>
-    </metaData>
+    </meta_data>
 
     <letter>
         <name>William Perrin Mansbridge</name>
@@ -33,7 +33,7 @@ Because all of these letters are from a single source, I didn't include "source"
         </date>
         <country_of_origin>UK</country_of_origin>
         <country_stationed>France</country_stationed>
-        <sentiment>both</sentiment>
+        <sentiment>mixed</sentiment>
         <factors type="body">fatigue,illness</factors>
     </letter>
 
@@ -63,7 +63,7 @@ Because all of these letters are from a single source, I didn't include "source"
         <country_of_origin>UK</country_of_origin>
         <country_stationed>India</country_stationed>
         <country_stationed>Yemen</country_stationed>
-        <sentiment>both</sentiment>
+        <sentiment>mixed</sentiment>
         <factors type="location">weather, insects</factors>
     </letter>
     
@@ -89,7 +89,7 @@ Because all of these letters are from a single source, I didn't include "source"
         </date>
         <country_of_origin>UK</country_of_origin>
         <country_stationed>Egypt</country_stationed>
-        <sentiment>both</sentiment>
+        <sentiment>mixed</sentiment>
         <factors type = "location">marching</factors><factors type="battle">bombardment, gunfire, ship sinking</factors>
     </letter>
     		
