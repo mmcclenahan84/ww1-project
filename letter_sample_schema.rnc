@@ -1,0 +1,26 @@
+start = t_text
+t_text = element text {body+}
+#^calling it t_text for now but it needs to be "text" for TEI - but RelaxNG has that as reserve word.
+body = element body {div+}
+# ^apparently div is also a reserve word.
+div = element div {d_type ,opener+, p+, closer+}
+d_type = attribute type {text}
+opener = element opener {dateline+, salute}
+dateline = element dateline {date, name}
+salute = element salute {text}
+date = element date {when, text}
+when = attribute when {text}
+name = element name {n_type, text}
+n_type = attribute type {text}
+#
+p = element p {text}
+#
+closer = element closer {salute, signed}
+salute = element salute {text}
+signed = element signed {name}
+name = element name {p_type, text}
+p_type = attribute type {text}
+#
+#TEI types have lots of values.  Here I'm assigning three for the purposes of letters:
+#d_type is "division type", n_type is "name of place type", and p_type is "person type"
+#What element will we use for the personal info at the beginning of the letters?
