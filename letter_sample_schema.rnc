@@ -12,7 +12,21 @@ when = attribute when {text}
 placename = element name {n_type, text}
 n_type = attribute type {text}
 #
-p = element p {text}
+emote = element emote {e_type, text}
+e_type = element e_type {positive | negative | neutral}
+positive = attribute positive {text}
+negative = attribute negative {text}
+neutral = attribute neutral {text}
+#
+factor = element factor {f_type, text}
+f_type = element f_type {sense | trauma | battle | prep | conditions}
+sense  = attribute sense {text}
+trauma = attribute trauma {text}
+battle = attribute battle {text}
+prep = attribute prep {text}
+conditions = attribute conditions {text}
+#
+p = element p { mixed { ( emote | factor )* } }
 #
 closer = element closer {closesalute, signed}
 closesalute = element salute {text}
