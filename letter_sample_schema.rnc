@@ -4,7 +4,7 @@
 #(the above not needed until we combine letters into series/groups.  start letters with div.)
 #
 start = division
-division = element div {d_type ,info*,opener+, p+, closer+}
+division = element div {d_type ,info*,opener+, p+, closer+, postscript*}
 info = element info {text}  
 #For now, info can hold anything like Regiment info and Rank that some letters have, until we know what we want to do with it. 
 d_type = attribute type {text}
@@ -37,6 +37,7 @@ closesalute = element salute {text}
 signed = element signed {signedname}
 signedname = element name {p_type, text}
 p_type = attribute type {text}
+postscript = element postscript {text}
 #
 #TEI types have lots of values:
 #Three attribute types: d_type is "division type", n_type is "name of place type", and p_type is "person type" (body of letter elements)
