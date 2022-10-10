@@ -1,8 +1,12 @@
-start = t_text
-t_text = element text {body+}
+#start = t_text
+#t_text = element text {body+}
+#body = element body {division+}
+#(the above not needed until we combine letters into series/groups.  start letters with div.)
 #
-body = element body {division+}
-division = element div {d_type ,opener+, p+, closer+}
+start = division
+division = element div {d_type ,info*,opener+, p+, closer+}
+info = element info {text}  
+#For now, info can hold anything like Regiment info and Rank that some letters have, until we know what we want to do with it. 
 d_type = attribute type {text}
 opener = element opener {dateline+, opensalute}
 dateline = element dateline {date, placename}
@@ -11,6 +15,8 @@ date = element date {when, text}
 when = attribute when {text}
 placename = element name {n_type, text}
 n_type = attribute type {text}
+#
+p = element p { mixed { ( emote | factor )* } }
 #
 emote = element emote {e_type, text}
 e_type = element e_type {positive | negative | neutral}
@@ -26,8 +32,6 @@ battle = attribute battle {text}
 prep = attribute prep {text}
 conditions = attribute conditions {text}
 #
-p = element p { mixed { ( emote | factor )* } }
-#
 closer = element closer {closesalute, signed}
 closesalute = element salute {text}
 signed = element signed {signedname}
@@ -35,7 +39,7 @@ signedname = element name {p_type, text}
 p_type = attribute type {text}
 #
 #TEI types have lots of values:
-#Three types: d_type is "division type", n_type is "name of place type", and p_type is "person type".
+#Three attribute types: d_type is "division type", n_type is "name of place type", and p_type is "person type" (body of letter elements)
+    # Also we have two element types: e_type is "emotional type" and f_type is "factor type".
 #Two names: placename and signedname
 #Two salutes: opensalute and closesalute#
-#What element will we use for the personal info at the beginning of the letters?
