@@ -25,7 +25,7 @@ p_type = attribute type {"person"}
 #
 p = element p { mixed { ( emote | factor )* } }
 #
-emote = element emote { mixed {(e_type|factor)+}}
+emote = element emote {e_type, mixed{factor*}}
 e_type = attribute type {"positive" | "negative" | "neutral"}
 #
 factor = element factor {f_type, text}
