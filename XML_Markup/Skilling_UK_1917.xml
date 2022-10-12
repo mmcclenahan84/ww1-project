@@ -1,4 +1,5 @@
-<div dtype="letter">
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
     <info>Hugh Andrew Skilling, 5 January 1917, France. Born: 17 April 1891, Regiment: 3 Battalion
         Bedfordshire Regiment; 7 London Brigade Field Artillery, Regiment number: 43228, Rank: Lance
         Corporal, Died: 1970</info>
@@ -6,9 +7,10 @@
     <opener>
         <dateline>
             <date when="1917-01-05">January 5, 1917</date>
+            <name type="place">unknown</name>
         </dateline>
         <name type="place">unknown</name>
-        <opensalute>Dear Mr W.H. Davies,</opensalute>
+        <salute>Dear Mr W.H. Davies,</salute>
     </opener>
     <p>Just a line to let you know I have not forgotten you. I received a letter on Tuesday 3rd of
         January 1917 which you sent to me on August 24th 1916. By the marking on the envelope it has
@@ -58,7 +60,7 @@
         you, I hope I shall stop here. I have no desire to go back to the line. Kindly remember me
         to all old friends. With kind regards to yourself and all on Section 4.</p>
     <closer>
-        <closesalute>Yours sincerely,</closesalute>
+        <salute>Yours sincerely,</salute>
         <signed>
             <name type="person"> H.A. Skilling</name>
         </signed>

@@ -1,52 +1,59 @@
-Sidney Smith, 19 March 1916, France. Born: 20 October
-1881, Regiment: Railway Operatives Division, Royal
-Engineers, Regiment number: 218849, Rank: Sapper, Returned to
-office: 19 May 1919, Retired: 20 October 1941
-Transcript
-My Dear Elton and all,
-I expect you are wondering why I have never written since leaving
-England. Well the fact is I have never had a chance for it has been a
-Cook’s Tour since I was last with you. Perhaps I had better try and give
-you some idea of my adventures from the time we last met. It was not
-many hours after seeing you all that we were dispatched for France…We
-landed at a town after a nice long trip… At this spot, a rest camp so
-called, we spent about a week. What with parades in the daytime for
-various reasons and employed at the docks all night, unloading flour was
-the job that came my way you can imagine the rest we had. However we
-then went on to another base and here owing to illness, we were all
-isolated for ten days and no letters could be sent. Within a day or two of
-being released from this I alone of all our boys was packed off to another
-depot so that was the last I have seen for the time being of our crowd,
-and have been on my own since. After a couple of nights at this depot I
-was sent to a point to get experience in the work I came here for. This
-turned out to be the best thing I had touched for the staff were billeted
-out and I slept in a feather bed which was great for it was under canvas…
-I soon found out that my luck was in and that happiness and comfort
-would be my lot whilst there… Alas my dream was soon dispelled, and
-after a week of civilised existence, I was sent for by the depot. After
-another 48 hours there I was sent away again to some other spot, but en
-route, was detained at a rest camp for two days, apparently owing to the
-absence of trains to the point I was going…
-Covered vans are used here to convey soldiers about. Strange to say the
-actual truck I made this last journey in I saw again the next day loaded
-with sick horses, so being used for any purpose you can guess they
-cannot be compared to the carriages in which we made our daily trips to
-town and back. To continue my travels, the next day I was sent to the
-point I am now writing from, and which I think will be my residence for
-some little time as I have now taken up regular duties. It is a terrible,
-Godforsaken and desolate spot. There is naught to be seen except shell
-holes and rats and these latter are an abomination…There is little to be
-heard here at night except gun fire and rats and one soon gets used to
-both. I went to a village, the nearest here, about two miles away, on
-Sunday last and it was really an awful sight to see how it had been
-smashed by shell fire. You can now I trust realise the reason for my not
-writing before, in fact I have only written to my wife and father, and have
-only received one letter from each of them and that was a few days ago. I
-can tell you that I hunger for news of home after being here a month
-without a word… It is also almost impossible to buy anything for there is
-nowhere to get it…
-I trust all is well with everyone at 164 and that poor old Sid is alright
-again. If Miss Welsh’s little affair has come off I wish her the very best of
-luck and trust she will have all happiness… Please write to me soon some
-of you. Lots of luck, and good wishes to you all. Your old pal,
-Sid
+<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Sidney Smith, 19 March 1916, France. Born: 20 October 1881, Regiment: Railway Operatives
+        Division, Royal Engineers, Regiment number: 218849, Rank: Sapper, Returned to office: 19 May
+        1919, Retired: 20 October 1941</info>
+
+    <opener>
+        <dateline>
+            <date when="1916-03-19">March 19th</date>
+            <name type="place">unknown</name>
+        </dateline>
+        <salute>My Dear Elton and all,</salute>
+    </opener>
+    <p>I expect you are wondering why I have never written since leaving England. Well the fact is I
+        have never had a chance for it has been a Cooks Tour since I was last with you. Perhaps I
+        had better try and give you some idea of my adventures from the time we last met. It was not
+        many hours after seeing you all that we were dispatched for France. We landed at a town
+        after a nice long trip. At this spot, a rest camp so called, we spent about a week. What
+        with parades in the daytime for various reasons and employed at the docks all night,
+        unloading flour was the job that came my way you can imagine the rest we had. However we
+        then went on to another base and here owing to illness, we were all isolated for ten days
+        and no letters could be sent. Within a day or two of being released from this I alone of all
+        our boys was packed off to another depot so that was the last I have seen for the time being
+        of our crowd, and have been on my own since. After a couple of nights at this depot I was
+        sent to a point to get experience in the work I came here for. This turned out to be the
+        best thing I had touched for the staff were billeted out and I slept in a feather bed which
+        was great for it was under canvas.</p>
+
+    <p>I soon found out that my luck was in and that happiness and comfort would be my lot whilst
+        there. Alas my dream was soon dispelled, and after a week of civilised existence, I was sent
+        for by the depot. After another 48 hours there I was sent away again to some other spot, but
+        en route, was detained at a rest camp for two days, apparently owing to the absence of
+        trains to the point I was going.</p>
+
+    <p>Covered vans are used here to convey soldiers about. Strange to say the actual truck I made
+        this last journey in I saw again the next day loaded with sick horses, so being used for any
+        purpose you can guess they cannot be compared to the carriages in which we made our daily
+        trips to town and back. To continue my travels, the next day I was sent to the point I am
+        now writing from, and which I think will be my residence for some little time as I have now
+        taken up regular duties. It is a terrible, Godforsaken and desolate spot. There is naught to
+        be seen except shell holes and rats and these latter are an abomination. There is little to
+        be heard here at night except gun fire and rats and one soon gets used to both. I went to a
+        village, the nearest here, about two miles away, on Sunday last and it was really an awful
+        sight to see how it had been smashed by shell fire. You can now I trust realise the reason
+        for my not writing before, in fact I have only written to my wife and father, and have only
+        received one letter from each of them and that was a few days ago. I can tell you that I
+        hunger for news of home after being here a month without a word It is also almost impossible
+        to buy anything for there is nowhere to get it.</p>
+
+    <p>I trust all is well with everyone at 164 and that poor old Sid is alright again. If Miss
+        Welshs little affair has come off I wish her the very best of luck and trust she will have
+        all happiness Please write to me soon some of you. Lots of luck, and good wishes to you all. </p>
+    <closer>
+        <salute>Your old pal,</salute>
+        <signed>
+            <name type="person">Sid</name>
+        </signed>
+    </closer>
+</div>

@@ -1,10 +1,11 @@
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <info>Kenneth William Sharland, 26 July 1917, Pashan Camp, Kirkee, India. Born: 25 September
         1888, Regiment: 1/6 East Surrey Regiment; Bedfordshire Regiment; Bedfordshire and
         Hertfordshire Regiment, Regiment number: 34173; 32376, Rank: Private, Died: Jan-</info>
     <opener>
         <dateline>
-            <date>Mar 1967</date>
+            <date when="1917-07-26" >July 26th</date>
             <name type="place">India</name>
         </dateline>
 
@@ -24,7 +25,7 @@
         Leone for three days but were not allowed to leave. We arrived at Cape Town on Saturday
         afternoon four weeks after leaving Keyham and had a <factor type="prep">route march</factor> round the town the same
         evening. The next day we were allowed to roam about at will all day and <emote type="positive">a right jolly time
-        we had</emote> although it was <factor type="conditions">very hot indeed</factor> for winter. <factor type="sense">Cape Town is a beautiful place</factor> and <emote e_type="positive">the
+        we had</emote> although it was <factor type="conditions">very hot indeed</factor> for winter. <factor type="sense">Cape Town is a beautiful place</factor> and <emote type="positive">the
         inhabitants made our visit very enjoyable</emote>.</p>
 
     <p><emote type="positive">The patriotism of the South African is wonderful</emote> to us after the coolness of the English

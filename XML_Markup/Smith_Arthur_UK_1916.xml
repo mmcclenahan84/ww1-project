@@ -1,10 +1,10 @@
-Arthur Smith, 19 November 1916, Addington Park War Hospital,
+<div type="letter"><info>Arthur Smith, 19 November 1916, Addington Park War Hospital,
 England. Born: 8 March 1895, Regiment: Railway Troop, Royal
 Engineers, Regiment number: 87760, Rank: Lance Corporal, Returned
-to office: 16 June 1919, Retired: 30 September 1955
-Transcript
-Dear Sir,
-I expect you wonder what has become of me as you have not heard from
+to office: 16 June 1919, Retired: 30 September 1955</info>
+
+<opener><dateline><date when="1916-11-19"></date>November 19th</dateline><name type="place">unknown</name><opensalute>Dear Sir,</opensalute></opener>
+<p>I expect you wonder what has become of me as you have not heard from
 me for such a long time. The reason is that since the 20th September I
 have been suffering with enteric (typhoid). The exact diagnosis of my
 case being para typhoid B. I have not been up three weeks until next
@@ -17,8 +17,8 @@ office which is quite near. I am quite happy and comfortable here, it is a
 splendid hospital. We have a concert or cinema nearly every night in the
 big hall. Food is good and plentiful. How long it will be before I am
 considered fit again I have no notion, as a rule it takes months for a
-person to get right again.
-It is a very funny and beastly complaint. During to the whole time I have
+person to get right again.</p>
+<p>It is a very funny and beastly complaint. During to the whole time I have
 been in hospital I have received every attention and kindness. During the
 months of July and August when I was in the Somme district I had a very
 rough time, was nearly worked to death and had little sleep. At one
@@ -29,6 +29,7 @@ was and we saw some awful sights. English and German wounded.
 Perhaps I picked my fever up at this place, but one never knows. While I
 was in the isolation hospital in France I was kept for three weeks and two
 days on liquids but I am pleased to say that the doctor has now put me
-on ordinary diet. With the kindest regards and best wishes to all, I remain
-yours obediently.
-A. Smith
+on ordinary diet. With the kindest regards and best wishes to all,</p>
+    <closer><closesalute>I remain
+        yours obediently.</closesalute><signed><name type="person">A. Smith</name></signed></closer>
+</div>
