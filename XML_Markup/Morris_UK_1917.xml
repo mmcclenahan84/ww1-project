@@ -1,37 +1,41 @@
-Frederick Ronald Morris, 26 April 1917, ‘in the field’, France. Born: 1 April
-1893, Regiment: Royal Flying Corps, Regiment
-number: 16922, Rank: 1st class Air Mechanic, Returned to office: 10
-March 1919, Retired: Resigned on 25 March 1925.
-Transcript
-Dear Mr Taylor,
-No doubt you think that I have forgotten all about you and my friends of
-the Audit, but never let it be said (this is an army term, if you please.)
-Truth to tell I have been going to write time after time, but have had to
-put it off for various reasons. I am taking this opportunity of writing to
-you, while I am in charge of tonight’s guard. I get this job about once a
-week now, it’s not so bad, I have three men and a man in waiting; we
-mount at 5pm and dismiss at 7am. We make ourselves as comfortable as
-we can, in the guard tent, which just covers over the top of the sand
-bags, and these have got grass growing out of them now. The sand bags
-are about 4ft high and make a good protection. April 1st I got my two
-stripes up, after being a 1st Air Mechanic for 12 months, the Non-
-Commissioned Officers have a very decent mess here, and everything is
-ok. I am corporal in charge of wireless, photographic, electrical and all
-instruments used on aeroplanes, I have had a very good education on all
-those subjects, but the one I like best is the wireless, it’s far more
-interesting than photography, which is a very big thing indeed out here,
-and a lot depends upon a good photograph of the Hun lines…
-Yesterday I saw a nice little game between one of ours and one of theirs,
-after our anti-aircraft fire had taken it up a bit higher, our machine went
-for it and got well over the top of it, then two more of ours came along
-and forced it down, she tried all manner of tricks, but down she came
-alright, and landed a clean machine, not broken in any part, and the two
-Huns inside it quite well.
-We gave a revue (theatrical show) to our chaps here on the 13th, it went
-off alright, we started at 9pm and gave a two hours show, am enclosing
-programme, and will forward a photo of myself as the ‘oldest inhabitant’
-as soon as I receive them from the Frenchman who took them…Kind
-regards to all of the section and the remainder of the agreements, and
-hoping you are fit and well. Good bye. Yours sincerely,
-F.R. Morris
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Born: 1 April 1893, Regiment: Royal Flying Corps, Regiment number: 16922, Rank: 1st class
+        Air Mechanic, Returned to office: 10 March 1919, Retired: Resigned on 25 March 1925. </info>
+    <opener>
+        <name type="person">Frederick Ronald Morris</name>
+        <dateline>
+            <date when="26 April 1917"/>
+            <name type="place">France</name>
+        </dateline>
 
+        <salute>Dear Mr Taylor,</salute>
+    </opener>
+    <p>No doubt you think that I have forgotten all about you and my friends of the Audit, but never
+        let it be said (this is an army term, if you please.) Truth to tell I have been going to
+        write time after time, but have had to put it off for various reasons. I am taking this
+        opportunity of writing to you, while I am in charge of tonights guard. I get this job about
+        once a week now, its not so bad, I have three men and a man in waiting; we mount at 5pm and
+        dismiss at 7am. We make ourselves <emote type = "neutral">as comfortable as we can</emote>, in the guard tent, which just
+        covers over the top of the sand bags, and these have got grass growing out of them now. The
+        sand bags are about 4ft high and make a good protection. April 1st I got my two stripes up,
+        after being a 1st Air Mechanic for 12 months, the Non- Commissioned Officers have a very
+        decent mess here, and everything is ok. I am corporal in charge of wireless, photographic,
+        electrical and all instruments used on aeroplanes, I have had a very good education on all
+        those subjects, but the one I like best is the wireless, its far more interesting than
+        photography, which is a very big thing indeed out here, and a lot depends upon a good
+        photograph of the Hun lines</p>
+    <p>Yesterday I saw a nice little game between one of ours and one of theirs, after our
+        <factor type = "battle">anti-aircraft fire</factor> had taken it up a bit higher, our machine went for it and got well over
+        the top of it, then two more of ours came along and forced it down, she tried all manner of
+        tricks, but down she came alright, and landed a clean machine, not broken in any part, and
+        the two Huns inside it quite well. We gave a revue (theatrical show) to our chaps here on
+        the 13th, it went off alright, we started at 9pm and gave a two hours show, am enclosing
+        programme, and will forward a photo of myself as the oldest inhabitant as soon as I receive
+        them from the Frenchman who took themKind regards to all of the section and the remainder of
+        the agreements, and hoping you are fit and well. Good bye.</p>
+    <closer>
+        <salute>Yours sincerely,</salute>
+        <name type="person">F.R. Morris</name>
+    </closer>
+</div>
