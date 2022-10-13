@@ -1,17 +1,32 @@
-Herb J. Wilson
-France, 10/4/16
+<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Herb J. Wilson</info>
+    <opener>
+        <dateline>
+            <date when="1916-10-04">November 4th</date>
+            <name type="place">France</name>
+        </dateline>
+        <salute>Dear Jack</salute>
+    </opener>
 
-Dear Jack
-Your very welcome letter to hand a couple of days ago.
-I am pleased to hear that the strike is settled and that you lost no time.
-Well Jack you say that there seems to be a bit of a mystery about us chaps well since the evacuation,
-last December we have been tossed about a bit & have had three trips across the Meditterean
-so I reckon that I have been pretty lucky in not meeting any German submarines.
-My last trip was from Alexandria to Marceilles, which took six days and then straight out of the boat into the train for another 68 hours ride across France.
-My word Jack it was a lovely train journey we passed through some beautiful country but I will tell you all about it when I get home again but its hard to say when that will be.
-Well Jack this is Easter Monday we are moving into the trenches tonight so we will be able to find out for our-selves what sort of fighters the Germans are
-perhaps I will be able to tell you a bit about them in my next letter.
-Well Jack you dont mention what batt your Brother is attached to so next time you write dont forget to let me know as I would only be to pleased to meet him.
-I say Jack you will have to excuse scribbling as I haven't much time so I will have to close with best wishes to yourself and wife and all the engine room staff
-I remain
-Herb
+    <p>Your very welcome letter to hand a couple of days ago.</p>
+    <p>I am pleased to hear that the strike is settled and that you lost no time. Well Jack you say
+        that there seems to be a bit of a mystery about us chaps well since the evacuation, last
+        December we have been tossed about a bit &amp; have had three trips across the Meditterean
+        so I reckon that I have been pretty lucky in not meeting any German submarines.</p>
+    <p>My last trip was from Alexandria to Marceilles, which took six days and then straight out of
+        the boat into the train for another 68 hours ride across France. My word Jack it was a
+        lovely train journey we passed through some beautiful country but I will tell you all about
+        it when I get home again but its hard to say when that will be. Well Jack this is Easter
+        Monday we are moving into the trenches tonight so we will be able to find out for our-selves
+        what sort of fighters the Germans are perhaps I will be able to tell you a bit about them in
+        my next letter.</p>
+    <p>Well Jack you dont mention what batt your Brother is attached to so next time you write dont
+        forget to let me know as I would only be to pleased to meet him. I say Jack you will have to
+        excuse scribbling as I haven't much time so I will have to close with best wishes to
+        yourself and wife and all the engine room staff.</p>
+    <closer>
+        <salute>I remain</salute>
+        <name type="person">Herb</name>
+    </closer>
+</div>
