@@ -1,20 +1,28 @@
-Frank Thayer Turner, 13 July 1916, Morn Hill Camp, Winchester,
-England. Born: 22 October 1897, Joined GWR: 13 April
-1912, Regiment: Company 3/18 London Irish Regiment, Returned to
-office: 5 November 1917. He lost his right arm in the war. Died: 28 May
-1937
-Transcript
-Dear Jim (Mr Porter)
-Just a few lines to let you now things are going. Am having a fairly good
-time nothing at all to grumble about. I don’t think I shall be going to
-France for a few months yet. I met one of the chaps from the tickets
-department last week he is in the R.F.C. down here. Some of us were feet
-under canvas for a fortnight but owing to the wind and rain we were
-moved back to the huts. When we were under canvas, we used not get up
-till 8 o’clock, we were supposed to go on parade at 6.15am, but we
-dodged that. I enclose photo (not dressed for the occasion) outside our
-hut L20 or Hell 20 as it has been called. I am looking forward to seeing
-some of the office chaps when I am able to get leave. I hope your brother
-is getting on alright in France. Hoping you are ‘in the pink’ like myself,
-Yours very sincerely
-F. Turner. Please write as soon as poss.
+<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Frank Thayer Turner, 13 July 1916, Morn Hill Camp, Winchester, England. Born: 22 October
+        1897, Joined GWR: 13 April 1912, Regiment: Company 3/18 London Irish Regiment, Returned to
+        office: 5 November 1917. He lost his right arm in the war. Died: 28 May 1937</info>
+
+    <opener>
+        <dateline>
+            <date when="1916-07-13">July 13th</date>
+            <name type="place">unknown</name>
+        </dateline>
+        <salute>Dear Jim (Mr Porter)</salute>
+    </opener>
+    <p>Just a few lines to let you now things are going. Am having a fairly good time nothing at all
+        to grumble about. I dont think I shall be going to France for a few months yet. I met one of
+        the chaps from the tickets department last week he is in the R.F.C. down here. Some of us
+        were feet under canvas for a fortnight but owing to the wind and rain we were moved back to
+        the huts. When we were under canvas, we used not get up till 8 oclock, we were supposed to
+        go on parade at 6.15am, but we dodged that. I enclose photo (not dressed for the occasion)
+        outside our hut L20 or Hell 20 as it has been called. I am looking forward to seeing some of
+        the office chaps when I am able to get leave. I hope your brother is getting on alright in
+        France. Hoping you are in the pink like myself,</p>
+    <closer>
+        <salute>Yours very sincerely</salute>
+        <name type="person">F. Turner.</name>
+    </closer>
+    <postscript>Please write as soon as poss.</postscript>
+</div>

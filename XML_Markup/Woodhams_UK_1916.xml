@@ -1,11 +1,51 @@
-Frederick G. Woodhams, 16 February 1916, France. Regiment: 13 London Rifles, Regiment number: 1383, Rank: Private; Lance Corporal; Sergeant, Died: Killed in action on 16 August 1917, having been struck by shrapnel; prior to this, he had been wounded twice. 
-These are typed extracts of a letter that Frederick Woodhams had written to his family (RAIL 253/516). Below that is an article from the Illustrated London News, 1915 (ZPER 34/146s9
-Transcript 
-The last time I wrote I think I told you we had lost our comfortable job on railheads. We have been shifted from General Headquarters and are at the most godforsaken hole there can possibly be in France. We had a rotten journey raining all the time. Reveille* was at 4am and we eventually left the station about 10am. The accommodation consisted of the old cattle trucks, and rations of bully and biscuits. It was a very cold and uncomfortable journey. 
-We arrived at our destination about 4.30pm and after standing in the rain for 2½ hours with full pack on, we set out on a ten mile march. It’s the worst march I’ve ever done. The majority of us at the finish were absolutely knocked up and were only too glad to crawl into the billets before going to bed, which was about 12pm. They gave us a mug of tea (the first we had since six in the morning) and best of all a ration of rum. 
-The up to date soldier kit to carry about from place to place consists of 150 rounds of ammunition, inside the pack; overcoat, fur coat, two pairs socks, one pants, one shirt, ground sheet, iron rations [emergency food supply]. Outside pack; Mackintosh and mess tin, in haversack; cleaning kit, hold all, 24lbs rations, soap and towel, and on top of that extras such as handkerchiefs, plate, mug, tobacco, etc, two smoke helmets* in a satchel slung over the shoulder, a respirator in the left flap of a tunic and field dressing on the right, and of course the rifle, in all it’s no light weight on a long march, it takes all one’s strength and staying power to keep going. 
-We are billeted in a barn and have a sea of mud to get through. We have no boards, so sleep on the ground, fires are not allowed in the billet and at night time it’s devilish cold. 
-In the village there is a little general shop (now nearly sold out), one pub where they sell something they charge 2½d for and call beer, there are no shops of any description and of course no amusements Rations are not so good now (today’s dinner, Sunday, bully beef, stew and two potatoes between 35 men. We have a loaf and a bit (small loaf) and two tins of jam between seven men, the short bread issue being augmented by the world famous army biscuits. 
-Our captain is a perfect gentleman and about the most popular man in the regiment, the junior captain (an absolute sport) and the platoon officers are all very decent sort of fellows. We appear to be much better off in this respect than before, and certainly think that D. Co. has got as good a selection of officers as any other company in the battalion. One of our fellows ran across a number of Audit R.E.s and they enquired after Maggs and myself. 
-Freddy or 
-What’s left of him after some very stiff marching.
+<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Frederick G. Woodhams, 16 February 1916, France. Regiment: 13 London Rifles, Regiment
+        number: 1383, Rank: Private; Lance Corporal; Sergeant, Died: Killed in action on 16 August
+        1917, having been struck by shrapnel; prior to this, he had been wounded twice. These are
+        typed extracts of a letter that Frederick Woodhams had written to his family (RAIL 253/516).
+        Below that is an article from the Illustrated London News, 1915 (ZPER 34/146s9</info>
+
+    <opener>
+        <dateline>
+            <date when="1916-02-16"/>
+            <name type="place">unknown</name>
+        </dateline>
+        <salute>--</salute>
+    </opener>
+    <p>The last time I wrote I think I told you we had lost our comfortable job on railheads. We
+        have been shifted from General Headquarters and are at the most godforsaken hole there can
+        possibly be in France. We had a rotten journey raining all the time. Reveille* was at 4am
+        and we eventually left the station about 10am. The accommodation consisted of the old cattle
+        trucks, and rations of bully and biscuits. It was a very cold and uncomfortable journey. We
+        arrived at our destination about 4.30pm and after standing in the rain for 2 hours with full
+        pack on, we set out on a ten mile march. Its the worst march Ive ever done. The majority of
+        us at the finish were absolutely knocked up and were only too glad to crawl into the billets
+        before going to bed, which was about 12pm. They gave us a mug of tea (the first we had since
+        six in the morning) and best of all a ration of rum. The up to date soldier kit to carry
+        about from place to place consists of 150 rounds of ammunition, inside the pack; overcoat,
+        fur coat, two pairs socks, one pants, one shirt, ground sheet, iron rations [emergency food
+        supply]. Outside pack; Mackintosh and mess tin, in haversack; cleaning kit, hold all, 24lbs
+        rations, soap and towel, and on top of that extras such as handkerchiefs, plate, mug,
+        tobacco, etc, two smoke helmets* in a satchel slung over the shoulder, a respirator in the
+        left flap of a tunic and field dressing on the right, and of course the rifle, in all its no
+        light weight on a long march, it takes all ones strength and staying power to keep going. </p>
+
+    <p>We are billeted in a barn and have a sea of mud to get through. We have no boards, so sleep
+        on the ground, fires are not allowed in the billet and at night time its devilish cold. In
+        the village there is a little general shop (now nearly sold out), one pub where they sell
+        something they charge 2d for and call beer, there are no shops of any description and of
+        course no amusements Rations are not so good now (todays dinner, Sunday, bully beef, stew
+        and two potatoes between 35 men. We have a loaf and a bit (small loaf) and two tins of jam
+        between seven men, the short bread issue being augmented by the world famous army biscuits.
+        Our captain is a perfect gentleman and about the most popular man in the regiment, the
+        junior captain (an absolute sport) and the platoon officers are all very decent sort of
+        fellows. We appear to be much better off in this respect than before, and certainly think
+        that D. Co. has got as good a selection of officers as any other company in the battalion.
+        One of our fellows ran across a number of Audit R.E.s and they enquired after Maggs and
+        myself. </p>
+    <closer>
+        <name type="person">Freddy </name>
+        <salute>or Whats left of him after some very stiff marching.</salute>
+    </closer>
+</div>
