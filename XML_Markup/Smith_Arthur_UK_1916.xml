@@ -1,35 +1,41 @@
-<div type="letter"><info>Arthur Smith, 19 November 1916, Addington Park War Hospital,
-England. Born: 8 March 1895, Regiment: Railway Troop, Royal
-Engineers, Regiment number: 87760, Rank: Lance Corporal, Returned
-to office: 16 June 1919, Retired: 30 September 1955</info>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Arthur Smith, 19 November 1916, Addington Park War Hospital, England. Born: 8 March 1895,
+        Regiment: Railway Troop, Royal Engineers, Regiment number: 87760, Rank: Lance Corporal,
+        Returned to office: 16 June 1919, Retired: 30 September 1955</info>
 
-<opener><dateline><date when="1916-11-19"></date>November 19th</dateline><name type="place">unknown</name><opensalute>Dear Sir,</opensalute></opener>
-<p>I expect you wonder what has become of me as you have not heard from
-me for such a long time. The reason is that since the 20th September I
-have been suffering with enteric (typhoid). The exact diagnosis of my
-case being para typhoid B. I have not been up three weeks until next
-Friday, but since I first got out of bed I have made splendid progress. I
-was in an isolation hospital in France for six weeks and previous to that in
-a General Hospital for eight days. I arrived here late last Wednesday night
-after a very decent journey. This is a beautiful palace surrounded by a
-park in which we can walk about and we are allowed to go to the post
-office which is quite near. I am quite happy and comfortable here, it is a
-splendid hospital. We have a concert or cinema nearly every night in the
-big hall. Food is good and plentiful. How long it will be before I am
-considered fit again I have no notion, as a rule it takes months for a
-person to get right again.</p>
-<p>It is a very funny and beastly complaint. During to the whole time I have
-been in hospital I have received every attention and kindness. During the
-months of July and August when I was in the Somme district I had a very
-rough time, was nearly worked to death and had little sleep. At one
-period we had to commence work at 2am but we were supposed to rest in
-the day but we could not get any. However, it was all in a good cause and
-we got through it. Ambulance trains were loaded up at the station where I
-was and we saw some awful sights. English and German wounded.
-Perhaps I picked my fever up at this place, but one never knows. While I
-was in the isolation hospital in France I was kept for three weeks and two
-days on liquids but I am pleased to say that the doctor has now put me
-on ordinary diet. With the kindest regards and best wishes to all,</p>
-    <closer><closesalute>I remain
-        yours obediently.</closesalute><signed><name type="person">A. Smith</name></signed></closer>
+    <opener>
+        <dateline>
+            <date when="1916-11-19">November 19th</date>
+            <name type="place">unknown</name>
+        </dateline>
+        <salute>Dear Sir,</salute>
+    </opener>
+    <p>I expect you wonder what has become of me as you have not heard from me for such a long time.
+        The reason is that since the 20th September I have been suffering with enteric (typhoid).
+        The exact diagnosis of my case being para typhoid B. I have not been up three weeks until
+        next Friday, but since I first got out of bed I have made splendid progress. I was in an
+        isolation hospital in France for six weeks and previous to that in a General Hospital for
+        eight days. I arrived here late last Wednesday night after a very decent journey. This is a
+        beautiful palace surrounded by a park in which we can walk about and we are allowed to go to
+        the post office which is quite near. I am quite happy and comfortable here, it is a splendid
+        hospital. We have a concert or cinema nearly every night in the big hall. Food is good and
+        plentiful. How long it will be before I am considered fit again I have no notion, as a rule
+        it takes months for a person to get right again.</p>
+    <p>It is a very funny and beastly complaint. During to the whole time I have been in hospital I
+        have received every attention and kindness. During the months of July and August when I was
+        in the Somme district I had a very rough time, was nearly worked to death and had little
+        sleep. At one period we had to commence work at 2am but we were supposed to rest in the day
+        but we could not get any. However, it was all in a good cause and we got through it.
+        Ambulance trains were loaded up at the station where I was and we saw some awful sights.
+        English and German wounded. Perhaps I picked my fever up at this place, but one never knows.
+        While I was in the isolation hospital in France I was kept for three weeks and two days on
+        liquids but I am pleased to say that the doctor has now put me on ordinary diet. With the
+        kindest regards and best wishes to all,</p>
+    <closer>
+        <salute>I remain yours obediently.</salute>
+        <signed>
+            <name type="person">A. Smith</name>
+        </signed>
+    </closer>
 </div>
