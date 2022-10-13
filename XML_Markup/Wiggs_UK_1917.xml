@@ -1,20 +1,28 @@
-William Charles Frederick Wiggs, letter sent 23 December 1917, field card
-sent 8 January 1918, France. Born: 2 February 1881, Regiment: Royal
-Engineers, Railway Troop, Regiment number: 218855,
-Rank: 2nd Corporal, Died: Oct-Dec 1971
-Transcript
-Dear Mr Smith,
-I hope you will accept my apology for not writing before. It has not been
-want of will it has been lack of opportunity. I wonder how you all are. I
-am fairly well now but was very queer for several weeks recently. I also
-often wonder how you are all getting on and should like to hear.
-A matter of about five minutes ago Fritz was bombing us, and I have just
-got up off the ground where I was laying for about twenty minutes. One
-fellow has been hit, but not severely by shrapnel. This is his second visit
-this evening.
-It will soon be twelve months since I left you. It seems a very long time
-ago. I am afraid I have very little I may tell you, so will conclude by
-asking you to accept my best wishes for the New year and desiring that
-you will remember me kindly to any enquiring friends. Believe me, dear
-Mr Smith, sincerely yours,
-W. Wiggs
+<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>William Charles Frederick Wiggs, letter sent 23 December 1917, field card sent 8 January
+        1918, France. Born: 2 February 1881, Regiment: Royal Engineers, Railway Troop, Regiment
+        number: 218855, Rank: 2nd Corporal, Died: Oct-Dec 1971</info>
+
+    <opener>
+        <dateline>
+            <date when="1917-12-23"/>
+            <name type="place">unknown</name>
+        </dateline>
+        <salute>Dear Mr Smith,</salute>
+    </opener>
+    <p>I hope you will accept my apology for not writing before. It has not been want of will it has
+        been lack of opportunity. I wonder how you all are. I am fairly well now but was very queer
+        for several weeks recently. I also often wonder how you are all getting on and should like
+        to hear. A matter of about five minutes ago Fritz was bombing us, and I have just got up off
+        the ground where I was laying for about twenty minutes. One fellow has been hit, but not
+        severely by shrapnel. This is his second visit this evening.</p>
+    <p>It will soon be twelve months since I left you. It seems a very long time ago. I am afraid I
+        have very little I may tell you, so will conclude by asking you to accept my best wishes for
+        the New year and desiring that you will remember me kindly to any enquiring friends. Believe
+        me, dear Mr Smith,</p>
+    <closer>
+        <salute>sincerely yours,</salute>
+        <name type="person">W. Wiggs</name>
+    </closer>
+</div>
