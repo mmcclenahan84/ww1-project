@@ -7,25 +7,25 @@
     <opener>
         <dateline>
             <date when="1916-05-28">May 28th</date>
-            <name type="place">unknown</name>
+            <name type="place">France</name>
         </dateline>
         <salute>Dear G. [Mr Burgoyne],</salute>
     </opener>
     <p>I guess you wonder what has become of me after this long silence, but you will see I am a
-        good distance away from the homeland now. I arrived here early in April and since the start
-        have been getting on quite well. You may be interested to know that Gray from your
+        good distance away from the homeland now. I arrived here early in April and <emote type="factor">since the start
+        have been getting on quite well.</emote> You may be interested to know that Gray from your
         department is also here. It is rather strange that I should rub against him.</p>
 
-    <p>The weather is brilliant, cloudless skies day after day, but it is very hot. There are plenty
-        of mosquitoes about. They are very tantalising. A net is practically a necessity for
-        sleeping purposes. I am billeted in a warehouse, it is a very old place, and has stood
+    <p>The <factor type="conditions">weather is brilliant</factor>, cloudless skies day after day, but it is <factor="conditions">very hot</factor>. There are plenty
+        of <factor type="conditions">mosquitoes</factor> about. They are very tantalising. A net is practically a necessity for
+        sleeping purposes. I am billeted in a warehouse, it is a <factor type="sense">very old place</factor>, and has stood
         hundreds of years. I should think, according to its general appearance.</p>
 
-    <p>I have not picked up the lingo yet, but French is chiefly spoken, and I much regret not
-        having studied it more when I had the opportunity at home. This town is a queer sort of
-        place as compared with some of the French towns we know, and am sure I shall not wish to see
-        it again when once I leave. The cafs are not so gay as the French, but I manage to have fun
-        occasionally. We have got a piano and gramophone to amuse ourselves with. I hope we shall be
+    <p>I have not picked up the lingo yet, but French is chiefly spoken, and <emote type="neutral">I much regret not
+        having studied it more when I had the opportunity at home.</emote> This town is a queer sort of
+        place as compared with some of the French towns we know, and am sure <emote type="negative">I shall not wish to see
+        it again when once I leave.</emote> The cafs are not so gay as the French, but <emote type="positive">I manage to have fun
+        occasionally.</emote> We have got a <factor type="conditions">piano and gramophone</factor> to amuse ourselves with. I hope we shall be
         able to have another trip to Paris, when the war has cleared up, but of course when is a
         question nobody can answer yet awhile. Shall be very pleased to hear some news of you, and
         conclude now with all the best.</p>
