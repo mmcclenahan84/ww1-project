@@ -1,39 +1,37 @@
-Mark Anthony Russell, 4 February 1916, France. Born: 30 March
-1883, Regiment: Railway Troop, Royal Engineers, Regiment
-number: 138053, Rank: Sapper, Died: 1965
-The photograph shows John Higgs, whom Russell knew and who was also
-in the Railway Troop, Royal Engineers. (RAIL 253/516)
-Transcript
-My Dear Bertie
-… I am pleased to say I am still in the same job and getting to understand
-the run of things. It is very interesting work, as you would imagine. It is a
-real line here, sometimes we are pushed and carry on till the early hours
-of the morning. I might say there is no grumbling about tea money,
-overtime or bonus quotas putting in as much as eighteen hours a day
-sometimes and it would not do to send deputations to the chief who is
-also hard at it, in his room; there is a special way of dealing with such in
-the army.
-Of course one never knows how long this may last I may have marching
-orders to proceed elsewhere any day. Each day is absolutely a day unto
-itself here. We don’t count tomorrow.
-I see you have been visited with a blizzard, we also have had a severe
-touch of winter and at the present moment it is snowing hard outside.
-The shutters are closed and the work is being carried on by lamplight, this
-is necessary owing to the glass having recently left the windows in small
-fragments some souvenirs [shells] having called upon us. When the
-weather is fine we are fresh air fiends now both day and night except that
-we close the shutters when snowing or raining. The latter it is often doing.
-There are hosts of interesting things I could write you about but these will
-do later on when I have the pleasure of seeing you. Lieut. Dunton’s crowd
-was hereabouts, but I did not run up against him.
-I suppose the Derby* entries have commenced to run now. I met another
-GW fellow the other day, Sergeant Gregory, a Slough fellow. I think
-George Jones would know him. I have seen this fellow at Paddington but
-did not know him to speak to.
-I had a letter from Longmoor Camp. Must correct information. J. Higgs is
-in the Railway Transport Engineers with another friend of mine, Watton of
-Windsor who was in the Finance office…
-*This was a voluntary recruitment policy in Britain created in 1915. The
-idea behind it was that men who voluntarily registered would be called to
-serve in the forces only when necessary. Men were classified according
-age and marital status, and single men were to be called first.
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+ <info>Born: 30 March 1883, Regiment: Railway Troop, Royal Engineers, Regiment number: 138053, Rank:
+  Sapper, Died: 1965</info>
+ <opener>
+  <name type="person">Mark Anthony Russell</name>
+  <dateline>
+   <date when="4 February 1916"/>
+   <name type="place">France</name>
+  </dateline>
+
+  <salute>My Dear Bertie</salute>
+ </opener>
+ <p> I am pleased to say I am still in the same job and getting to understand the run of things. It
+  is very interesting work, as you would imagine. It is a real line here, sometimes <factor
+   type="prep">we are pushed and carry on till the early hours of the morning</factor>. I might say
+  there is <emote type="neutral">no grumbling about tea money, overtime or bonus quotas</emote>
+  putting in as much as eighteen hours a day sometimes and it would not do to send deputations to
+  the chief who is also hard at it, in his room; there is a special way of dealing with such in the
+  army.</p>
+ <p>Of course one never knows how long this may last I may have marching orders to proceed elsewhere
+  any day. Each day is absolutely a day unto itself here. We dont count tomorrow. I see you have
+  been visited with a blizzard, we also have had <factor type="conditions">a severe touch of
+   winter</factor> and at the present moment it is snowing hard outside. The shutters are closed and
+  the work is being carried on by lamplight, this is necessary owing to the glass having recently
+  left the windows in small fragments some souvenirs [shells] having called upon us. When the
+  weather is fine we are fresh air fiends now both day and night except that we close the shutters
+  when snowing or raining. The latter it is often doing. There are hosts of interesting things I
+  could write you about but these will do later on when I have the pleasure of seeing you. Lieut.
+  Duntons crowd was hereabouts, but I did not run up against him.</p>
+ <p>I suppose the Derby* entries have commenced to run now. I met another GW fellow the other day,
+  Sergeant Gregory, a Slough fellow. I think George Jones would know him. I have seen this fellow at
+  Paddington but did not know him to speak to. I had a letter from Longmoor Camp. Must correct
+  information. J. Higgs is in the Railway Transport Engineers with another friend of mine, Watton of
+  Windsor who was in the Finance office</p>
+ <closer/>
+</div>

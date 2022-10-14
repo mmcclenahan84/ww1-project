@@ -1,20 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- source: https://www.facinghistory.org/en-gb/resource-library/letter-trenches -->
-<letter>My Dear Parents,
-    
-    I am writing this on the evening of the first day of the new year. We came into the trenches (an emergency call) the day before yesterday, but we are in the reserve trenches, not the firing line. I am writing this in my dugout (about two feet high and five feet long) by the miserable light of a guttering, little bit of candle. Soon it will go out, and then (for it’s only 5.30 and a wild night) come the long, long dark hours until ‘stand to’ in the morning.
-    
-    
-    
-    Last night, old year’s night, was a nightmare evening. At 1 o’clock, the troops in the front line made two bomb attacks on the German front line, and we’d to support them. For an hour, it was literally hell upon earth. I had to spend most of the time crouched in the mud by the side of a machine gun. It was going nearly all the time, and the noise nearly stunned me, then the sickly smell of cordite, and the dense masses of steam from the water cooler didn’t improve matters. Both our artillery and theirs were going for all they were worth, and they lit up the sky. You could see some of the shells going through the air, swift, red streaks. Then an incessant stream of bullets from both sides, bombs, trench mortars, making a hellish din, and the sky lit up with a mad medley of shells, searchlights, star lights, the green and red rockets (used for signalling purposes); just about an hour of hell, and that was our introduction to the year of 1916! This morning I learned that we lost about 80 men and several officers, so that it cost us pretty dearly. 
-    
-    I enjoyed the parcel hugely, and the pudding was splendid! Please thank Mrs What’s-her-name for her kind gift. It is very comfortable. I’m afraid that you would hardly recognise me if you saw me now. It is three days since I had a shave, and two since I had a wash. I’m a mask of mud. My hair is matted, and I resemble an Australian beachcomber.
-    
-    This is morning of Jan. 2nd. We go into the firing line this afternoon for four days. By the way, if you can get hold of any old paperbacked sixpenny novels (such as Jacobs, Stanley Weyman – light stuff) please send some in your next parcel. No magazines; there’s not enough reading matter and the quality is bad. Only old copies, you know, don’t buy new ones.
-    
-    I saw a tin the other day, labelled Mackintosh’s Chocolate Toffee de Luxe. It sounds so weird that I’d like some if you can procure any, please!
-    
-    Yours affectionately,
-    
-    Jack P.
-</letter>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info><!-- source: https://www.facinghistory.org/en-gb/resource-library/letter-trenches --></info>
+    <opener>
+        <salute>My Dear Parents,</salute>
+    </opener>
+
+    <p>I am writing this on the evening of the first day of the new year. <factor type="prep">We
+            came into the trenches (an emergency call)</factor> the day before yesterday, but we are
+        in the reserve trenches, not the firing line. I am writing this in my dugout (about two feet
+        high and five feet long) by the miserable light of a guttering, little bit of candle. Soon
+        it will go out, and then (for it’s only 5.30 and a wild night) come the long, long dark
+        hours until ‘stand to’ in the morning.</p>
+
+    <p> Last night, old year’s night, was <emote type="negative">a nightmare evening</emote>. At 1
+        o’clock, the troops in the front line made two <factor type="battle">bomb attacks</factor>
+        on the German front line, and we’d to support them. For an hour, it was literally hell upon
+        earth. I had to spend most of the time crouched in the mud by the side of a machine gun. It
+        was going nearly all the time, and the <factor type="sense">noise nearly stunned me, then
+            the sickly smell of cordite</factor>, and the dense masses of steam from the water
+        cooler didn’t improve matters. Both our artillery and theirs were going for all they were
+        worth, and they lit up the sky. You could see some of the shells going through the air,
+        swift, red streaks. Then an <factor type="battle">incessant stream of bullets from both
+            sides, bombs, trench mortars, making a hellish din</factor>, and the sky lit up with a
+        mad medley of shells, searchlights, star lights, the green and red rockets (used for
+        signalling purposes); just about an hour of hell, and that was our introduction to the year
+        of 1916! This morning I learned that we lost about 80 men and several officers, so that it
+        cost us pretty dearly. </p>
+
+    <p> I enjoyed the parcel hugely, and the pudding was splendid! Please thank Mrs What’s-her-name
+        for her kind gift. It is very comfortable. I’m afraid that you would hardly recognise me if
+        you saw me now. <factor type="conditions">It is three days since I had a shave, and two
+            since I had a wash. I’m a mask of mud. My hair is matted</factor>, and I resemble an
+        Australian beachcomber.</p>
+
+    <p> This is morning of Jan. 2nd. We go into the firing line this afternoon for four days. By the
+        way, if you can get hold of any old paperbacked sixpenny novels (such as Jacobs, Stanley
+        Weyman – light stuff) please send some in your next parcel. No magazines; there’s not enough
+        reading matter and the quality is bad. Only old copies, you know, don’t buy new ones.</p>
+
+    <p>I saw a tin the other day, labelled Mackintosh’s Chocolate Toffee de Luxe. It sounds so weird
+        that I’d like some if you can procure any, please!</p>
+
+    <closer>
+        <salute>Yours affectionately,</salute>
+
+        <name type="person">Jack P.</name>
+    </closer>
+</div>

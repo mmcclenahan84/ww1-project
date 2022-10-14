@@ -1,56 +1,56 @@
-Montague Percy Pond, 5 April 1916, France. Born: 13 September
-1888, Joined GWR: 19 May 1904, Regiment: Railway Troop, Royal
-Engineers, Regiment number: 87749, Rank: Sapper, Died: Killed in
-action on 6 May 1917
-Transcript
-Dear Mr Hunt,
-I was very pleased to receive your letter for which many thanks. It took
-nearly a fortnight to reach me as I have changed about a good deal lately
-from one division to another and it has followed me around. I am pleased
-to say I am still keeping very fit and going on in about the same way. I
-think the last time I wrote we were living in trucks. Well we have now
-moved into huts about ten feet square, which are very comfortable
-although not quite as large as the trucks. They are well built and stand
-about a foot from the ground so keep very dry. We have two of them, one
-which we use as an office and the other to sleep and live in. We also have
-a tent which we use for keeping kits etc. in, but we shall probably sleep in
-it when the weather is a bit warmer.
-We have had some lovely weather lately, quite like summer but rather
-cold at night. We had a great deal of snow last month also plenty of rain
-and wind, and were over the tops of our boots in mud. We are stationed
-at a very small village which stands very high (about 600 feet above sea
-level) you can guess it is a bit breezy at times. It is a one-eyed hole with
-only two cafes and no shops. We have all our meals cooked at one of the
-cafes, and we live very well although there is not very much variation in
-the menu. I have managed to have one or two musical evenings lately.
-The fiddle I bought appears to be a fairly good one but my fingers are not
-quite so nimble as they were. I am afraid I shall have to put in a month or
-two’s practice before I get back to where I was before I came out here.
-Glad to hear you have taken it up again. We shall be able to get a band
-for our next ‘lamb’ dinner whenever that will be.
-Things do not seem to make much of a move round this way. We get
-plenty of aeroplanes over and see a good many fights in the air. There
-have also been a good many shells dropped not very far away from us,
-but we have managed to dodge them so far although, one of our fellows,
-who comes from the Midland Railway and who I worked with for some
-time, has been wounded and sent to base. There is only one G.W. man
-anywhere near me as far as I know and that is Colcott from Chief Goods
-Manager’s Office but he is some distance away and I hadn’t seen much of
-him. I was surprised to hear that Morris had gone into the R.F.C. (Royal
-Flying Corps) after being rejected for the Infantry. I was also surprised
-and sorry to hear about Jack Symons. I had heard nothing about it. How
-did it happen? It must be very quiet at the office now with so many gone.
-(Censored line). As you say it is quite a change from the old days. I have
-not yet come across any of those who joined the R.E. (Royal Engineers)
-Transport lately. Did you know that Arthur Watton has joined?
-We had a concert party belonging to one of the divisions stationed round
-here, staying in the village last week, and they gave us a show two nights
-running. They had a proper stage with scenery and footlights, everything
-complete. They were very good indeed. The programme consisted of
-songs, sentimental and otherwise, also a ‘Sketch’ and some Charlie
-Chaplin pictures which were very laughable as usual. Well, I don’t think I
-can tell you much more at present. Please remember me to all at the
-office.
-Kind regards,
-Yours sincerely,
-M.P. Pond
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info>Born: 13 September 1888, Joined GWR: 19 May 1904, Regiment: Railway Troop, Royal
+        Engineers, Regiment number: 87749, Rank: Sapper, Died: Killed in action on 6 May 1917</info>
+    <opener>
+        <name type="person">Montague Percy Pond</name>
+        <dateline>
+            <date when="5 April 1916"/>
+            <name type="place">France</name>
+        </dateline>
+
+        <salute>Dear Mr Hunt,</salute>
+    </opener>
+    <p>I was very pleased to receive your letter for which many thanks. It took nearly a fortnight
+        to reach me as I have changed about a good deal lately from one division to another and it
+        has followed me around. I am pleased to say <emote type = "positive">I am still keeping very fit</emote> and going on in
+        about the same way. I think the last time I wrote we were living in trucks. Well we have now
+        moved into huts about ten feet square, which are <factor type = "conditions">very comfortable</factor> although not quite as
+        large as the trucks. They are well built and stand about a foot from the ground so keep very
+        dry. We have two of them, one which we use as an office and the other to sleep and live in.
+        We also have a tent which we use for keeping kits etc. in, but we shall probably sleep in it
+        when the weather is a bit warmer.</p>
+    <p>We have had some <factor type = "conditions">lovely weather</factor> lately, quite like summer but rather cold at night. We had a
+        great deal of snow last month also plenty of rain and wind, and were over the tops of our
+        boots in mud. We are stationed at a very small village which stands very high (about 600
+        feet above sea level) you can guess it is a bit breezy at times. It is a one-eyed hole with
+        only two cafes and no shops. We have all our meals cooked at one of the cafes, and <emote type = "positive">we live
+        very well</emote> although there is not very much variation in the menu. I have managed to have one
+        or two musical evenings lately. The fiddle I bought appears to be a fairly good one but my
+        fingers are not quite so nimble as they were. I am afraid I shall have to put in a month or
+        twos practice before I get back to where I was before I came out here. Glad to hear you have
+        taken it up again. We shall be able to get a band for our next lamb dinner whenever that
+        will be.</p>
+    <p>Things do not seem to make much of a move round this way. We get plenty of aeroplanes over
+        and see a good many fights in the air. There have also been a good many <factor type = "battle">shells dropped not
+        very far away from us</factor>, but we have managed to dodge them so far although, one of our
+        fellows, who comes from the Midland Railway and who I worked with for some time, has been
+        wounded and sent to base. There is only one G.W. man anywhere near me as far as I know and
+        that is Colcott from Chief Goods Managers Office but he is some distance away and I hadnt
+        seen much of him. I was surprised to hear that Morris had gone into the R.F.C. (Royal Flying
+        Corps) after being rejected for the Infantry. I was also surprised and sorry to hear about
+        Jack Symons. I had heard nothing about it. How did it happen? It must be very quiet at the
+        office now with so many gone. (Censored line). As you say it is quite a change from the old
+        days. I have not yet come across any of those who joined the R.E. (Royal Engineers)
+        Transport lately. Did you know that Arthur Watton has joined? We had a concert party
+        belonging to one of the divisions stationed round here, staying in the village last week,
+        and they gave us a show two nights running. They had a proper stage with scenery and
+        footlights, everything complete. <emote type = "positive">They were very good indeed</emote>. The programme consisted of
+        songs, sentimental and otherwise, also a Sketch and some Charlie Chaplin pictures which were
+        very laughable as usual. Well, I dont think I can tell you much more at present. Please
+        remember me to all at the office.</p>
+    <closer>
+        <salute>Kind regards, Yours sincerely,</salute>
+        <name type="person">M.P. Pond</name>
+    </closer>
+</div>
