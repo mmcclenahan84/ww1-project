@@ -1,38 +1,42 @@
-<text>
-    <body>
-        <div type="letter">
-            <meta><name type="person">William Charles Davis</name>, <date when="1916-03-15">15 March
-                    1916</date>, France. Born: 12 November 1884, Joined GWR: 12 January 1900,
-                Regiment: Royal Army Medical Corps, Regiment number: 31223, Rank: Lance Corporal;
-                Sergeant, Retired: 1944 Transcript</meta>
-            <opener><dateline>Sunday</dateline>
-                <salute>Dear </salute><name type="person">Charlie</name>,</opener>
-            <p>How are things going with you now? I expect like the rest of us will be glad when the
-                better weather sets in for there is no doubt about it, it has been rough lately.</p>
-            <p>Since I last wrote to you we have shifted to another part of the line and it is a
-                warm shop, for both sides must have all guns they can find and it is nothing but one
-                long duel all day and every day but thank goodness it gives over a bit a night so
-                that one can get on with their work. You see of a night the flashes of the guns can
-                be seen so plainly that is why they do not fire a lot then.</p>
-            <p>Just on our right our people retook some trenches we had lost, oh what a rough time
-                the poor devils had, snow and mud as much as you like and they had to lay in it for
-                two days and grub could not be got to them. I expect there have been a few more from
-                Paddington called up by now, it seems if the authorities mean to have all the men
-                they want and if they can�t get them one way they will another, and it certainly
-                looks as if they will be wanted for out here. One cannot see any signs of an early
-                settlement. I see by the papers that the air raids have been busy in England again.
-                I suppose you have not seen anything of them yet, has Rory Moore had any more
-                frights? We have the taubes [German aircraft] over our hospital nearly every day or
-                night and I can tell you we got some starts at times. The nearest we have to them
-                since I have been here is just one yard from the main door, at 12.30 it blew in two
-                pairs of double doors and shattered on end of the building to bits but not a great
-                deal of damage to life which after all is the main thing. The arrangements we in
-                work is five or six days up the line and four or five down if you are lucky. Of
-                course at times these arrangements go to pot when there is an attack and we get a
-                warm time and I should like to enlarge on these things but of course you understand
-                I cannot.</p>
-            <closer>Give my kind regards to all and trusting you are well. <salute>Yours
-                        </salute><signed><name type="person">Will</name></signed></closer>
-        </div>
-    </body>
-</text>
+<div type="letter">
+    <!--  <name type="person">William Charles Davis</name>, <date when="1916-03-15">15 March
+            1916</date>, <name type="place">France</name>. Born: <date when="1884-11-12">12 November
+            1884</date>, Joined GWR: 12 January 1900, <regiment>Regiment: Royal Army Medical Corps,
+            Regiment number: 31223,</regiment> Rank: Lance Corporal; Sergeant, Retired: 1944
+        Transcript-->
+    <opener><dateline>Sunday</dateline>
+        <salute>Dear </salute><name type="person">Charlie</name>,</opener>
+    <p>How are things going with you now? I expect like the rest of us will be glad when the better
+        weather sets in for there is no doubt about it, <factor type="conditions">it has been rough
+            lately.</factor></p>
+    <p>Since I last wrote to you<factor type="prep"> we have shifted to another part of the
+            line</factor>
+        <factor type="battle">and it is a warm shop, for both sides must have all guns they can find
+            and it is nothing but one long duel all day and every day but <emotion type="positive"
+                >thank goodness it gives over a bit a night so that one can get on with their
+                work.</emotion> You see of a night the flashes of the guns can be seen so plainly
+            that is why they do not fire a lot then.</factor>
+    </p>
+    <p><emotion type="negative">Just on our right our people retook some trenches we had lost, oh
+            what a rough time the poor devils had, <factor type="conditions">snow and mud as much as
+                you like</factor> and they had to lay in it for two days and grub could not be got
+            to them.</emotion> I expect there have been a few more from <name type="place"
+            >Paddington</name> called up by now, it seems if the authorities mean to have all the
+        men they want and if they can't get them one way they will another, and it certainly looks
+        as if they will be wanted for out here. <emotion type="negative">One cannot see any signs of
+            an early settlement.</emotion> I see by the papers that the air raids have been busy in
+            <name type="place">England</name> again. I suppose you have not seen anything of them
+        yet, has <name type="person">Rory Moore</name> had any more frights? <emotion
+            type="negative"> We have the taubes [German aircraft] over our hospital nearly every day
+            or night and I can tell you we got some starts at times.</emotion>
+        <factor type="battle">The nearest we have to them since I have been here is just one yard
+            from the main door, at 12.30 it blew in two pairs of double doors and shattered on end
+            of the building to bits but not a great deal of damage to life which after all is the
+            main thing.</factor> The arrangements we in work is five or six days up the line and
+        four or five down if you are lucky. <emotion type="negative">Of course at times these
+            arrangements go to pot when there is an attack and we get a warm time and I should like
+            to enlarge on these things but of course you understand I cannot.</emotion></p>
+    <closer>Give my kind regards to all and trusting you are well. <salute>Yours </salute>
+        <signed><signedname type="person">Will</signedname></signed>
+    </closer>
+</div>

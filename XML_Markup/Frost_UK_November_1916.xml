@@ -1,44 +1,53 @@
-<text>
-    <body>
-        <div type="letter">
-            <meta><name type="person">R.C.S. Frost</name>,<date when="1916-11-23"> 23 November
+<div type="letter">
+    <!-- <name type="person">R.C.S. Frost</name>,<date when="1916-11-23"> 23 November
                     1916</date>, <name type="place">Dartmouth, England</name>. Born: 30 January
                 1888, Regiment: 8th Argyll and Sutherland Highlanders; Duke of Cornwall's Light
                 Infantry, Regiment number: 1998; 300470, Rank: Private; Second Lieutenant, Died:
-                1962 Transcript</meta>
-            <opener><salute>Dear</salute>
-                <name type="person">Mr Hunt</name>,</opener>
-            <p>Many thanks for your most welcome and interesting letter safely received, and I am
-                pleased to hear of the latest news about friends at the office and others in
-                different parts of the world.</p>
-            <p>I have not had a line from H. Martin for many months, but I hear he has had leave
-                recently, and no doubt he gave you a call. I hoped to have had that pleasure before
-                this time, but I expect to be seeing you one of these fine days.</p>
-            <p>I am still a patient in hospital, and although at times the life is monotonous in
-                this quiet place, it is preferable to France so I won't grumble. The weather has
-                been so rough and wild of late, that a lot our time is spent by the fireside, and
-                many pleasant hours are passed in comparing notes with men who are patients from
-                minesweepers. We have had different men from this branch of the Navy for several
-                weeks, and at present five are in my ward. Two of these are survivors from a
-                minesweeper that was blown up by a German mine nearly a fortnight ago, just outside
-                Dartmouth Castle. They are still clearing the sea outside here and the boats return
-                to anchor in the river at night, and the pals of these men visit them this evening.
-                The officers are also very good in calling and leaving gifts and the wounded Tommies
-                share in the fruits thereof!</p>
-            <p>I have heard from Scotland that the 8th Argylls suffered heavily a short time ago in
-                France, and in the newspapers today I notice the names of nine officers who I knew
-                in France, including the Captain of my company who is killed. I don't know if the
-                6th Seaforths, who are in the same brigade, were in action at the same time, but I
-                shouldn't be surprised, anyhow I hope [Gilbert] Williams came through safely if he
-                was there. I am enclosing two privilege forms, and will be glad if you will get them
-                signed and returned. I have had some nice afternoons at Torquay and Paignton and was
-                there during the rough weather a short time ago, when the Brixham trawler was
-                wrecked and sea was so rough. I hope this letter will find you very well and
-                undisturbed at the old job.</p>
-            <closer>With kind regards to Messrs Taylor, Symons, and Woodhams and accept the same
-                yourself. <salute>Sincerely yours</salute>, <signed>
-                    <name type="person">'Frosty'.</name></signed>
-            </closer>
-        </div>
-    </body>
-</text>
+                1962 Transcript -->
+    <opener><salute>Dear</salute>
+        <name type="person">Mr Hunt</name>,</opener>
+    <p>
+        <emotion type="positive">Many thanks for your most welcome and interesting letter safely
+            received, and I am pleased to hear of the latest news about friends at the office and
+            others in different parts of the world.</emotion>
+    </p>
+    <p>
+        <emotion type="negative">I have not had a line from <name type="person">H. Martin</name> for
+            many months</emotion>, <emotion type="positive">but I hear he has had leave recently,
+            and no doubt he gave you a call. I hoped to have had that pleasure before this time, but
+            I expect to be seeing you one of these fine days.</emotion></p>
+    <p><emotion type="neutral">I am still a patient in hospital, and although at times the life is
+            monotonous in this quiet place, it is preferable to <name type="place">France</name> so
+            I won't grumble.</emotion>
+        <factor type="conditions">The weather has been so rough and wild of late, that a lot our
+            time is spent by the fireside, and <emotion type="positive">many pleasant hours are
+                passed in comparing notes with men who are patients from
+            minesweepers.</emotion></factor> We have had different men from this branch of the Navy
+        for several weeks, and at present five are in my ward. <factor type="trauma">Two of these
+            are survivors from a minesweeper that was blown up by a <name type="place">German</name>
+            mine nearly a fortnight ago, just outside <name type="place">Dartmouth Castle</name>. </factor>
+        <factor type="prep">They are still clearing the sea outside here and the boats return to
+            anchor in the river at night,</factor> and the pals of these men visit them this
+        evening. <emotion type="positive">The officers are also very good in calling and leaving
+            gifts and the wounded Tommies share in the fruits thereof!</emotion></p>
+    <p>
+        <emotion type="negative">I have heard from <name type="place">Scotland</name> that <factor
+                type="battle">the 8th Argylls suffered heavily a short time ago in <name
+                    type="place">France</name></factor>, and in the newspapers today I notice the
+            names of nine officers who I knew in <name type="place">France</name>, including the
+            Captain of my company who is killed. <emotion type="negative">I don't know if the 6th
+                Seaforths, who are in the same brigade, were in action at the same time, but I
+                shouldn't be surprised</emotion>, anyhow I hope <name type="person">[Gilbert]
+                Williams </name>came through safely if he was there.</emotion> I am enclosing two
+        privilege forms, and will be glad if you will get them signed and returned. <emotion
+            type="positive ">I have had some nice afternoons at <name type="place">Torquay</name>
+            and <name type="place">Paignton</name> and was <factor type="conditions">there during
+                the rough weather a short time ago, when the Brixham trawler was wrecked and sea was
+                so rough.</factor></emotion> I hope this letter will find you very well and
+        undisturbed at the old job.</p>
+    <closer>With kind regards to Messrs <name type="person">Taylor</name>, <name type="person"
+            >Symons</name>, and <name type="person">Woodhams</name> and accept the same yourself.
+            <salute>Sincerely yours</salute>, <signed>
+            <signedname type="person">'Frosty'.</signedname></signed>
+    </closer>
+</div>
