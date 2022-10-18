@@ -1,6 +1,6 @@
-<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<div type="letter">
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
     <info>Frank Thayer Turner, 13 July 1916, Morn Hill Camp, Winchester, England. Born: 22 October
+        
         1897, Joined GWR: 13 April 1912, Regiment: Company 3/18 London Irish Regiment, Returned to
         office: 5 November 1917. He lost his right arm in the war. Died: 28 May 1937</info>
 

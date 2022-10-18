@@ -1,4 +1,4 @@
-<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <info>William Charles Frederick Wiggs, letter sent 23 December 1917, field card sent 8 January
         1918, France. Born: 2 February 1881, Regiment: Royal Engineers, Railway Troop, Regiment
