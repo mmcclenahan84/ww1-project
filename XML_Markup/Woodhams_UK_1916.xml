@@ -1,4 +1,4 @@
-<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <info>Frederick G. Woodhams, 16 February 1916, France. Regiment: 13 London Rifles, Regiment
         number: 1383, Rank: Private; Lance Corporal; Sergeant, Died: Killed in action on 16 August

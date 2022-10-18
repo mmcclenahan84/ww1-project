@@ -1,4 +1,4 @@
-<?xml-model href="file:/C:/Users/AMC343/OneDrive%20-%20University%20of%20Pittsburgh/Documents/Slav2550/ww1-project/letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <info>Francis Witt, 28 May 1916, Salonika, Greece. Born: 8 February 1893, Regiment: Royal
         Engineers, Mediterranean Expeditionary Force; transferred to Office of Superintendent of
