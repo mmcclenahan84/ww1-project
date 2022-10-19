@@ -1,3 +1,4 @@
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <!--  <name type="person">Sydney Charles Douce</name>, <date when="1916-01">January 1916</date>,
             <name type="place">Fovant Camp, Wiltshire</name>. Born: <date when="1882-11-17"> 
@@ -9,18 +10,18 @@
         <salute>Dear</salute>
         <name type="person">Mr. Riches</name>
     </opener>
-    <p><emotion type="negative">The worst has happened. The War Office has sent us down to this
-            place which is miles from nowhere. The camp however is made up of hundreds of huts is
-            according to the 'old uns' at the game the finest they have ever been in, <emotion
-                type="positive">certainly everything is alright</emotion> but <factor
+    <p><emote type="negative">The worst has happened.</emote> The War Office has sent us down to this place
+            which is miles from nowhere. The camp however is made up of hundreds of huts is
+            according to the 'old uns' at the game the finest they have ever been in, <emote
+                type="positive">certainly everything is alright</emote> but <factor
                 type="conditions"> the place is so muddy and my time is split up. One half getting
-                frightfully dirty and the other getting myself clean again. <emotion type="positive"
-                    >However it's all in the game and can't be helped.</emotion> There are twenty to
-                a hut. The beds are three long boards on two trestles about eight or nine inches off
-                the floor, a straw mattress and a straw pillow, and four blankets.</factor> Not a
-            bit what I have been used to.</emotion>
-        <emotion type="positive">However I am now quite comfortable in it and sleep like a top.
-            Marvellous how you think we settle down to it. Don't you think?</emotion>
+                frightfully dirty and the other getting myself clean again.</factor> <emote type="positive"
+                    >However it's all in the game and can't be helped.</emote> <factor type="conditions">There are twenty to a
+                hut. The beds are three long boards on two trestles about eight or nine inches off
+                the floor, a straw mattress and a straw pillow, and four blankets. Not a
+            bit what I have been used to.</factor>
+        <emote type="positive">However I am now quite comfortable in it and sleep like a top.
+            Marvellous how you think we settle down to it. Don't you think?</emote>
         <factor type="prep">We rise at 6.30am. Breakfast (porridge and bacon) at 7.30. Parade at
             8.20. Drill till 10.30. Then half an hour's rest. Then more drill up to 12.30. Dinner at
             1 o'clock (meat and two vegetables and sweets). Parade again at 2.20. Then more drill
@@ -28,21 +29,21 @@
             and jam). After which we can do what we like until 9.15. By this time we have to be in
             our huts for the final day's roll call and at 10pm. All lights have to be out. That's
             what my day consists of at present.</factor>
-        <emotion type="neutral">It may not seem much, and really it isn't, but I am half the day
-            cleaning up.</emotion> The grub is alright but there is not quite enough of it at
-        present. <emotion type="positive">I think however this will be right as soon as they have
-            made all necessary arrangements.</emotion>
+        <emote type="neutral">It may not seem much, and really it isn't, but I am half the day
+            cleaning up.</emote> The grub is alright but there is not quite enough of it at present.
+            <emote type="positive">I think however this will be right as soon as they have made all
+            necessary arrangements.</emote>
         <factor type="sense">For the time being the Non-Commissioned Officers seem to be a little
             overworked.</factor>
         <factor type="prep">This is the same every day, varied on two mornings a week with a long
             route march in the morning. Of course we only have half a day on Saturday and only a
             Church parade on Sunday.</factor>
-        <emotion type="positive">So altogether things are not so bad.</emotion>
-        <emotion type="negative">The only thing is I can't get away for weekends, as it would take
-            up most of the time to travel to London and back.</emotion> I shall try however and run
-        up to town in a few weeks' time if possible.</p>
-    <closer> Kind regards to all at 'Omega', and everybody at 164, W.1, including, yourself.
-            <salute>Yours</salute>, <signed>
-            <signedname type="person">S.C.D.</signedname></signed>
+        <emote type="positive">So altogether things are not so bad.</emote>
+        <emote type="negative">The only thing is I can't get away for weekends, as it would take up
+            most of the time to travel to London and back.</emote> I shall try however and run up to
+        town in a few weeks' time if possible.Kind regards to all at 'Omega', and everybody at 164, W.1, including, yourself.</p>
+    <closer> 
+            <salute>Yours,</salute> <signed>
+            <name type="person">S.C.D.</name></signed>
     </closer>
 </div>
