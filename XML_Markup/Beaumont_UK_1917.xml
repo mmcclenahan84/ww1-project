@@ -1,33 +1,32 @@
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <dateline><name type="person">Harry Beaumont</name>, <date when="1917-05-02">2 March
+    <!-- <name type="person">Harry Beaumont</name>, <date when="1917-05-02">2 March
         1917</date>, <name type="place">Aratia, Yemen</name>, Born: 17 October 1873,
             <regiment>Regiment: 1/6 East Surrey Regiment, Regiment number: 2297</regiment>, Rank:
-        Quarter Master Sergeant, Died: 1952 Transcript</dateline>
+        Quarter Master Sergeant, Died: 1952 Transcript-->
     <opener>
-        <salute>Dear <name type="person">Bertie</name>,</salute>
+        <salute>Dear Bertie,</salute>
     </opener>
-    <p><emotion type="positive">Many thanks for your long and interesting letter, which has now
-            reached me, I will to it at length at a more opportune moment.</emotion> As you will see
-        by above address I have left <name type="place">India</name>. The regiment left the N.W.
-            <name type="place">Indian</name> frontier in January where <factor type="conditions">the
-            winter had been bitterly cold</factor> and embarked at <name type="place">Karachi</name>
-        after a three day's train journey, <emotion type="positive">then six day's most pleasant
-            voyage to <name type="place">Aden</name> where we landed and now join part of the Aden
-            Field Force.</emotion> I have been stationed with a strong detachment on the desert in
-        close proximity to a <name type="place">Turkish</name> force <factor type="battle">who
-            frequently shelled us</factor>, but without any material damage. <emotion type="neutral"
-            >The heat after the cold winter in India is very trying, <factor type="conditions"
-                >scorching hot sun, <factor type="sense">endless sand</factor> and myriads of
-                torturing flies.</factor></emotion> Life is very different here as compared to <name
-            type="place">India</name>. I never pictured myself riding across the Arabian dessert on
-        a camel. <emotion type="positive">Am pleased to say I am splendidly fit and well, but should
-            be glad when the struggle is over and hope I shall be amongst those who return home
-            safely.</emotion> Trusting you are well.</p>
+    <p><emote type="positive">Many thanks for your long and interesting letter, which has now
+            reached me, I will to it at length at a more opportune moment.</emote> As you will see
+        by above address I have left India. The regiment left the N.W. Indian frontier in January
+        where <factor type="conditions">the winter had been bitterly cold</factor> and embarked at
+        Karachi after a three day's train journey, <emote type="positive">then six day's most
+            pleasant voyage to Aden where we landed and now join part of the Aden Field
+            Force.</emote> I have been stationed with a strong detachment on the desert in close
+        proximity to a Turkish force <factor type="battle">who frequently shelled us</factor>, but
+        without any material damage. <emote type="neutral">The heat after the cold winter in India
+            is very trying, <factor type="conditions">scorching hot sun, endless sand and myriads of
+                torturing flies.</factor></emote> Life is very different here as compared to India.
+        I never pictured myself riding across the Arabian dessert on a camel. <emote type="positive"
+            >Am pleased to say I am splendidly fit and well, but should be glad when the struggle is
+            over and hope I shall be amongst those who return home safely.</emote> Trusting you are
+        well.</p>
     <closer>
         <salute>Best of wishes, kind regards to the remnants of the Audit staff. Yours most
             sincerely</salute>
         <signed>
-            <signedname type="person">Harry Beaumont</signedname>
+            <name type="person">Harry Beaumont</name>
         </signed>
     </closer>
 </div>
