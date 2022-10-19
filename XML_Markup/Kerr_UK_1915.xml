@@ -1,25 +1,25 @@
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <opener>
-        <dateline>
+        <!-- 
             <name type="person">Harold Kerr</name>
-            <date when="1915-08-06">August 6, 1915</date>
-        </dateline>
+            <date when="1915-08-06">August 6, 1915</date> -->
     </opener>
-    <p><emotion type="positive">Things have been very quiet hear the last week, <factor
-                type="battle">with the exception of a little shell fire both from the <name
-                    type="place">Turks</name> and our own guns.</factor></emotion>
+    <p><emote type="positive">Things have been very quiet hear the last week, <factor type="battle"
+                >with the exception of a little shell fire both from the Turks and our own
+                guns.</factor></emote>
         <factor type="battle">The night before last our fellows made a charge on our right flank and
-            took two line of trenches. first of all they blew up the <name type="place">Turks</name>
-            trenches and then charged before the dust had time to settle. They cut off the <name
-                type="place">Turks</name> in one trench and the others run for their lives leaving
-            their rifles behind. They are afraid to face the cold steel.</factor>
-        <emotion type="neutral">We expect to have some excitement in a few days, things are too
-            quiet to last, but I suppose you will read about it in the <name type="place"
-                >Australian</name> papers.</emotion> Well <name type="person">Aub</name> I must say
-        good-bye.</p>
-    <closer>Remember me to <name type="person">Jim</name>. <salute>From your loving brother</salute>
+            took two line of trenches. first of all they blew up the Turks trenches and then charged
+            before the dust had time to settle. They cut off the Turks in one trench and the others
+            run for their lives leaving their rifles behind. They are afraid to face the cold
+            steel.</factor>
+        <emote type="neutral">We expect to have some excitement in a few days, things are too quiet
+            to last, but I suppose you will read about it in the Australian papers.</emote> Well Aub
+        I must say good-bye.Remember me to Jim. </p>
+    <closer>
+        <salute>From your loving brother</salute>
         <signed>
-            <signedname type="person">Harold</signedname>
+            <name type="person">Harold</name>
         </signed>
     </closer>
 </div>

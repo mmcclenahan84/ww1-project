@@ -1,46 +1,46 @@
-<text>
-    <body>
-        <div type="letter">
-            <meta><name type="person">James Claude Kibblewhite</name>, <date when="1917-09-01">1
-                    September 1917</date>,<name type="location"> Malta</name>. Born: 14 June 1895,
-                Regiment: 2/13 Battalion London Regiment, Regiment number: 490602, Rank: Sergeant,
-                Died: 20 December 1951 Transcript</meta>
-            <opener><salute>Dear</salute>
-                <name type="person">Sir</name>,</opener>
-            <p>I trust you will excuse the liberty I have taken in writing you, after such a long
-                absence from England, but the difficulties of active service is my excuse, although
-                I am sorry to say laziness has a lot to do with it. No doubt you will wonder what I
-                am doing wasting my time in Malta; well, I came here last January through an attack
-                of dysentery followed by constipation, there I remained, and am likely to do so,
-                unless something very unexpected happens. I have been taken on the temporary staff,
-                and am acting as parade staff sergeant, quite a nice easy position, except when we
-                are receiving or sending troops away.</p>
-            <p>How are things in general, looking at Paddington, I suppose the office is full of
-                ladies and men who are over the age limit. I saw a Great Western Magazine a few days
-                ago, and I noticed that a large number of the �chiefs� have retired, also that
-                Artlett has not given up trying to bring sports honours to the Audit with the Bowls
-                team. The weather here is absolutely glorious, and our camp is right against the
-                sea, we get some lovely bathing and boating, in fact it is almost as good as any
-                resort in England.</p>
-            <p>We are about ten miles from Valletta, but we can always get a ride in a motor lorry
-                or a gharry (horse-drawn cab) I have only met one G.W. man since I have been here
-                and that is Cowles of the Agreements. He has been here since the Dardanelles; and he
-                is acting chief clerk to the commanding officer of the Company Camp� I have not
-                given up hope of getting to England yet, as since I have been here I have contracted
-                malaria, also my heart is not good enough to allow me to carry a pack for a while,
-                so I have been marked unfit for over three months, and I may give you all a surprise
-                by walking into the office one of these fine days.</p>
-            <p>Well, sir, when is the war going to end, I think it would have been all over now, bar
-                the shouting, if it had not been for Russia. I think the Great Western Railway
-                according to the magazine have reaped a fair share of the awards for bravery etc, on
-                the field. Well, sir, I trust it will not be long before I have the pleasure of
-                receiving a reply to my letter, and kindly remember me to all that are left of the
-                old room 19</p> 
-            <closer>I am, <name type='person'>Sir</name>, <salute>Yours respectfully,</salute>
-                <signed>
-                    <name type="person">J.C. Kibblewhite Sgt.</name>
-                </signed>
-            </closer>
-        </div>
-    </body>
-</text>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <!--  <name type="person">James Claude Kibblewhite</name>, <date when="1917-09-01">1 September
+            1917</date>,<name type="location"> Malta</name>. Born: 14 June 1895, Regiment: 2/13
+        Battalion London Regiment, Regiment number: 490602, Rank: Sergeant, Died: 20 December 1951
+        Transcript -->
+    <opener>
+        <salute>Dear</salute>
+        <name type="person">Sir,</name>
+    </opener>
+    <p> I trust you will excuse the liberty I have taken in writing you, after such a long absence
+        from England, but the difficulties of active service is my excuse, although I am sorry to
+        say laziness has a lot to do with it. No doubt you will wonder what I am doing wasting my
+        time in Malta; well, I came here last January through <factor type="trauma">an attack of
+            dysentery followed by constipation</factor>, there I remained, and am likely to do so,
+        unless something very unexpected happens. <emote type="positive">I have been taken on the
+            temporary staff, and am acting as parade staff sergeant, quite a nice easy position,
+            except when we are receiving or sending troops away.</emote>
+    </p>
+    <p> How are things in general, looking at Paddington, I suppose the office is full of ladies and
+        men who are over the age limit. I saw a Great Western Magazine a few days ago, and I noticed
+        that a large number of the 'chiefs' have retired, also that Artlett has not given up trying
+        to bring sports honours to the Audit with the Bowls team. <emote type="positive">The weather
+            here is absolutely glorious, and our camp is right against the sea, we get some lovely
+            bathing and boating, in fact it is almost as good as any resort in England.</emote>
+    </p>
+    <p>We are about ten miles from Valletta, but we can always get a ride in a motor lorry or a
+        gharry (horse-drawn cab) I have only met one G.W. man since I have been here and that is
+        Cowles of the Agreements. He has been here since the Dardanelles; and he is acting chief
+        clerk to the commanding officer of the Company Camp I have not given up hope of getting to
+        England yet, as since I have been here <factor type="trauma">I have contracted malaria, also
+            my heart is not good enough to allow me to carry a pack for a while</factor>, so I have
+        been marked unfit for over three months, and I may give you all a surprise by walking into
+        the office one of these fine days.</p>
+    <p> Well, sir, when is the war going to end, I think it would have been all over now, bar the
+        shouting, if it had not been for Russia. I think the Great Western Railway according to the
+        magazine have reaped a fair share of the awards for bravery etc, on the field. Well, sir, I
+        trust it will not be long before I have the pleasure of receiving a reply to my letter, and
+        kindly remember me to all that are left of the old room 19</p>
+    <closer>
+        <salute>>I am, Sir, Yours respectfully,</salute>
+        <signed>
+            <name type="person">J.C. Kibblewhite Sgt.</name>
+        </signed>
+    </closer>
+</div>
