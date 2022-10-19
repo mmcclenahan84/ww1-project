@@ -1,6 +1,6 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
     <info>Frank Thayer Turner, 13 July 1916, Morn Hill Camp, Winchester, England. Born: 22 October
-        
         1897, Joined GWR: 13 April 1912, Regiment: Company 3/18 London Irish Regiment, Returned to
         office: 5 November 1917. He lost his right arm in the war. Died: 28 May 1937</info>
 
@@ -11,14 +11,16 @@
         </dateline>
         <salute>Dear Jim (Mr Porter)</salute>
     </opener>
-    <p>Just a few lines to let you now things are going. <emote type="positive">Am having a fairly good time</emote> nothing at all
-        to grumble about. I dont think I shall be going to France for a few months yet. I met one of
-        the chaps from the tickets department last week he is in the R.F.C. down here. Some of us
-        were <factor type="sense">feet under canvas for a fortnight </factor>but owing to the <factor type="conditions">wind and rain</factor> we were moved back to
-        the huts. When we were under canvas, we used not get up till 8 oclock, we were supposed to
-        <factor type="prep">go on parade at 6.15am</factor>, but we dodged that. I enclose photo (not dressed for the occasion)
-        outside our hut L20 or Hell 20 as it has been called. <emote type="neutral">I am looking forward to seeing some of
-        the office chaps</emote> when I am able to get leave. I hope your brother is getting on alright in
+    <p>Just a few lines to let you now things are going. <emote type="positive">Am having a fairly
+            good time</emote> nothing at all to grumble about. I dont think I shall be going to
+        France for a few months yet. I met one of the chaps from the tickets department last week he
+        is in the R.F.C. down here. Some of us were <factor type="sense">feet under canvas for a
+            fortnight </factor>but owing to the <factor type="conditions">wind and rain</factor> we
+        were moved back to the huts. When we were under canvas, we used not get up till 8 oclock, we
+        were supposed to <factor type="prep">go on parade at 6.15am</factor>, but we dodged that. I
+        enclose photo (not dressed for the occasion) outside our hut L20 or Hell 20 as it has been
+        called. <emote type="neutral">I am looking forward to seeing some of the office
+            chaps</emote> when I am able to get leave. I hope your brother is getting on alright in
         France. Hoping you are in the pink like myself,</p>
     <closer>
         <salute>Yours very sincerely</salute>
