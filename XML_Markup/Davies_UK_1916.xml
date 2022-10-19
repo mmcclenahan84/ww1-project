@@ -1,38 +1,36 @@
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <dateline><name type="person">James Davies</name>, <date when="1916-06-23">23 June 1916</date>,
+    <!--  <name type="person">James Davies</name>, <date when="1916-06-23">23 June 1916</date>,
             <name type="place">France</name>. <regiment>Regiment: 6 City of <name type="place"
                 >London</name> Rifles, Regiment number: 3343,</regiment> Rank: Lance Corporal
-        Transcript</dateline>
+        Transcript-->
     <opener>
-        <salute>Dear <name type="person">Charles</name>,</salute>
+        <salute>Dear Charles,</salute>
     </opener>
     <p>
-        <emotion type="positive">Just a line to let you know I am getting on fine. I have been in
-                <name type="place">France</name> since Good Friday morning. Well it is not so bad,
-            but of course not so comfortable as the office work.</emotion>
+        <emote type="positive">Just a line to let you know I am getting on fine. I have been in
+            France since Good Friday morning. Well it is not so bad, but of course not so
+            comfortable as the office work.</emote>
     </p>
     <p>We had the Lord Mayor of London over to see us the other Sunday when we were resting, he made
-        a little speech. How are all at the office? You might remember me to <name type="person">Mr
-            Woodhams</name>, <name type="person">Mr Jones</name> and <name type="person">Mr
-            Cowan</name> and the boys also the girls. I suppose <name type="person">Mr
-            Redford</name> has retired by now.</p>
+        a little speech. How are all at the office? You might remember me to Mr Woodhams, Mr Jones
+        and Mr Cowan and the boys also the girls. I suppose Mr Redford has retired by now.</p>
     <p>We have been in the trenches since the 13th and I expect we shall go out shortly. <factor
             type="conditions">Our little dugout has just been flooded out, a very heavy
             thunderstorm, but we have run it out.</factor>
-        <emotion type="negative">It is rotten to see how the towns have been shelled to pieces. I
-            don't suppose they will ever be rebuilt.</emotion>
-        <emotion type="negative">My brother was home on leave some time ago that is the second time
-            so he has not got off badly. He has been promoted to Sergeant now. He seems to be
-            getting on fine</emotion>.</p>
-    <p>Have you seen <name type="person">Ernie Smith</name>? How is he getting on, is he still in
-        the A.P.C. (Army Pay Corps, non-fighting troops)? As I hear a lot have been transferred into
-        line regiments.</p>
+        <emote type="negative">It is rotten to see how the towns have been shelled to pieces. I
+            don't suppose they will ever be rebuilt.</emote>
+        <emote type="negative">My brother was home on leave some time ago that is the second time so
+            he has not got off badly. He has been promoted to Sergeant now. He seems to be getting
+            on fine</emote>.</p>
+    <p>Have you seen Ernie Smith? How is he getting on, is he still in the A.P.C. (Army Pay Corps,
+        non-fighting troops)? As I hear a lot have been transferred into line regiments.</p>
     <p>Well here's to the time when the war is all over and we are back in the same old place.
             <factor type="battle">The trenches where we were are only 25 to 30 yards from the Huns
             so had to keep a bit low.</factor></p>
-    <p>My address is 3343 Lance Corporal J. Davies, No. 1 Platoon D Company, 6th City of <name
-            type="place">London</name> Rifles, B.E.F., <name type="place">France</name>. You might
-        drop me a line to let me know how you are getting on and any news,</p>
+    <p>My address is 3343 Lance Corporal J. Davies, No. 1 Platoon D Company, 6th City of London
+        Rifles, B.E.F., France. You might drop me a line to let me know how you are getting on and
+        any news,</p>
     <closer>
         <salute>Kind regards</salute>
     </closer>

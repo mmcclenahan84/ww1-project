@@ -1,43 +1,44 @@
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <dateline>
+    <!-- 
         <name type="person">Harold William Cronin</name>, <date when="1916-01-18">18 January
             1916</date>, <name type="place">Egypt</name>. Born: <date when="1880-06-09">9 May
             1880</date>, Regiment: 4th Seaforth Highlanders; promoted to Lieutenant in 5th <name
             type="place">Bedfordshire</name> Regiment on <date when="1915-06-20">20 May 1915</date>,
         Died: <date when="1917-12-02">2 December 1917</date> at 35 Casualty Clearing Station in
-            <name type="place">Palestine</name>, leaving 268 19s to his widow Transcript</dateline>
+            <name type="place">Palestine</name>, leaving 268 19s to his widow Transcript -->
     <opener>
-        <salute>Dear <name type="person">Mr Welsh</name>,</salute>
+        <salute>Dear Mr Welsh,</salute>
     </opener>
     <p>A lot has happened since I last wrote to you and <factor type="prep">we have moved, and
             moved, and moved again, and still we are moving. There is nothing at all to say about
             the actual coming off. We were told to pack up, and having done so, were marched off and
-                <emotion type="positive">soon afterwards were making up a four for Bridge in quite a
-                comfortable cabin and enjoying the unwanted luxury of electric
-            light</emotion></factor>.</p>
-    <p><emotion type="neutral">The only thing that struck one in coming away was that nothing had
+            oon afterwards were making up a four for Bridge in quite a comfortable cabin and
+            enjoying the unwanted luxury of electric light</factor>.</p>
+    <p><emote type="neutral">The only thing that struck one in coming away was that nothing had
             altered and it might easily have been the night I landed. The same old beach apparently
             full up with boxes of bully beef, tinned milk and jam, <factor type="battle">the same
                 old destroyer, with its search light playing on the shore, keeping up its systematic
                 bombardment and the same old swish of bullets around and dropping into the
-                water.</factor></emotion>
+                water.</factor></emote>
         <factor type="prep">No sooner was Christmas here than we were packing up again, to come on
-            here.</factor> A large town a few miles on the interior, <emotion type="negative"
-                ><factor type="sense">it is a filthy rotten smelly hole</factor> and we always
-            carried loaded revolvers and walked about in batches and were never out after dark.
-            Probably the people are not ill disposed to us but some of them looked pretty villainous
-            and it was better to be on the safe side</emotion>.</p>
-    <p><emotion type="positive">We have had quite a good time and the regular hours and regular
-            meals have backed everyone up well and now we are all as fit as ever
-            apparently.</emotion> Thanks very much for the Xmas card <emotion type="negative">it was
-            a bit late but then all our Xmas letters and parcels were on account of the way we have
-            been moving about; we lost a good mail, too, on the Persia (S.S. Persia, which was
-            torpedoed and sunk in <date when="1915-12">December 1915</date>).</emotion> I am enclosing a few photos that might
-        be of interest to you. I have some more snaps coming later on and will let you have some if
-        they turn out to be any good.</p>
-    <closer> With kind regards. <salute>Yours sincerely,</salute>
-        <singed>
-            <signedname type="person">H.W. Cronin</signedname>
-        </singed>
+            here.</factor> A large town a few miles on the interior, <emote type="negative"><factor
+                type="sense">it is a filthy rotten smelly hole</factor> and we always carried loaded
+            revolvers and walked about in batches and were never out after dark. Probably the people
+            are not ill disposed to us but some of them looked pretty villainous and it was better
+            to be on the safe side</emote>.</p>
+    <p><emote type="positive">We have had quite a good time and the regular hours and regular meals
+            have backed everyone up well and now we are all as fit as ever apparently.</emote>
+        Thanks very much for the Xmas card <emote type="negative">it was a bit late but then all our
+            Xmas letters and parcels were on account of the way we have been moving about; we lost a
+            good mail, too, on the Persia (S.S. Persia, which was torpedoed and sunk in December
+            1915).</emote> I am enclosing a few photos that might be of interest to you. I have some
+        more snaps coming later on and will let you have some if they turn out to be any good. With
+        kind regards.</p>
+    <closer>
+        <salute>Yours sincerely,</salute>
+        <signed>
+            <name type="person">H.W. Cronin</name>
+        </signed>
     </closer>
 </div>
