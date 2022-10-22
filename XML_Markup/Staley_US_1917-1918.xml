@@ -43,7 +43,7 @@
         <closer><salute>With best of love to my own little girl,</salute>
         <name type="person">Lloyd S.</name></closer>
     </div>
-<!-- I added ed_note tags because the text here contains the footnotes that were only indexed in the original website.  Do we want to keep the editorial notes?-->
+
     <div type="letter">
         <opener><dateline>
             <date when="1918-04-xx">April 1918</date>
