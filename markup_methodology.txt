@@ -6,16 +6,22 @@ state on a given time), the way the writer expressed his emotions, and the exper
 
 Emotive statements: The writer expressing some kind of feeling, judgement, or emotional remark.  Emotive statements can
 be explicit or implied, but must convey an emotion that is classified as positive, neutral, or negative.
-Ex: "We have had quite a good time and the regular hours and regular meals
-    have backed everyone up well and now we are all as fit as ever apparently."
+          Ex: "We have had quite a good time and the regular hours and regular meals
+          have backed everyone up well and now we are all as fit as ever apparently."
 War-time factors: Experiences related to the war reported by the writer, either involving the author or his immediate group.
   Factors groups:
    - Trauma: physical injuries, sickness, or death.
+          Ex: "awful bruises", "weight"
    - Battle: physical conflict, fights, gunfire, shellfire.
+          Ex: "bomb", "gas shells", "trenches"
    - Prep: activities related to preparing for deployment, such as training, travel, receiving supplies, and relocation.
+          Ex: "route march", "parades", "signalling"
    - Conditions: living conditions, food, weather, access to amenities.
+          Ex: "rather rough journey", "lousy(infested with lice)"
    - Sense: other experiences which a soldier can see, hear, smell, or taste.  Used as a category for "other" noteworthy happenings
    which do not fit into the first four groups, such as getting mail from home.
+          Ex: "one thousand seven hundred men on board"
+              "gets off some pretty good comedy"
 
 Our methodology will provide quantitative data for comparing overall emotive sentiment with a proportion of factors reported.
 The relationship between wartime factors and emotion provides perspective into a soldier's mental wellbeing.
