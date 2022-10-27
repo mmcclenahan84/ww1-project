@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://get.pxhere.com/photo/desk-wood-floor-hardwood-wallpaper-flooring-wood-flooring-laminate-flooring-wood-stain-desktop-picture-1187816.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+div.topnav{
+    text-align: center;
+    font-size: 40px;
+    padding: 14px 16px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    color: inherit;
+}
+.topnav a:hover {
+  background-color: saddlebrown;
+  color: black;
+}
+h1{
+    text-align: center;
+}
+div.container{
+    background-color: rgb(250,227,152);
+    line-height: 25px;
+    }
+div.head{
+    background-color: olive;
+    color: white;
+    margin:-8px;
+    top:-20px;
+    text-align: center;
+}
+footer{
+   background-color: olive;
+    bottom: 0;
+    margin-bottom: 0px;
+    margin-top: auto;
+    padding: 10px;
+
+   }
