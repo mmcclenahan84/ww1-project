@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(https://get.pxhere.com/photo/desk-wood-floor-hardwood-wallpaper-flooring-wood-flooring-laminate-flooring-wood-stain-desktop-picture-1187816.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
-div.topnav{
+div.topnav {
     text-align: center;
     font-size: 40px;
     padding: 14px 16px;
@@ -14,28 +14,57 @@ div.topnav{
     color: inherit;
 }
 .topnav a:hover {
-  background-color: saddlebrown;
-  color: black;
+    background-color: saddlebrown;
+    color: black;
+    border-style: inset;
+    border-color: black;
+    text-decoration: none;
 }
-h1{
+a{
+    color: black;
+    border-style: outset;
+    border-color: saddlebrown;
+    text-decoration: none;
+}
+h1 {
     text-align: center;
 }
-div.container{
-    background-color: rgb(250,227,152);
+div.container {
+    background-color: rgb(250, 227, 152);
     line-height: 25px;
-    }
-div.head{
-    background-color: olive;
-    color: white;
-    margin:-8px;
-    top:-20px;
-    text-align: center;
 }
-footer{
-   background-color: olive;
-    bottom: 0;
-    margin-bottom: 0px;
+
+.container .inside:before,
+.container .inside:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-clip-path: polygon(0% 0%, 5% 100%, 10% 0%, 15% 100%, 20% 0%, 25% 100%, 30% 0%, 35% 100%, 40% 0%, 45% 100%, 50% 0%, 55% 100%, 60% 0%, 65% 100%, 70% 0%, 75% 100%, 80% 0%, 85% 100%, 90% 0%, 95% 100%, 100% 0%);
+}
+.container .inside:before {
+    top: 0;
+}
+.container .inside:after {
+    bottom: -2px;
+}
+div.head {
+    background-color: olive;
+    color: black;
+    margin-bottom: auto;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    padding: 1px;
+}
+footer {
+    background-color: olive;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
     margin-top: auto;
     padding: 10px;
 
-   }
+}
