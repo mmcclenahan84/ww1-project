@@ -8,10 +8,10 @@ division = element div {d_type ,info*,opener, p+, closer, postscript*}
 info = element info {text}  
 #For now, info can hold anything like Regiment info and Rank that some letters have, until we know what we want to do with it. 
 d_type = attribute type {"letter"}
-opener = element opener {s_group}
+opener = element opener {dateline, s_group}
 #
 #Creating a salutation group, since opening/closing salutes have duplicate elements. Replaces "opensalute" and "closesalute".
-s_group = (dateline|salute|placename|signed|signedname)*
+s_group = salute?,placename?,signed?,signedname?
 dateline = element dateline {date, placename}
 date = element date {when, text}
 when = attribute when {text}
