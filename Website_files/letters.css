@@ -26,6 +26,7 @@ a{
     border-color: saddlebrown;
     text-decoration: none;
 }
+
 h1 {
     text-align: center;
 }
@@ -33,22 +34,71 @@ div.container {
     background-color: rgb(250, 227, 152);
     line-height: 25px;
 }
+div.sidebar{
+    float: left;
+    background-color: grey;
+    margin-top: 10px;
+}
+div.special_container {
+    background-color: rgb(250, 227, 152);
+    float: right;
+    margin-top: 10px;
+    width: 1250px;  
+}
+/* This code below was based heavily on the tutotial on dropdown tabs found at this link: https://www.w3schools.com/css/css_dropdowns.asp */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -8px;
+  margin-right: -8px;
+  overflow: hidden;
+  background-color: Black;
+  text-align: left;
+}
+li {
+  text-align: center;
+}
 
-.container .inside:before,
-.container .inside:after {
-    content: "";
-    height: 2px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    -webkit-clip-path: polygon(0% 0%, 5% 100%, 10% 0%, 15% 100%, 20% 0%, 25% 100%, 30% 0%, 35% 100%, 40% 0%, 45% 100%, 50% 0%, 55% 100%, 60% 0%, 65% 100%, 70% 0%, 75% 100%, 80% 0%, 85% 100%, 90% 0%, 95% 100%, 100% 0%);
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.container .inside:before {
-    top: 0;
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
 }
-.container .inside:after {
-    bottom: -2px;
+
+li.dropdown {
+  display: inline-block;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: olive;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* End of the code used in the tutorial for dropdowns */
 div.head {
     background-color: olive;
     color: black;
@@ -64,7 +114,7 @@ footer {
     margin-bottom: -8px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: auto;
+    margin-top: -8px;
     padding: 10px;
 
 }
