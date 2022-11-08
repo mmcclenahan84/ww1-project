@@ -1,12 +1,13 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  <name type="person">William Charles Davis</name>, <date when="1916-03-15">15 March
-            1916</date>, <name type="place">France</name>. Born: <date when="1884-11-12">12 November
-            1884</date>, Joined GWR: 12 January 1900, <regiment>Regiment: Royal Army Medical Corps,
-            Regiment number: 31223,</regiment> Rank: Lance Corporal; Sergeant, Retired: 1944
-        Transcript Sunday-->
-
+    <info>William Charles Davis, 15 March 1916, France. Born: 12 November 1884, Joined GWR: 12
+        January 1900, Regiment: Royal Army Medical Corps, Regiment number: 31223, Rank: Lance
+        Corporal; Sergeant, Retired: 1944 Transcript Sunday</info>
     <opener>
+        <dateline>
+            <date when="1916-03-15">15 March 1916</date>
+            <name type="place">France</name>
+        </dateline>
         <salute>Dear </salute>
         <name type="person">Charlie,</name>
     </opener>
