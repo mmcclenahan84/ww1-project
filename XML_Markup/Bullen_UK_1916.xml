@@ -1,16 +1,16 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--<name type="person">Henry Bullen</name>, <date when="1916-06-24">24 July 1916</date>,
-            <name type="place">Egypt</name>. Born: <date when="1893-05-25">25 April 1893</date>,
-            <regiment>Regiment: 2/10 <name type="place">Middlesex</name> regiment, Regiment number:
-            2858,</regiment> Rank: Private, Died: 1942 Transcript 
-    <p>An employee at the Audit office added the following note at the top of the letter: <name
-            type="person">Private H. Bullen</name>, late of the Passengers dept, went through 11
-        months of <name type="place">Dardanelles</name> campaign' Later moved to <name type="place"
-            >Malta</name>, then to <name type="place">Egypt</name> and <name type="place"
-            >Aden</name>. Now encamped near <name type="place">Mount Sinai</name>.</p>-->
+    <info>Henry Bullen, 24 July 1916, Egypt. Born: 25 April 1893, Regiment: 2/10 Middlesex regiment,
+        Regiment number: 2858, Rank: Private, Died: 1942 Transcript An employee at the Audit office
+        added the following note at the top of the letter:Private H. Bullen, late of the Passengers
+        dept, went through 11 months of Dardanelles campaign' Later moved to Malta, then to Egypt
+        and Aden. Now encamped near Mount Sinai.</info>
 
     <opener>
+        <dateline>
+            <date when="1916-06-24">24 July 1916</date>
+            <name type="place">Egypt</name>
+        </dateline>
         <salute>Dear Percy,</salute>
     </opener>
     <p>

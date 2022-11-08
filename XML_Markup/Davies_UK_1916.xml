@@ -1,10 +1,12 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  <name type="person">James Davies</name>, <date when="1916-06-23">23 June 1916</date>,
-            <name type="place">France</name>. <regiment>Regiment: 6 City of <name type="place"
-                >London</name> Rifles, Regiment number: 3343,</regiment> Rank: Lance Corporal
-        Transcript-->
+    <info>James Davies, 23 June 1916, France. Regiment: 6 City of London Rifles, Regiment number:
+        3343, Rank: Lance Corporal Transcript</info>
     <opener>
+        <dateline>
+            <date when="1916-06-23">23 June 1916</date>
+            <name type="place">France</name>
+        </dateline>
         <salute>Dear Charles,</salute>
     </opener>
     <p>

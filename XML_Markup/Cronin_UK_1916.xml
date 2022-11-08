@@ -1,13 +1,14 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!-- 
-        <name type="person">Harold William Cronin</name>, <date when="1916-01-18">18 January
-            1916</date>, <name type="place">Egypt</name>. Born: <date when="1880-06-09">9 May
-            1880</date>, Regiment: 4th Seaforth Highlanders; promoted to Lieutenant in 5th <name
-            type="place">Bedfordshire</name> Regiment on <date when="1915-06-20">20 May 1915</date>,
-        Died: <date when="1917-12-02">2 December 1917</date> at 35 Casualty Clearing Station in
-            <name type="place">Palestine</name>, leaving 268 19s to his widow Transcript -->
+
+    <info>Harold William Cronin, 18 January 1916, Egypt. Born: 9 May 1880, Regiment: 4th Seaforth
+        Highlanders; promoted to Lieutenant in 5th Bedfordshire Regiment on 20 May 1915, Died: 2 December 1917 at 35 Casualty Clearing Station in Palestine,
+        leaving 268 19s to his widow Transcript </info>
     <opener>
+        <dateline>
+            <date when="1916-01-18">18 January 1916</date>
+            <name type="place">Egypt</name>
+        </dateline>
         <salute>Dear Mr Welsh,</salute>
     </opener>
     <p>A lot has happened since I last wrote to you and <factor type="prep">we have moved, and

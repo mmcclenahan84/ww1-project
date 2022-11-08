@@ -1,25 +1,27 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  <name type="person">Sydney Charles Douce</name>, <date when="1916-01">January 1916</date>,
-            <name type="place">Fovant Camp, Wiltshire</name>. Born: <date when="1882-11-17"> 
-            17 November 1882</date>, Joined GWR: <date when="1898-11-28">28 November 1898</date>, 
-            <regiment>Regiment: 1/5 London Regiment; 3rd Battalion London Rifle Brigade; Royal Army 
-            Medical Corps, Regiment number: 3701; 202204; 536657,</regiment> Rank: Private, 
-            Died: 1933. Transcript-->
+    <info> Sydney Charles Douce, January 1916, Fovant Camp, Wiltshire. Born: 17 November 1882,
+        Joined GWR: 28 November 1898, Regiment: 1/5 London Regiment; 3rd Battalion London Rifle
+        Brigade; Royal Army Medical Corps, Regiment number: 3701; 202204; 536657, Rank: Private,
+        Died: 1933. Transcript</info>
     <opener>
+        <dateline>
+            <date when="1916-01">January 1916</date>
+            <name type="place">Fovant Camp, Wiltshire</name>
+        </dateline>
         <salute>Dear</salute>
         <name type="person">Mr. Riches</name>
     </opener>
-    <p><emote type="negative">The worst has happened.</emote> The War Office has sent us down to this place
-            which is miles from nowhere. The camp however is made up of hundreds of huts is
-            according to the 'old uns' at the game the finest they have ever been in, <emote
-                type="positive">certainly everything is alright</emote> but <factor
-                type="conditions"> the place is so muddy and my time is split up. One half getting
-                frightfully dirty and the other getting myself clean again.</factor> <emote type="positive"
-                    >However it's all in the game and can't be helped.</emote> <factor type="conditions">There are twenty to a
-                hut. The beds are three long boards on two trestles about eight or nine inches off
-                the floor, a straw mattress and a straw pillow, and four blankets. Not a
-            bit what I have been used to.</factor>
+    <p><emote type="negative">The worst has happened.</emote> The War Office has sent us down to
+        this place which is miles from nowhere. The camp however is made up of hundreds of huts is
+        according to the 'old uns' at the game the finest they have ever been in, <emote
+            type="positive">certainly everything is alright</emote> but <factor type="conditions">
+            the place is so muddy and my time is split up. One half getting frightfully dirty and
+            the other getting myself clean again.</factor>
+        <emote type="positive">However it's all in the game and can't be helped.</emote>
+        <factor type="conditions">There are twenty to a hut. The beds are three long boards on two
+            trestles about eight or nine inches off the floor, a straw mattress and a straw pillow,
+            and four blankets. Not a bit what I have been used to.</factor>
         <emote type="positive">However I am now quite comfortable in it and sleep like a top.
             Marvellous how you think we settle down to it. Don't you think?</emote>
         <factor type="prep">We rise at 6.30am. Breakfast (porridge and bacon) at 7.30. Parade at
@@ -41,9 +43,12 @@
         <emote type="positive">So altogether things are not so bad.</emote>
         <emote type="negative">The only thing is I can't get away for weekends, as it would take up
             most of the time to travel to London and back.</emote> I shall try however and run up to
-        town in a few weeks' time if possible.Kind regards to all at 'Omega', and everybody at 164, W.1, including, yourself.</p>
-    <closer> 
-            <salute>Yours,</salute> <signed>
-            <name type="person">S.C.D.</name></signed>
+        town in a few weeks' time if possible.Kind regards to all at 'Omega', and everybody at 164,
+        W.1, including, yourself.</p>
+    <closer>
+        <salute>Yours,</salute>
+        <signed>
+            <name type="person">S.C.D.</name>
+        </signed>
     </closer>
 </div>
