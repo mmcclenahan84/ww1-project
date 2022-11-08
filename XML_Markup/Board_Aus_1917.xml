@@ -1,10 +1,13 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  Mitchell Library, State Library of New South Wales Letter from <name type="person"
-            >Frederick Johnson Board</name>,<date when="1917-09-07"> 7 September 1917</date> MLMSS
-        9269 / Folder 6</dateline> [Page 1] <name type="place">3rd London General Hospital</name>
-    <dateline>Wandsworth <date when="1917-09-07">7-9-17</date>-->
+    <info> Mitchell Library, State Library of New South Wales Letter from Frederick Johnson Board, 7
+        September 1917 MLMSS 9269 / Folder 6 [Page 1] 3rd London General Hospital Wandsworth
+        7-9-17</info>
     <opener>
+        <dateline>
+            <date when="1917-09-07"> 7 September 1917</date>
+            <name type="place">3rd London General Hospital</name>
+        </dateline>
         <salute>My dear Miss Jamieson</salute>
     </opener>
     <p>Doubtless you have heard that I <factor type="battle">got plugged</factor> some time ago and
@@ -25,7 +28,7 @@
             having to give up my old Battalion which was doing so well after having practically
             selected its personnel &amp; officers and been with it for 18 months. I tell you it
             hurts to give up the old Unit, and had it over to someone else</emote> probably for
-            good.</p>
+        good.</p>
     <p><emote type="positive">Do you remember Major Heron of the 42nd (used to be Capt Heron when
             they left Queensland) well he took over the 41st when I left it, and as far as I know
             still has command, with Major Sheridan as second in command. Your favourite (Capt

@@ -1,10 +1,12 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!-- <name type="person">Teddy Ashton</name>, <date when="1916-05-06">May 6th,
-                    1916</date> Sailor stationed in <name type="place">Russian
-                Lapland</name></dateline>
-            source: https://www.iwm.org.uk/history/letters-to-loved-ones-->
+    <info> Teddy Ashton, May 6th, 1916 Sailor stationed in Russian Lapland source:
+        https://www.iwm.org.uk/history/letters-to-loved-ones</info>
     <opener>
+        <dateline>
+            <date when="1916-05-06">May 6th, 1916</date>
+            <name type="place">Russian Lapland</name>
+        </dateline>
         <salute>Dear Gertie,</salute>
     </opener>
     <p> I have written two or three times recently so you may get them together. <emote

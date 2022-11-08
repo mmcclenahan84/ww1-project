@@ -1,10 +1,15 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!-- <name type="person">Harry Beaumont</name>, <date when="1917-05-02">2 March
-        1917</date>, <name type="place">Aratia, Yemen</name>, Born: 17 October 1873,
-            <regiment>Regiment: 1/6 East Surrey Regiment, Regiment number: 2297</regiment>, Rank:
-        Quarter Master Sergeant, Died: 1952 Transcript-->
+    <info>Harry Beaumont, 2 March
+        1917, Aratia, Yemen, Born: 17 October 1873,
+            Regiment: 1/6 East Surrey Regiment, Regiment number: 2297, Rank:
+        Quarter Master Sergeant, Died: 1952 Transcript</info>
     <opener>
+        <dateline>
+            <date when="1917-05-02">2 March
+                1917</date>
+            <name type="place">Aratia, Yemen</name>
+        </dateline>
         <salute>Dear Bertie,</salute>
     </opener>
     <p><emote type="positive">Many thanks for your long and interesting letter, which has now

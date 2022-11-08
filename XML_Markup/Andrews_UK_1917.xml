@@ -1,13 +1,13 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  
-        <name type="person">Frederick Ernest Andrews</name>, <date when="1917-10-16">16 October
-            1917</date>, <country_stationed><name type="place">France</name></country_stationed>.
-        Born: 15 November 1879, <regiment>Regiment: Railway Operation Division, Royal Engineers,
-            Regiment number: 218857,</regiment> Rank: Sapper, Returned to office: <date
-            when="1919-05-26">26 May 1919</date>, Retired: <date when="1939-11-15">15 November
-            1939</date> Transcript -->
+    <info> Frederick Ernest Andrews, 16 October 1917, France Born: 15 November 1879, Regiment:
+        Railway Operation Division, Royal Engineers, Regiment number: 218857, Rank: Sapper, Returned
+        to office: 26 May 1919, Retired: 15 November 1939 Transcript </info>
     <opener>
+        <dateline>
+            <date when="1917-10-16">16 October 1917</date>
+            <name type="place">France</name>
+        </dateline>
         <salute>Dear Mr Slater</salute>
     </opener>
     <p>Just a few lines to let you know how things are going with me, I have been going to write to
