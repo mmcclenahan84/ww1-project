@@ -1,12 +1,15 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  <name type="person">James Walter Hyam</name>, <date when="1918-04-15">15 April
-        1918</date>, <name type="place">Roorkee, India</name>. Born: 24 July 1891, Regiment: 11
+    <info>James Walter Hyam, 15 April 1918, Roorkee, India. Born: 24 July 1891, Regiment: 11
         Hussars, C. Squadron; Royal Field Artillery; Royal Garrison Artillery, Regiment number:
         223725; 184963, Rank: Gunner, Died: 1951 When James Hyam, also nick-named Fatty, wrote from
         India he used these three postcards which showed different scenes from Alexandria in Egypt
-        where he had 'a grand time' en-route to India. Transcript-->
+        where he had 'a grand time' en-route to India. Transcript</info>
     <opener>
+        <dateline>
+            <date when="1918-04-15">15 April 1918</date>
+            <name type="place">Roorkee, India</name>
+        </dateline>
         <salute>My Dear</salute>
         <name type="person">Bertie,</name>
     </opener>

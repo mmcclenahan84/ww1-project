@@ -1,11 +1,13 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!-- <name type="person">R.C.S. Frost</name>,<date when="1916-11-23"> 23 November
-                    1916</date>, <name type="place">Dartmouth, England</name>. Born: 30 January
-                1888, Regiment: 8th Argyll and Sutherland Highlanders; Duke of Cornwall's Light
-                Infantry, Regiment number: 1998; 300470, Rank: Private; Second Lieutenant, Died:
-                1962 Transcript -->
+    <info>R.C.S. Frost,23 November 1916, Dartmouth, England. Born: 30 January 1888, Regiment: 8th
+        Argyll and Sutherland Highlanders; Duke of Cornwall's Light Infantry, Regiment number: 1998;
+        300470, Rank: Private; Second Lieutenant, Died: 1962 Transcript</info>
     <opener>
+        <dateline>
+            <date when="1916-11-23"> 23 November 1916</date>
+            <name type="place">Dartmouth, England</name>
+        </dateline>
         <salute>Dear</salute>
         <name type="person">Mr Hunt,</name>
     </opener>

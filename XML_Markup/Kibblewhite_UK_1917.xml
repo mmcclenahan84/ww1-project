@@ -1,10 +1,13 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  <name type="person">James Claude Kibblewhite</name>, <date when="1917-09-01">1 September
-            1917</date>,<name type="location"> Malta</name>. Born: 14 June 1895, Regiment: 2/13
+    <info>James Claude Kibblewhite, 1 September 1917, Malta. Born: 14 June 1895, Regiment: 2/13
         Battalion London Regiment, Regiment number: 490602, Rank: Sergeant, Died: 20 December 1951
-        Transcript -->
+        Transcript</info>
     <opener>
+        <dateline>
+            <date when="1917-09-01">1 September 1917</date>
+            <name type="place"> Malta</name>
+        </dateline>
         <salute>Dear</salute>
         <name type="person">Sir,</name>
     </opener>

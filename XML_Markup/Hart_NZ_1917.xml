@@ -1,13 +1,12 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!-- This transcript is from a letter by Private <name type="person">Leonard Hart</name> to his
-        parents on <date when="1917-10-19">19 October 1917</date>. Hart describes in detail the
-        terrible events of 12 October 1917 when New Zealand troops were asked to take the Bellvue
-        Spur, near Passchendaele. Historian Jock Phillip writes, 'this distressing, but accurate,
-        description of the battle ... is a remarkable piece of writing, particularly given Hart's
-        lack of formal education.' The transcript is from Jock Phillips and Nicholas Boyack (eds),
-        The great adventure, New Zealand soldiers describe the First World War, Allen and Unwin,
-        Wellington, 1998 -->
+    <info> This transcript is from a letter by Private Leonard Hart to his parents on 19 October
+        1917. Hart describes in detail the terrible events of 12 October 1917 when New Zealand
+        troops were asked to take the Bellvue Spur, near Passchendaele. Historian Jock Phillip
+        writes, 'this distressing, but accurate, description of the battle ... is a remarkable piece
+        of writing, particularly given Hart's lack of formal education.' The transcript is from Jock
+        Phillips and Nicholas Boyack (eds), The great adventure, New Zealand soldiers describe the
+        First World War, Allen and Unwin, Wellington, 1998 </info>
     <opener>
         <dateline>
             <date when="1917-10-19">Oct 19, 1917</date>

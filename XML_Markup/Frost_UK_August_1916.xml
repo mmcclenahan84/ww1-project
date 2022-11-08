@@ -1,11 +1,14 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <!--  
-        <name type="person">Richard Charles Stanley Frost</name>, <date when="1916-08-23">23 August
-            1916</date>, <name type="place">Devonport, England</name>. Born: 30 January 1888,
+
+    <info>Richard Charles Stanley Frost, 23 August 1916, Devonport, England. Born: 30 January 1888,
         Regiment: 8th Argyll and Sutherland Highlanders; Duke of Cornwall's Light Infantry, Regiment
-        number: 1998; 300470, Rank: Private; Second Lieutenant, Died: 1962 Transcript-->
+        number: 1998; 300470, Rank: Private; Second Lieutenant, Died: 1962 Transcript</info>
     <opener>
+        <dateline>
+            <date when="1916-08-23">23 August 1916</date>
+            <name type="place">Devonport, England</name>
+        </dateline>
         <salute>Dear Mr Hunt,</salute>
     </opener>
     <p>I expect you have heard at the office about me being in England <factor type="trauma"

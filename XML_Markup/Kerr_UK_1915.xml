@@ -1,9 +1,11 @@
+
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <opener>
-        <!-- 
-            <name type="person">Harold Kerr</name>
-            <date when="1915-08-06">August 6, 1915</date> -->
+        <dateline>
+            <date when="1915-08-06">August 6, 1915</date>
+            <name type="place">Unknown</name>
+        </dateline>
     </opener>
     <p><emote type="positive">Things have been very quiet hear the last week, <factor type="battle"
                 >with the exception of a little shell fire both from the Turks and our own
