@@ -3,7 +3,6 @@
     <info>Born: 5 January 1877, Regiment: Railway Troop, Royal Engineers, Regiment number: 138054,
         Rank: Sapper, Returned to office: 5 May 1919</info>
     <opener>
-        <name type="person">David Joseph Robertson,</name>
         <dateline>
             <date when="21 April 1916"/>
             <name type="place">Salonika, Greece.</name>
@@ -12,7 +11,7 @@
         <salute>Dear Mr Wood,</salute>
     </opener>
     <p>Just a few lines to let you know I arrived safely after visiting several places which I am
-        not allowed to mention. This place is quite oriental as the fronts of the houses are for the
+        not allowed to mention. <factor type="sense">This place is quite oriental</factor> as the fronts of the houses are for the
         most part looked after and kept in repair, while the backs are allowed to go, and it gives
         one a shock to see a fine building in the front, and then to go to the back and see it all
         neglected and ready to fall down. It is <factor type = "conditions">very hot here during the day and the swarms of flies
@@ -21,12 +20,12 @@
         common sight here. I sometimes have to go to the big steamers in a small pinnace [ships
         boat] and when it is rough it requires some nerve to walk along the sides of barges that are
         pitching and tossing and then climb up the ships side by a rope ladder, but it comes easier
-        in time. It is very mountainous here, and we get a very fine view of Mount Olympus and the
-        snow-capped peaks. I had to go by motor up country the other day and I had to grip the side
+        in time. It is<factor type="sense"> very mountainous here</factor>, and <emote type="positive">we get a very fine view of Mount Olympus and the
+        snow-capped peaks.</emote> I had to go by motor up country the other day and I had to grip the side
         of the car as <factor type = "conditions">the roads are awful</factor> and sometimes there is only just room for the car to
         travel and a sheer drop on the other side. The labourers at the docks are Greeks and when
-        they are taken on in the mornings it is a regular Babel till the Military Policeman uses his
-        persuader (truncheon) right and left and that calms them somewhat. I have not met Mr Coxs
+        they are taken on in the mornings <emote type="neutral">it is a regular Babel till the Military Policeman <factor type="sense">uses his
+        persuader (truncheon)</factor> right and left and that calms them somewhat.</emote> I have not met Mr Cox's
         son yet but should I do so I will make myself known to him. I have had to revert to sapper
         again as there are not sufficient men of our staff for us to remain N.C.O.s but if it is
         brought up to strength I am promised them again. The first person I saw here was Gray of the
