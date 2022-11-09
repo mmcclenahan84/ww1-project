@@ -1,7 +1,6 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
     <opener>
-        <name type="person">William Perrin Mansbridge</name>
         <dateline>
             <date when="17 March 1916"/>
             <name type="place">France</name>
@@ -21,15 +20,15 @@
         Smith, Collins and myself are now settled down in H the place where Mr Lakers son was so
         long at. Collins and Lambert have been fortunate enough to get temporary clerical work
         during the last months. </p>
-    <p>I was promised one when on the 17th of last month <emote type="negative">I was <factor type="trauma">wounded</factor> by a
-                <factor type="battle">bomb</factor></emote> from a taube which landed clean through
-        our billet at 12 oclock at night, when we were all sound asleep. I caught it in the thigh,
-        but luckily it was only a flesh wound, but <emote type="negative">I had some <factor
-                type="trauma">awful bruises</factor> from the debris</emote> which fell on it. I
-        have been in hospital ever since at the base, but I am pleased to say <emote type="positive"
-            >I am now nearly well again</emote> and in a convalescent camp three miles from there,
-        overlooking the sea. We are not allowed to put our address at the heading of a letter so I
-        will put it here:</p>
+    <p>I was promised one when on the 17th of last month <emote type="negative">I was <factor
+                type="trauma">wounded</factor> by a <factor type="battle">bomb</factor></emote> from
+        a taube which landed clean through our billet at 12 oclock at night, when we were all sound
+        asleep. I caught it in the thigh, but luckily it was only a flesh wound, but <emote
+            type="negative">I had some <factor type="trauma">awful bruises</factor> from the
+            debris</emote> which fell on it. I have been in hospital ever since at the base, but I
+        am pleased to say <emote type="positive">I am now nearly well again</emote> and in a
+        convalescent camp three miles from there, overlooking the sea. We are not allowed to put our
+        address at the heading of a letter so I will put it here:</p>
     <p> 2AM /W.P. Mansbridge No.16929, Royal Flying Corps No. G 21 Hut no. 6 Convalescent Depot,
         A.P.O. S.17, British Expeditionary Force. After I am discharged from here, I shall be sent
         up to the base and then up the line with the best of luck as the Tommies say out here. I am
@@ -44,7 +43,7 @@
         yet, I could have done with your services on several occasions. How are Mr Slater and other
         members of the Stats. (or is that department disbanded?) Please remember kindly to them.
         (Lines censored) Cannot stop to write more now as I am just off to a concert in the Y.M.C.A.
-        hut in the camp here. (Lines censored) </p>
+        hut in the camp here.</p>
     <closer>
         <salute>Yours very sincerely</salute>
         <name type="person">Dick Mansbridge</name>
