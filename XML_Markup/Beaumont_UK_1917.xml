@@ -1,35 +1,34 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
-    <info>Harry Beaumont, 2 March
-        1917, Aratia, Yemen, Born: 17 October 1873,
-            Regiment: 1/6 East Surrey Regiment, Regiment number: 2297, Rank:
-        Quarter Master Sergeant, Died: 1952 Transcript</info>
+    <info>Harry Beaumont, 2 March 1917, Aratia, Yemen, Born: 17 October 1873, Regiment: 1/6 East
+        Surrey Regiment, Regiment number: 2297, Rank: Quarter Master Sergeant, Died: 1952
+        Transcript</info>
     <opener>
         <dateline>
-            <date when="1917-05-02">2 March
-                1917</date>
+            <date when="1917-05-02">2 March 1917</date>
             <name type="place">Aratia, Yemen</name>
         </dateline>
         <salute>Dear Bertie,</salute>
     </opener>
     <p><emote type="positive">Many thanks for your long and interesting letter, which has now
-            reached me, I will to it at length at a more opportune moment.</emote> As you will see
-        by above address I have left India. The regiment left the N.W. Indian frontier in January
-        where <factor type="conditions">the winter had been bitterly cold</factor> and embarked at
-        Karachi after a three day's train journey, <emote type="positive">then six day's most
-            pleasant voyage to Aden where we landed and now join part of the Aden Field
-            Force.</emote> I have been stationed with a strong detachment on the desert in close
-        proximity to a Turkish force <factor type="battle">who frequently shelled us</factor>, but
-        without any material damage. <emote type="neutral">The heat after the cold winter in India
-            is very trying, <factor type="conditions">scorching hot sun, endless sand and myriads of
-                torturing flies.</factor></emote> Life is very different here as compared to India.
-        I never pictured myself riding across the Arabian dessert on a camel. <emote type="positive"
-            >Am pleased to say I am splendidly fit and well, but should be glad when the struggle is
-            over and hope I shall be amongst those who return home safely.</emote> Trusting you are
-        well.</p>
+            reached me, I will to it at length at a more opportune moment.</emote></p>
+    <p> As you will see by above address I have left India. The regiment left the N.W. Indian
+        frontier in January where <factor type="conditions">the winter had been bitterly
+            cold</factor> and embarked at Karachi after a three day's train journey, <emote
+            type="positive">then six day's most pleasant voyage to Aden where we landed and now join
+            part of the Aden Field Force.</emote> I have been stationed with a strong detachment on
+        the desert in close proximity to a Turkish force <factor type="battle">who frequently
+            shelled us</factor>, but without any material damage. <emote type="neutral">The heat
+            after the cold winter in India is very trying, <factor type="conditions">scorching hot
+                sun, endless sand and myriads of torturing flies.</factor></emote> Life is very
+        different here as compared to India. I never pictured myself riding across the Arabian
+        dessert on a camel. <emote type="positive">Am pleased to say I am splendidly fit and well,
+            but should be glad when the struggle is over and hope I shall be amongst those who
+            return home safely.</emote></p>
+    <p>Trusting you are well. Best of wishes, kind regards to the remnants of the Audit staff. </p>
+
     <closer>
-        <salute>Best of wishes, kind regards to the remnants of the Audit staff. Yours most
-            sincerely</salute>
+        <salute>Yours most sincerely</salute>
         <signed>
             <name type="person">Harry Beaumont</name>
         </signed>
