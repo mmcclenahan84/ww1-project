@@ -12,15 +12,21 @@
         <salute>Dear Mr Smith,</salute>
     </opener>
     <p>I hope you will accept my apology for not writing before. It has not been want of will it has
-        been lack of opportunity. I wonder how you all are. <emote type="positive">I am fairly well now</emote> but was <emote type="negative">very queer
-        for several weeks recently.</emote> I also often wonder how you are all getting on and should like
-        to hear. A matter of about five minutes ago Fritz was <factor type="battle">bombing</factor> us, and I have just got up off
-        <factor type="sense">the ground where I was laying for about twenty minutes</factor>. <factor type="sense">One fellow has been hit</factor>, but not
+        been lack of opportunity. I wonder how you all are. <emote type="positive">I am fairly well
+            now</emote> but was <emote type="negative">very queer for several weeks
+            recently.</emote> I also often wonder how you are all getting on and should like to
+        hear.</p>
+
+    <p>A matter of about five minutes ago Fritz was <factor type="battle">bombing</factor> us, and I
+        have just got up off <factor type="sense">the ground where I was laying for about twenty
+            minutes</factor>. <factor type="sense">One fellow has been hit</factor>, but not
         severely by shrapnel. This is his second visit this evening.</p>
-    <p>It will soon be twelve months since I left you. <emote type="neutral">It seems a very long time ago.</emote> I am afraid I
-        have very little I may tell you, so will conclude by asking you to accept my best wishes for
-        the New year and desiring that you will remember me kindly to any enquiring friends. Believe
-        me, dear Mr Smith,</p>
+
+    <p>It will soon be twelve months since I left you. <emote type="neutral">It seems a very long
+            time ago.</emote> I am afraid I have very little I may tell you, so will conclude by
+        asking you to accept my best wishes for the New year and desiring that you will remember me
+        kindly to any enquiring friends. Believe me, dear Mr Smith,</p>
+
     <closer>
         <salute>sincerely yours,</salute>
         <name type="person">W. Wiggs</name>
