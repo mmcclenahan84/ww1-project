@@ -7,35 +7,44 @@
     <opener>
         <dateline>
             <date when="1916-04-06">April 6th</date>
-            <name type="place">unknown</name>
+            <name type="place">France</name>
         </dateline>
         <salute>Dear Mr Hunt,</salute>
     </opener>
     <p>Thanks very much for your letter which I received a week or two ago, also for the
         magazine.</p>
-    <p>We are in the <factor type="battle">trenches</factor> just now. In fact <emote type="negative">we seem to spend about three times as much time in
-        as we do out.</emote> Also we are in a pretty <factor type="battle">warm spot</factor>, it was about here, towards the end of last
-        summer that the French and German had some of the fiercest fighting of the war. The country
-        around about is a <factor type="battle">veritable maze of trenches</factor>. <emote type="negative">The fighting at one time was so fierce that
-        there was only time just to bury the dead</emote> in the sides of the trenches, and now that the
-        <factor type="conditions">trenches have crumpled</factor> one is constantly <factor type="sense">seeing the bones of mens legs or their boots</factor>, or
-        <factor type="sense">skulls</factor> sticking out from the sides of the trenches, pleasant, eh? <emote type="negative">There will be a pleasant
-        smell here in the summer.</emote> <emote type="neutral">I only hope we are not here then.</emote> In places we are only about
-        twenty yards away from Fritz and company. Consequently all times the air is pretty thick
-        with <factor type="battle">bombs</factor>, <factor type="battle">grenades</factor> and <factor type="battle">trench mortars.</factor></p>
 
-    <p>These last are pretty hellish sort of toys. They have <factor type="sense">an explosion like about ten earthquakes</factor>
-        rolled into one. <emote type="negative">But even these are not the worst we have to put up with.</emote> The trenches being
-        so close together there is of course any amount of <factor type="battle">mining</factor> going on. <emote type="neutral">So one never knows when
-        the particular lump of earth one is standing on is going to take a trip through the solar
-        regions.</emote> When a <factor type="battle">mine</factor> does go up, <emote type="negative">there is some excitement knocking about I can tell you.</emote>
-        Suppose for instance we were going to explode one, all the <factor type="battle">artillery</factor> in the neighbourhood is
-        ranged on the spot and directly the <factor type="battle">mine is exploded</factor>, there is hell let loose on the crater.
-        Of course as soon as he gets the range the <factor type="battle">enemy replies</factor>, so that <factor type="sense">the air is fairly full of
-        everything that kills quickly</factor>. <emote type="negative">One can on these occasions always rely on a good many
-        casualties.</emote> Since we have been in this spasm there have been <factor type="battle">five exploded</factor> in this
-        neighbourhood, while others are expected to go up at any time. <emote type="neutral">So much for conditions
-        here.</emote></p>
+    <p>We are in the <factor type="battle">trenches</factor> just now. In fact <emote
+            type="negative">we seem to spend about three times as much time in as we do out.</emote>
+        Also we are in a pretty <factor type="battle">warm spot</factor>, it was about here, towards
+        the end of last summer that the French and German had some of the fiercest fighting of the
+        war. The country around about is a <factor type="battle">veritable maze of
+        trenches</factor>. <emote type="negative">The fighting at one time was so fierce that there
+            was only time just to bury the dead</emote> in the sides of the trenches, and now that
+        the <factor type="conditions">trenches have crumpled</factor> one is constantly <factor
+            type="sense">seeing the bones of mens legs or their boots</factor>, or <factor
+            type="sense">skulls</factor> sticking out from the sides of the trenches, pleasant, eh?
+            <emote type="negative">There will be a pleasant smell here in the summer.</emote>
+        <emote type="neutral">I only hope we are not here then.</emote> In places we are only about
+        twenty yards away from Fritz and company. Consequently all times the air is pretty thick
+        with <factor type="battle">bombs</factor>, <factor type="battle">grenades</factor> and
+            <factor type="battle">trench mortars.</factor> These last are pretty hellish sort of
+        toys. They have <factor type="sense">an explosion like about ten earthquakes</factor> rolled
+        into one. <emote type="negative">But even these are not the worst we have to put up
+            with.</emote> The trenches being so close together there is of course any amount of
+            <factor type="battle">mining</factor> going on. <emote type="neutral">So one never knows
+            when the particular lump of earth one is standing on is going to take a trip through the
+            solar regions.</emote> When a <factor type="battle">mine</factor> does go up, <emote
+            type="negative">there is some excitement knocking about I can tell you.</emote> Suppose
+        for instance we were going to explode one, all the <factor type="battle">artillery</factor>
+        in the neighbourhood is ranged on the spot and directly the <factor type="battle">mine is
+            exploded</factor>, there is hell let loose on the crater. Of course as soon as he gets
+        the range the <factor type="battle">enemy replies</factor>, so that <factor type="sense">the
+            air is fairly full of everything that kills quickly</factor>. <emote type="negative">One
+            can on these occasions always rely on a good many casualties.</emote> Since we have been
+        in this spasm there have been <factor type="battle">five exploded</factor> in this
+        neighbourhood, while others are expected to go up at any time. <emote type="neutral">So much
+            for conditions here.</emote></p>
 
     <p>How is everything in town? Pretty quiet I suppose. I see youve had the zepps (Zeppelins) over
         again? Is it a fact that one dropped in the Thames? (Lines censored.) That is about all the
