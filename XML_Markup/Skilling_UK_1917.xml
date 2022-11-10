@@ -7,7 +7,7 @@
     <opener>
         <dateline>
             <date when="1917-01-05">January 5, 1917</date>
-            <name type="place">unknown</name>
+            <name type="place">Somme, France</name>
         </dateline>
         <name type="place">unknown</name>
         <salute>Dear Mr W.H. Davies,</salute>
@@ -20,8 +20,9 @@
         <factor type="sense">field card</factor> for about a month.</emote> <emote type="positive">Well I am pleased to tell you that I am still going on first
         rate.</emote> I expect you will be surprised to hear that I have left the Northamptonshire Regiment
         and am now attached to the Army Printing and Stationary Services. We are opening a new
-        branch in the photography line and I am here as a <factor type="prep">photographer</factor>. I am unable to tell you more
-        than this up to the present. I expect Harry will be pleased to hear this as he used to give
+        branch in the photography line and I am here as a <factor type="prep">photographer</factor>.</p> 
+        
+        <p>I am unable to tell you more than this up to the present. I expect Harry will be pleased to hear this as he used to give
         me quite a lot of tuition in this respect.</p>
 
     <p>There are only two of us here up to the present and <emote type="positive">as the <factor type="conditions">dark rooms</factor> are not finished yet we
