@@ -14,14 +14,15 @@
     <p>How are things going with you now? I expect like the rest of us will be glad when the better
         weather sets in for there is no doubt about it, <factor type="conditions">it has been rough
             lately.</factor></p>
+
     <p>Since I last wrote to you<factor type="prep"> we have shifted to another part of the
-            line</factor>
-        <factor type="battle">and it is a warm shop, for both sides must have all guns they can find
-            and it is nothing but one long duel all day and every day but thank goodness it gives
-            over a bit a night so that one can get on with their work. You see of a night the
-            flashes of the guns can be seen so plainly that is why they do not fire a lot
-            then.</factor>
+            line</factor><factor type="battle">and it is a warm shop, for both sides must have all
+            guns they can find and it is nothing but one long duel all day and every day but thank
+            goodness it gives over a bit a night so that one can get on with their work. You see of
+            a night the flashes of the guns can be seen so plainly that is why they do not fire a
+            lot then.</factor>
     </p>
+
     <p><emote type="negative">Just on our right our people retook some trenches we had lost, oh what
             a rough time the poor devils had, <factor type="conditions">snow and mud as much as you
                 like</factor> and they had to lay in it for two days and grub could not be got to
@@ -32,15 +33,17 @@
         papers that the air raids have been busy in England again. I suppose you have not seen
         anything of them yet, has Rory Moore had any more frights? <emote type="negative"> We have
             the taubes [German aircraft] over our hospital nearly every day or night and I can tell
-            you we got some starts at times.</emote>
-        <factor type="battle">The nearest we have to them since I have been here is just one yard
-            from the main door, at 12.30 it blew in two pairs of double doors and shattered on end
-            of the building to bits but not a great deal of damage to life which after all is the
-            main thing.</factor> The arrangements we in work is five or six days up the line and
-        four or five down if you are lucky. <emote type="negative">Of course at times these
-            arrangements go to pot when there is an attack and we get a warm time and I should like
-            to enlarge on these things but of course you understand I cannot.</emote>Give my kind
-        regards to all and trusting you are well. </p>
+            you we got some starts at times.</emote><factor type="battle">The nearest we have to
+            them since I have been here is just one yard from the main door, at 12.30 it blew in two
+            pairs of double doors and shattered on end of the building to bits but not a great deal
+            of damage to life which after all is the main thing.</factor> The arrangements we in
+        work is five or six days up the line and four or five down if you are lucky. <emote
+            type="negative">Of course at times these arrangements go to pot when there is an attack
+            and we get a warm time and I should like to enlarge on these things but of course you
+            understand I cannot.</emote></p>
+
+    <p>Give my kind regards to all and trusting you are well. </p>
+    
     <closer>
         <salute>Yours </salute>
         <signed>
