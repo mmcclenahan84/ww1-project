@@ -13,9 +13,11 @@
     </opener>
     <p>I expect you have heard at the office about me being in England <factor type="trauma"
             >suffering from gas poisoning,</factor> and as it is quite a long time since I last
-        wrote to you, no doubt a few lines will be acceptable, to explain matters. <factor
-            type="prep">We left the trenches at Vimy Ridge on July 5th, and marching back about 14
-            miles we eventually reached a village named Ostreville for the purpose of having a
+        wrote to you, no doubt a few lines will be acceptable, to explain matters.</p>
+
+    <p>
+        <factor type="prep">We left the trenches at Vimy Ridge on July 5th, and marching back about
+            14 miles we eventually reached a village named Ostreville for the purpose of having a
             divisional rest. The signallers thought an orchard would be very convenient to erect
             bivouacs in, so when we were busy carrying out this idea an old Frenchman appeared at
             the scene, and raised objections. However he agreed at last to allow us in at one end of
@@ -27,17 +29,18 @@
             we arrived at Mericourt Station on July 21st near Albert</factor>.</p>
     <p>
         <emote type="positive">After a delightful swim in <factor type="conditions">the river near
-                the billet</factor></emote>
-        <factor type="prep">we marched off the following night, to take part in the 'big
-            push.'</factor>
-        <factor type="conditions">We slept in an open field that night near Fricourt farm, and were
-            rather rudely awakened by a few German shells landing near us.</factor> For five days we
-        were lying in reserve in this district, and occupied our time in watching an army of men at
-        work in the valley, making roads, railways, boring for water and laying down water pipes,
-        also practicing attacks in the old trenches. <emote type="positive"> It was very interesting
-            to see the great amount of artillery, busy practically all day and night,</emote> and to
-        read their messages sent by visual signalling [often using lights] from a ridge across the
-        valley. </p>
+                the billet</factor></emote><factor type="prep">we marched off the following night,
+            to take part in the 'big push.'</factor><factor type="conditions">We slept in an open
+            field that night near Fricourt farm, and were rather rudely awakened by a few German
+            shells landing near us.</factor></p>
+
+    <p>For five days we were lying in reserve in this district, and occupied our time in watching an
+        army of men at work in the valley, making roads, railways, boring for water and laying down
+        water pipes, also practicing attacks in the old trenches. <emote type="positive"> It was
+            very interesting to see the great amount of artillery, busy practically all day and
+            night,</emote> and to read their messages sent by visual signalling [often using lights]
+        from a ridge across the valley. </p>
+
     <p><factor type="prep">Our period in reserve being up, we moved to Mametz Wood to lie there in
             support for five days, before going into the trenches at High Wood.</factor>
         <factor type="battle"> On arrival at the edge of the wood at night, we were welcomed by a
@@ -48,22 +51,28 @@
             by the ammunition columns rushing along the road, and it was during this time that I
             must have breathed in enough gas to put me out of action.</factor>
         <factor type="prep">Afterwards of course respirators were used, when we were settled in
-            holes by the roadside for the night. I remained with the battalion until I was sent to
-            the casualty clearing station on August 3rd and reached Rouen hospital the next day. I
-            had to wait until the 9th and crossed the channel from Havre to Southampton on the New
-            Zealand ship Marama, with about 800 other patients, the day after.</factor>
-        <emote type="positive">It was a splendid boat with every convenience for carrying wounded
-            men, and the sisters and orderlies were colonials.</emote> It was last Friday week when
-        I arrived here, and must say <emote type="positive">it is very comfortable and quiet. I had
-            to remain in bed until last Saturday, but of course I cannot do any route marching yet!
-            So I have to take life quietly, which is no hardship I can assure you after
-            France.</emote> I am on an ordinary diet, and taking medicine.</p>
+            holes by the roadside for the night.</factor></p>
+
+    <p>I remained with the battalion until I was sent to the casualty clearing station on August 3rd
+        and reached Rouen hospital the next day. I had to wait until the 9th and crossed the channel
+        from Havre to Southampton on the New Zealand ship Marama, with about 800 other patients, the
+        day after. <emote type="positive">It was a splendid boat with every convenience for carrying
+            wounded men, and the sisters and orderlies were colonials.</emote></p>
+
+    <p>It was last Friday week when I arrived here, and must say <emote type="positive">it is very
+            comfortable and quiet. I had to remain in bed until last Saturday, but of course I
+            cannot do any route marching yet! So I have to take life quietly, which is no hardship I
+            can assure you after France.</emote> I am on an ordinary diet, and taking medicine.</p>
+
     <p>I hear you have Mr Symons back again, is that so? And is he back in the same old spot?<emote
             type="neutral"> I hope he is pretty fit, although I suppose there must be something
-            wrong with him, to be back again.</emote> I suppose things are as quiet as usual with
-        you. Have you had your holidays yet? This is about your time I believe. I shall be glad of a
-        few lines when you have time, to hear the latest about the office.I hope you are keeping
-        fit, also Mr J.B. Taylor and Mr Woodhams and with kind regards to you all.</p>
+            wrong with him, to be back again.</emote></p>
+
+    <p>I suppose things are as quiet as usual with you. Have you had your holidays yet? This is
+        about your time I believe. I shall be glad of a few lines when you have time, to hear the
+        latest about the office.I hope you are keeping fit, also Mr J.B. Taylor and Mr Woodhams and
+        with kind regards to you all.</p>
+    
     <closer>
         <salute>Yours sincerely.</salute>
         <signed>
