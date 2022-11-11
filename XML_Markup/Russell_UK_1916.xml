@@ -1,9 +1,8 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <div type="letter">
  <info>Born: 30 March 1883, Regiment: Railway Troop, Royal Engineers, Regiment number: 138053, Rank:
-  Sapper, Died: 1965</info>
+  Sapper, Died: 1965  Editorial Note: last paragraph transcribed by AMC, not by UK Archivists.</info>
  <opener>
-  <name type="person">Mark Anthony Russell</name>
   <dateline>
    <date when="4 February 1916"/>
    <name type="place">France</name>
@@ -18,20 +17,33 @@
   putting in as much as eighteen hours a day sometimes and it would not do to send deputations to
   the chief who is also hard at it, in his room; there is a special way of dealing with such in the
   army.</p>
+
  <p>Of course one never knows how long this may last I may have marching orders to proceed elsewhere
-  any day. Each day is absolutely a day unto itself here. We dont count tomorrow. I see you have
-  been visited with a blizzard, we also have had <factor type="conditions">a severe touch of
-   winter</factor> and at the present moment it is snowing hard outside. The shutters are closed and
-  the work is being carried on by lamplight, this is necessary owing to the glass having recently
-  left the windows in small fragments some souvenirs [shells] having called upon us. When the
-  weather is fine we are fresh air fiends now both day and night except that we close the shutters
-  when snowing or raining. The latter it is often doing. There are hosts of interesting things I
-  could write you about but these will do later on when I have the pleasure of seeing you. Lieut.
-  Duntons crowd was hereabouts, but I did not run up against him.</p>
+  any day. Each day is absolutely a day unto itself here. We dont count tomorrow.</p>
+
+ <p>I see you have been visited with a blizzard, we also have had <factor type="conditions">a severe
+   touch of winter</factor> and at the present moment it is snowing hard outside. The shutters are
+  closed and the work is being carried on by lamplight, this is necessary owing to the glass having
+  recently left the windows in small fragments some souvenirs [shells] having called upon us. When
+  the weather is fine we are fresh air fiends now both day and night except that we close the
+  shutters when snowing or raining. The latter it is often doing.</p>
+
+ <p>There are hosts of interesting things I could write you about but these will do later on when I
+  have the pleasure of seeing you. Lieut. Duntons crowd was hereabouts, but I did not run up against
+  him.</p>
+
  <p>I suppose the Derby* entries have commenced to run now. I met another GW fellow the other day,
   Sergeant Gregory, a Slough fellow. I think George Jones would know him. I have seen this fellow at
-  Paddington but did not know him to speak to. I had a letter from Longmoor Camp. Must correct
-  information. J. Higgs is in the Railway Transport Engineers with another friend of mine, Watton of
-  Windsor who was in the Finance office</p>
+  Paddington but did not know him to speak to.</p>
+
+ <p> I had a letter from Longmoor Camp. Must correct information. J. Higgs is in the Railway
+  Transport Engineers with another friend of mine, Watton of Windsor who was in the Finance
+  office</p>
+
+ <p>Has Charlie Millcox come over this side of the water yet? I am looking out for him on all the
+  transport wagons. I may run him down some day. Perhaps [he'll] be pleased to hear from him when
+  you have the time. </p>
  <closer/>
+
+ <postscript>C/o A.D.R.T. SOUTHERN RAILHEADS BER FRANCE will find me.</postscript>
 </div>
