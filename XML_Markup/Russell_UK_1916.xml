@@ -1,10 +1,11 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
  <info>Born: 30 March 1883, Regiment: Railway Troop, Royal Engineers, Regiment number: 138053, Rank:
   Sapper, Died: 1965  Editorial Note: last paragraph transcribed by AMC, not by UK Archivists.</info>
  <opener>
   <dateline>
-   <date when="4 February 1916"/>
+   <date when="1916-02-04"/>
    <name type="place">France</name>
   </dateline>
 
