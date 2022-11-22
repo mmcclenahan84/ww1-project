@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>James Walter Hyam, 15 April 1918, Roorkee, India. Born: 24 July 1891, Regiment: 11
         Hussars, C. Squadron; Royal Field Artillery; Royal Garrison Artillery, Regiment number:

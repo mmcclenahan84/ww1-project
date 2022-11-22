@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>R.C.S. Frost,23 November 1916, Dartmouth, England. Born: 30 January 1888, Regiment: 8th
         Argyll and Sutherland Highlanders; Duke of Cornwall's Light Infantry, Regiment number: 1998;
