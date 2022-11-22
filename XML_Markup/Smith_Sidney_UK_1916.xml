@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Sidney Smith, 19 March 1916, France. Born: 20 October 1881, Regiment: Railway Operatives
         Division, Royal Engineers, Regiment number: 218849, Rank: Sapper, Returned to office: 19 May

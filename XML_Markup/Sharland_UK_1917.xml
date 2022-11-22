@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Kenneth William Sharland, 26 July 1917, Pashan Camp, Kirkee, India. Born: 25 September
         1888, Regiment: 1/6 East Surrey Regiment; Bedfordshire Regiment; Bedfordshire and
