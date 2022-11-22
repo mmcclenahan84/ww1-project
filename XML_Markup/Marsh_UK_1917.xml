@@ -1,9 +1,12 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
+
+    <info>Henry James Marsh</info>
+    <!-- This was tagged as <name> which is invalid with the schema. I have changed it to <info> for validation purposes. -->
     <opener>
-        <name type="person">Henry James Marsh</name>
         <dateline>
-            <date when="14th January, 1917"/>
+            <date when="1917-01-14"/>
             <name type="place">Indian Oceane</name>
         </dateline>
         <salute>Dear Bob,</salute>
