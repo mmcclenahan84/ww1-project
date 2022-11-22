@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info> Frederick Ernest Andrews, 16 October 1917, France Born: 15 November 1879, Regiment:
         Railway Operation Division, Royal Engineers, Regiment number: 218857, Rank: Sapper, Returned

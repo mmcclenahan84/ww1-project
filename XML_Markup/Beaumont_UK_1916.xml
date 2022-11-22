@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Harry Beaumont, 18 August 1916, Rawalpindi, India. Born: 17 October 1873, Regiment: 1/6
         East Surrey Regiment, Regiment number: 2297, Rank: Quarter Master Sergeant, Died: 1952
