@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>James Davies, 23 June 1916, France. Regiment: 6 City of London Rifles, Regiment number:
         3343, Rank: Lance Corporal Transcript</info>

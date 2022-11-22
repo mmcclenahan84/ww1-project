@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Henry Bullen, 24 July 1916, Egypt. Born: 25 April 1893, Regiment: 2/10 Middlesex regiment,
         Regiment number: 2858, Rank: Private, Died: 1942 Transcript An employee at the Audit office
