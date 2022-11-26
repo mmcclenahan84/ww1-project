@@ -1,7 +1,12 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info><!-- source: https://www.facinghistory.org/en-gb/resource-library/letter-trenches --></info>
     <opener>
+        <dateline>
+            <date when="unknown">unknown</date>
+            <name type="place">unkown</name>
+        </dateline>
         <salute>My Dear Parents,</salute>
     </opener>
 

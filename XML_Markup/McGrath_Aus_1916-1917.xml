@@ -1,5 +1,6 @@
 
 <?xml-model href="../series_letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <body>
     <!--Mitchell Library, State Library of New South Wales
 William McGrath, 3 January 1915-27 January 1917-->
@@ -7,7 +8,7 @@ William McGrath, 3 January 1915-27 January 1917-->
     <div type="letter">
         <opener>
             <dateline>
-                <date when="8th June 1916"/>
+                <date when="1916-06-08"/>
                 <name type="place">unknown</name>
             </dateline>
             <salute>My dear old Jack &amp; Clare,</salute>

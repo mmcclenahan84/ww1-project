@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>William Charles Davis, 15 March 1916, France. Born: 12 November 1884, Joined GWR: 12
         January 1900, Regiment: Royal Army Medical Corps, Regiment number: 31223, Rank: Lance

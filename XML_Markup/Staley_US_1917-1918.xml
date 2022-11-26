@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- source:http://www.u.arizona.edu/~rstaley/wwlettr1.htm -->
 <?xml-model href="../series_letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <body>
 
     <div type="letter">
@@ -46,7 +47,7 @@
 
     <div type="letter">
         <opener><dateline>
-            <date when="1918-04-xx">April 1918</date>
+            <date when="1918-04-00">April 1918</date>
             <name type="place">at sea</name>
         </dateline>
         <salute>My Dearest Mary,</salute></opener>

@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info> This transcript is from a letter by Private Leonard Hart to his parents on 19 October
         1917. Hart describes in detail the terrible events of 12 October 1917 when New Zealand
@@ -10,7 +11,7 @@
     <opener>
         <dateline>
             <date when="1917-10-19">Oct 19, 1917</date>
-            <name type="place">France</name>
+            <name type="place">France,</name>
         </dateline>
         <salute>Dear Mother, Father and Connie,</salute>
     </opener>
@@ -243,7 +244,7 @@
             occasion at any rate......</emote>
     </p>
     <closer>
-        <salute>I remain Your affectionate son</salute>
+        <salute>I remain Your affectionate son,</salute>
         <signed>
             <name type="person">Len</name>
         </signed>

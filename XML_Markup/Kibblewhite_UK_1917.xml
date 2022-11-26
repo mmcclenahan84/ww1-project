@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>James Claude Kibblewhite, 1 September 1917, Malta. Born: 14 June 1895, Regiment: 2/13
         Battalion London Regiment, Regiment number: 490602, Rank: Sergeant, Died: 20 December 1951

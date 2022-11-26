@@ -1,9 +1,12 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
+
+    <info>Charles Monaghan</info>
+    <!-- This was tagged as <name> which is invalid with the schema. I have changed it to <info> for validation purposes. -->
     <opener>
-        <name type="person">Charles Monaghan</name>
         <dateline>
-            <date when="July 21, 1920"/>
+            <date when="1920-07-21"/>
             <name type="place">unknown</name>
         </dateline>
         <salute>My beloved Em</salute>
@@ -37,16 +40,17 @@
     <p>Little did we think it possible that 4 years hence we'd be safely back in the homeland
         writing by a cosy fire with nothing more terrifying than the crackling sparks to remind us
         of former fireworks. Then the homecoming last year. Though it was sadly clouded, there was
-        that bright single ray, when followed brought me to you. <emote type = "positive">Hope burned within me</emote> from the time
-        it was illuminated during the period of our correspondence, &amp; the first sight of your
-        dear face on that Monday afternoon, set the glow of ever, As long as life lasts &amp; in the
-        hereafter Yes, my beloved I thank God for all His goodness. 'His mercies endueth forever'. I
-        loved your last letter, Em It breathed the pure tender purpose of a high ideal, &amp;
-        together we will strive to attain that lofty plane of true &amp; perfect Love. When I
-        revisit the past twelve months my heart overflows in a paen of happy rejoicing. It has given
-        me you, the gentlest, sweetest truest &amp; best lassie man can be blest with. May I ever be
-        worthy of my great possession. I'll write no day by day news this time dear. Will reserve
-        till our next. Good night my love, may sweet sleep give you all his rest.</p>
+        that bright single ray, when followed brought me to you. <emote type="positive">Hope burned
+            within me</emote> from the time it was illuminated during the period of our
+        correspondence, &amp; the first sight of your dear face on that Monday afternoon, set the
+        glow of ever, As long as life lasts &amp; in the hereafter Yes, my beloved I thank God for
+        all His goodness. 'His mercies endueth forever'. I loved your last letter, Em It breathed
+        the pure tender purpose of a high ideal, &amp; together we will strive to attain that lofty
+        plane of true &amp; perfect Love. When I revisit the past twelve months my heart overflows
+        in a paen of happy rejoicing. It has given me you, the gentlest, sweetest truest &amp; best
+        lassie man can be blest with. May I ever be worthy of my great possession. I'll write no day
+        by day news this time dear. Will reserve till our next. Good night my love, may sweet sleep
+        give you all his rest.</p>
     <closer>
         <salute>Ever yours</salute>
         <name type="person"> Chas</name>

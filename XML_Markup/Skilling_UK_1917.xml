@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Hugh Andrew Skilling, 5 January 1917, France. Born: 17 April 1891, Regiment: 3 Battalion
         Bedfordshire Regiment; 7 London Brigade Field Artillery, Regiment number: 43228, Rank: Lance

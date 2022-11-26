@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Frank Thayer Turner, 13 July 1916, Morn Hill Camp, Winchester, England. Born: 22 October
         1897, Joined GWR: 13 April 1912, Regiment: Company 3/18 London Irish Regiment, Returned to

@@ -1,10 +1,11 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Born: 5 January 1877, Regiment: Railway Troop, Royal Engineers, Regiment number: 138054,
         Rank: Sapper, Returned to office: 5 May 1919</info>
     <opener>
         <dateline>
-            <date when="21 April 1916"/>
+            <date when="1916-04-21"/>
             <name type="place">Salonika, Greece.</name>
         </dateline>
 

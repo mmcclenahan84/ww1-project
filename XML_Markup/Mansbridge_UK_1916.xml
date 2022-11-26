@@ -1,8 +1,9 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <opener>
         <dateline>
-            <date when="17 March 1916"/>
+            <date when="1916-03-17"/>
             <name type="place">France</name>
         </dateline>
         <salute>Dear Gerald,</salute>

@@ -1,4 +1,5 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info> Sydney Charles Douce, January 1916, Fovant Camp, Wiltshire. Born: 17 November 1882,
         Joined GWR: 28 November 1898, Regiment: 1/5 London Regiment; 3rd Battalion London Rifle
@@ -6,7 +7,7 @@
         Died: 1933. Transcript</info>
     <opener>
         <dateline>
-            <date when="1916-01">January 1916</date>
+            <date when="1916-01-00">January 1916</date>
             <name type="place">Fovant Camp, Wiltshire</name>
         </dateline>
         <salute>Dear</salute>

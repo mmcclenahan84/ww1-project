@@ -1,10 +1,11 @@
 <?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div type="letter">
     <info>Born: 1 April 1893, Regiment: Royal Flying Corps, Regiment number: 16922, Rank: 1st class
         Air Mechanic, Returned to office: 10 March 1919, Retired: Resigned on 25 March 1925. </info>
     <opener>
         <dateline>
-            <date when="26 April 1917"/>
+            <date when="1917-04-26"/>
             <name type="place">France</name>
         </dateline>
 
