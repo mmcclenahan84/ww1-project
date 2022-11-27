@@ -10,7 +10,7 @@
             <date when="1917-01-05">January 5, 1917</date>
             <name type="place">Somme, France</name>
         </dateline>
-        <name type="place">unknown</name>
+       
         <salute>Dear Mr W.H. Davies,</salute>
     </opener>
     <p>Just a line to let you know I have not forgotten you. I received a <factor type="sense">letter</factor> on Tuesday 3rd of
@@ -41,7 +41,7 @@
         was over our knees</factor> in the <factor type="battle">trenches</factor> and it was <emote type="negative">impossible to use the <factor type="battle">communication trenches</factor>
         at all.</emote> We were holding the <factor type="battle">front line</factor> with <factor type="battle">two platoons</factor> (I should say our boys section of
         the line). <factor type="sense">Our platoon was twenty two strong</factor> including the Officer, and during the
-        bombardment we had <factor type="trauma">eight put out in ten minutes</factor>. There were <factor type="conditions">no dugouts of any description</factor>
+        <factor type="battle">bombardment</factor> we had <factor type="trauma">eight put out in ten minutes</factor>. There were <factor type="conditions">no dugouts of any description</factor>
         there, so you can imagine what it was like to <factor type="conditions">stand there for four nights</factor>. <emote type="negative">We hoped the
         <factor type="conditions">weather</factor> would be alright so that we could <factor type="battle">go over and get it done with</factor> but it was not to be.</emote>
         We were out <factor type="prep">digging</factor> one night when they let us have it for five hours with <factor type="battle">gas shells</factor>, we
