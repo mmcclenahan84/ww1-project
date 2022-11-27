@@ -5,278 +5,337 @@
 <body>
 
     <div type="letter">
-        <opener><dateline>
-            <date when="1917-08-06"> August 6th</date>
-            <name type="place">'Army City' Garnett, Kansas</name>
-        </dateline>
-        <salute>My Dearest Mary,</salute></opener>
+        <opener>
+            <dateline>
+                <date when="1917-08-06"> August 6th</date>
+                <name type="place">'Army City' Garnett, Kansas</name>
+            </dateline>
+            <salute>My Dearest Mary,</salute>
+        </opener>
+        
         <p>We are in the Army now. I am sitting inside our little old tent listening to the gentle
             patter of the <factor type="conditions">raindrops</factor> on the canvas. It began
             raining here this morning and it is still at it. No <factor type="prep">drill</factor>
-            today, so I will have time to write a letter or two. <emote type="positive">We got into the city all O.K.</emote>,
-            marched up to the armory and had dinner. They have mess in the armory. <emote type="neutral">We have to march
-            back and forth to eat.</emote> <factor type="sense">Eats are pretty good so far</factor> as they have some <factor type="sense">women helping with
-            the cooking.</factor></p>
+            today, so I will have time to write a letter or two. <emote type="positive">We got into
+                the city all O.K.</emote>, marched up to the armory and had dinner. They have mess
+            in the armory. <emote type="neutral">We have to march back and forth to eat.</emote>
+            <factor type="sense">Eats are pretty good so far</factor> as they have some <factor
+                type="sense">women helping with the cooking.</factor></p>
 
         <p>Set up camp in the afternoon. Shoemaker has been Acting Corporal in our squad. We got the
             tent up all right under the direction of one of the old heads who has seen service on
-            the border. Some <factor type="prep">equipment</factor> was issued in the afternoon. As my name is down well in the
-            list, I have not received anything yet in my own name.</p>
-        
+            the border. Some <factor type="prep">equipment</factor> was issued in the afternoon. As
+            my name is down well in the list, I have not received anything yet in my own name.</p>
+
         <p>Corporal Hilton is staying in town so he let me have his stuff. Got pack, gun, poncho,
-            and numerous <factor type="sense">other things I don't know what are used for</factor>. <factor type="conditions">Slept on the ground</factor> last night
-            in a tent with just an <factor type="conditions">even dozen in it</factor>. Some of the fellows are staying in town at
-            hotels, rooming houses, and private houses. Taken altogether, <emote type="negative">things are in rather poor
-            shape as yet</emote>, but I suppose it takes a little time to get around. A few of the bunch act
-            like a bunch of bums instead of soldiers, but they will get that taken out of them when
-            they get to a real camp.</p>
+            and numerous <factor type="sense">other things I don't know what are used for</factor>.
+                <factor type="conditions">Slept on the ground</factor> last night in a tent with
+            just an <factor type="conditions">even dozen in it</factor>. Some of the fellows are
+            staying in town at hotels, rooming houses, and private houses. Taken altogether, <emote
+                type="negative">things are in rather poor shape as yet</emote>, but I suppose it
+            takes a little time to get around. A few of the bunch act like a bunch of bums instead
+            of soldiers, but they will get that taken out of them when they get to a real camp.</p>
+        
         <p>They got Parker Melliush for kitchen duty the first thing. Walter Anthony was stuck for
             guard duty last night. It must be fine walking up and down in front of a row of tents
             watching the other fellows sleep. One thing they did do, everybody had to quiet down at
-            ten-thirty last night. <emote type="positive">We had a good entertainment</emote> before lights out. (We had a light,
-            too, as some of the bunch got hold of a <factor type="conditions">lantern</factor>.) A fellow in our squad by the name of
-            Donald <factor type="sense">gets off some pretty good comedy</factor> -- original stuff, too. He is a rather rough
-            nut, but not as bad as some of this crowd.</p>
+            ten-thirty last night. <emote type="positive">We had a good entertainment</emote> before
+            lights out. (We had a light, too, as some of the bunch got hold of a <factor
+                type="conditions">lantern</factor>.) A fellow in our squad by the name of Donald
+                <factor type="sense">gets off some pretty good comedy</factor> -- original stuff,
+            too. He is a rather rough nut, but not as bad as some of this crowd.</p>
         <p>There was some crowd at the station yesterday, wasn't there? I think I shook hands with
-            everybody in town three or four times. <emote type="negative">Not a very pleasant task under the circumstances,
-            either.</emote> Well, I got <emote type="negative">so much company in here that I can't think straight.</emote> This is rather
-            a poor excuse of a letter, but I will write again soon.</p>
-        <closer><salute>With best of love to my own little girl,</salute>
-        <name type="person">Lloyd S.</name></closer>
+            everybody in town three or four times. <emote type="negative">Not a very pleasant task
+                under the circumstances, either.</emote> Well, I got <emote type="negative">so much
+                company in here that I can't think straight.</emote> This is rather a poor excuse of
+            a letter, but I will write again soon.</p>
+        
+        <closer>
+            <salute>With best of love to my own little girl,</salute>
+            <name type="person">Lloyd S.</name>
+        </closer>
     </div>
 
     <div type="letter">
-        <opener><dateline>
-            <date when="1918-04-00">April 1918</date>
-            <name type="place">at sea</name>
-        </dateline>
-        <salute>My Dearest Mary,</salute></opener>
+        <opener>
+            <dateline>
+                <date when="1918-04-00">April 1918</date>
+                <name type="place">at sea</name>
+            </dateline>
+            <salute>My Dearest Mary,</salute>
+        </opener>
         <p> I write this on board a boat that will leave for overseas soon. Our letters are all
-            <factor type="sense">censored from now on</factor> so there is no use wasting my time and the censor's trying to tell
-            you some things.</p>
+                <factor type="sense">censored from now on</factor> so there is no use wasting my
+            time and the censor's trying to tell you some things.</p>
         <p>I took in a little of New York last night. I went into the city from Long Island by the
             way of the tube under the Hudson River. I got out at the Pennsylvania station and spent
-            the rest of the night to 1:30 a.m. just looking around. <emote type="neutral">There wasn't any chance to go to
-            a good show</emote> because you know how the advance sales take everything. Harry Lauder is at the Metropolitan and <emote type="neutral">I would
-            certainly like to have seen him.</emote></p>
+            the rest of the night to 1:30 a.m. just looking around. <emote type="neutral">There
+                wasn't any chance to go to a good show</emote> because you know how the advance
+            sales take everything. Harry Lauder is at the Metropolitan and <emote type="neutral">I
+                would certainly like to have seen him.</emote></p>
         <p>I saw where the film "The Beast of Berlin" was being shown and right across the street
             was Arthur Guy Empey, "Over the Top".</p>
-        <p>The city is <factor type="sense">full of soldiers and sailors all the time</factor>, I guess. Anyway there were a good
-            many last night.</p>
-        <p>The city is an easy place to get lost because of the <factor type="sense">irregularity of the streets</factor>. Most
-            all streets out our way cross each other at angles but in N.Y. they may take any
-            direction. I walked down one street and when I took a notion to turn and go back, I
-            wasn't on the same street at all and I couldn't tell where I made any turn.</p>
-        <p>I got a good look at the city <factor type="sense">from the waterfront</factor> today. It was <factor type="conditions">a bright clear day</factor> and we
-            could see quite a distance. I have seen pictures of N.Y. from the Hudson and I can say
-            that the real thing was just a picture laid before you. <emote type="neutral">I would like to have stayed at
-            Camp Mills until I had seen more of the city but the powers that be see otherwise.</emote></p>
-        <p><emote type="neutral">I can scarcely realize we are going.</emote> Everything moves off without any trouble or delay
-            that it might just as well be a trip up the river.</p>
-        <p>Well, <emote type="positive">I have been looking forward to this for quite a while</emote> and I guess, now that the
-            time for going has come, it fits right into my scheme and ways of thinking that the
-            going seems only a small part of it.</p>
+        <p>The city is <factor type="sense">full of soldiers and sailors all the time</factor>, I
+            guess. Anyway there were a good many last night.</p>
+        <p>The city is an easy place to get lost because of the <factor type="sense">irregularity of
+                the streets</factor>. Most all streets out our way cross each other at angles but in
+            N.Y. they may take any direction. I walked down one street and when I took a notion to
+            turn and go back, I wasn't on the same street at all and I couldn't tell where I made
+            any turn.</p>
+        <p>I got a good look at the city <factor type="sense">from the waterfront</factor> today. It
+            was <factor type="conditions">a bright clear day</factor> and we could see quite a
+            distance. I have seen pictures of N.Y. from the Hudson and I can say that the real thing
+            was just a picture laid before you. <emote type="neutral">I would like to have stayed at
+                Camp Mills until I had seen more of the city but the powers that be see
+                otherwise.</emote></p>
+        <p><emote type="neutral">I can scarcely realize we are going.</emote> Everything moves off
+            without any trouble or delay that it might just as well be a trip up the river.</p>
+        <p>Well, <emote type="positive">I have been looking forward to this for quite a
+                while</emote> and I guess, now that the time for going has come, it fits right into
+            my scheme and ways of thinking that the going seems only a small part of it.</p>
         <p>Well, I must close so as to mail this right away so, goodbye little girl for a time at
             least. Keep on writing.</p>
-        <closer><salute>With truest love,</salute>
-            <name type="person">Lloyd M. Staley</name></closer>
+        <closer>
+            <salute>With truest love,</salute>
+            <name type="person">Lloyd M. Staley</name>
+        </closer>
         <postscript>My address: Co. K, 137 Infantry, American Expeditionary Forces</postscript>
 
     </div>
 
     <div type="letter">
-        <opener><dateline>
-            <date when="1918-05-29">May 29th</date>
-            <name type="place">unknown</name>
-        </dateline>
-        <salute>My Dearest Mary,</salute></opener>
-        <p>I received my first mail since I have gotten across yesterday. Two <factor type="sense">letters</factor> from you are
-            dated April 19 and the other April 22. The first one was written before you had heard my
-            N.Y. address and the other was addressed to Camp Mills. <emote type="positive">They were indeed highly
-            appreciated letters</emote> and I believe that I can look for more right soon as the mail has
-            begun to come now. There were <factor type="sense">two other letters</factor> for me also; one from Mother and
-            Ethel . the other from
-            James.Probably James Gasaway, a boyhood friend. The last was of the most recent date:
-            May 6. <emote type="positive">This was certainly an excited company when we found out there was <factor type="sense">so much mail</factor>
-            for us.</emote> <emote type="positive">Almost everyone got <factor type="sense">at least one letter</factor> and a few were as fortunate as
-            myself.</emote></p>
-        <p>I was rather surprised to hear that Robert  was going into the
-            R.F.C.  although you had told me of it, too.
-            But to know that he had already left for camp and by the time you get this letter he
-            will probably be in England was just a bit of a surprise. <emote type="positive">Well, I am glad that he is in
-            the service</emote> but, of course, <emote type="neutral">I would like to have seen him in a uniform of the U.S.A.</emote> <emote type="positive">It
-            is all one cause, however, and we are comrades just the same whether American, English,
-            or what.</emote> I have <factor type="sense">seen some mighty fine men from Britain</factor> just what short time I have been
-            here. (My pen went dry and I haven't any ink at my elbow as I did in U.S.) Speaking of
-            the English, <emote type="positive">it is wonderful how men can go through three and four years of this war and
-            still be <factor type="sense">smiling, cheerful, good-natured fellows</factor>,</emote> but they are. I agree with Robert when
-            he says there will be two classes of men in America after the war -- the ones who went,
-            and the ones who did not. And I believe as he does the ones who went are going to be the
-            ones who will have charge of affairs when they get back for, <emote type="neutral">if a man stands this war
-            and still comes out smiling, he is a man.</emote> <emote type="positive">I certainly hope I may have a chance of seeing
-            Robert over here</emote> but it would be only an accident I am afraid. Let me know his address
+        <opener>
+            <dateline>
+                <date when="1918-05-29">May 29th</date>
+                <name type="place">unknown</name>
+            </dateline>
+            <salute>My Dearest Mary,</salute>
+        </opener>
+        <p>I received my first mail since I have gotten across yesterday. Two <factor type="sense"
+                >letters</factor> from you are dated April 19 and the other April 22. The first one
+            was written before you had heard my N.Y. address and the other was addressed to Camp
+            Mills. <emote type="positive">They were indeed highly appreciated letters</emote> and I
+            believe that I can look for more right soon as the mail has begun to come now. There
+            were <factor type="sense">two other letters</factor> for me also; one from Mother and
+            Ethel . the other from James.Probably James Gasaway, a boyhood friend. The last was of
+            the most recent date: May 6. <emote type="positive">This was certainly an excited
+                company when we found out there was <factor type="sense">so much mail</factor> for
+                us.</emote>
+            <emote type="positive">Almost everyone got <factor type="sense">at least one
+                    letter</factor> and a few were as fortunate as myself.</emote></p>
+        <p>I was rather surprised to hear that Robert was going into the R.F.C. although you had
+            told me of it, too. But to know that he had already left for camp and by the time you
+            get this letter he will probably be in England was just a bit of a surprise. <emote
+                type="positive">Well, I am glad that he is in the service</emote> but, of course,
+                <emote type="neutral">I would like to have seen him in a uniform of the
+                U.S.A.</emote>
+            <emote type="positive">It is all one cause, however, and we are comrades just the same
+                whether American, English, or what.</emote> I have <factor type="sense">seen some
+                mighty fine men from Britain</factor> just what short time I have been here. (My pen
+            went dry and I haven't any ink at my elbow as I did in U.S.) Speaking of the English,
+                <emote type="positive">it is wonderful how men can go through three and four years
+                of this war and still be <factor type="sense">smiling, cheerful, good-natured
+                    fellows</factor>,</emote> but they are. I agree with Robert when he says there
+            will be two classes of men in America after the war -- the ones who went, and the ones
+            who did not. And I believe as he does the ones who went are going to be the ones who
+            will have charge of affairs when they get back for, <emote type="neutral">if a man
+                stands this war and still comes out smiling, he is a man.</emote>
+            <emote type="positive">I certainly hope I may have a chance of seeing Robert over
+                here</emote> but it would be only an accident I am afraid. Let me know his address
             from time to time so if there is any way of seeing him, I will do all I can to find
             him.</p>
         <p>You must have a nice home now and right in your old neighborhood. And those fruit trees
             take my eye. I believe I could consume your total production right now. Some of these
             times we will sample that fruit and also stroll over to Swope Park and look things over
             considerably after the war, apres la guerre, as the French say. Whenever you say
-            anything to them about certain things they can't do now, <emote type="negative">they always say "after the
-            war," and I think that little expression shows to what extremes they are willing to go
-            in <factor type="sense">self sacrifice.</factor></emote><emote type="positive"> I certainly have a very high opinion of the French.</emote> They are most
-            <factor type="sense">highly respected by the American soldiers and they return the compliment</factor>.</p>
-        
-        <p>To sit here where I am now, <emote type="neutral">it seems scarcely possible that we are so <factor type="conditions">near the front</factor>.</emote>
-            This country here is a <factor type="sense">peaceful-looking farming country</factor> and, to look out over the quiet
-            fields, <emote type="neutral">it is hard to realize that the <factor type="battle">fighting</factor> is so close at hand.</emote> To walk across
+            anything to them about certain things they can't do now, <emote type="negative">they
+                always say "after the war," and I think that little expression shows to what
+                extremes they are willing to go in <factor type="sense">self
+                sacrifice.</factor></emote><emote type="positive"> I certainly have a very high
+                opinion of the French.</emote> They are most <factor type="sense">highly respected
+                by the American soldiers and they return the compliment</factor>.</p>
+
+        <p>To sit here where I am now, <emote type="neutral">it seems scarcely possible that we are
+                so <factor type="conditions">near the front</factor>.</emote> This country here is a
+                <factor type="sense">peaceful-looking farming country</factor> and, to look out over
+            the quiet fields, <emote type="neutral">it is hard to realize that the <factor
+                    type="battle">fighting</factor> is so close at hand.</emote> To walk across
             these fields is just like taking a stroll over Dad's farm on some quiet Sunday
             afternoon. Only there are several things that are conspicuously absent -- most of all
             the folks that were left behind. The ones that you love and are loved by is what goes to
             make life worthwhile.</p>
-        <p>Well, the sound of the <factor type="battle">big guns</factor> somewhere not so many miles away has begun again.
-            Sometimes the sound comes from one side, then the other, until it is hard to tell which
-            way one could go and not find someone <factor type="battle">shooting</factor> at someone else. My address is the same:
-            Co. K, 137th Inf., Amer. E.F. I expect you know it by this time but some of my letters
-            may drop by the wayside so it is best to be sure for I certainly want to get all the
-            mail that is coming to me.</p>
+        <p>Well, the sound of the <factor type="battle">big guns</factor> somewhere not so many
+            miles away has begun again. Sometimes the sound comes from one side, then the other,
+            until it is hard to tell which way one could go and not find someone <factor
+                type="battle">shooting</factor> at someone else. My address is the same: Co. K,
+            137th Inf., Amer. E.F. I expect you know it by this time but some of my letters may drop
+            by the wayside so it is best to be sure for I certainly want to get all the mail that is
+            coming to me.</p>
         <p>So, goodbye to the little girl who has given up two loved ones so cheerfully and sent
             them away with the smile that counts.</p>
-        <closer><salute>With sincerest love,</salute>
-        <name type="person">Lloyd</name></closer>
-        <postscript>(Tell Aunt Jess I will write her
-            soon. I am glad that you two have become such good friends.)</postscript>
+        <closer>
+            <salute>With sincerest love,</salute>
+            <name type="person">Lloyd</name>
+        </closer>
+        <postscript>(Tell Aunt Jess I will write her soon. I am glad that you two have become such
+            good friends.)</postscript>
 
         <postscript>P.S. I have received another letter from you since I wrote the fore part of this
             letter. It was dated April 25. Also I got one from Mother dated May 10. It was marked
             No. 2.... suppose No. 1 was sidetracked somewhere along the line. This is the second
-            letter I have written you since going into our billets
-            The other was not dated at all, maybe this one won't be when you get it but I am risking
-            it anyway. Mother said my first letter written on the boat got by without being cut up.
-            It had no cause for being cut up as I said almost nothing as most of my letters do, but
-            wait until I can tell you. I will have some tale. Well, goodnight sweetheart,
-            Lloyd</postscript>
+            letter I have written you since going into our billets The other was not dated at all,
+            maybe this one won't be when you get it but I am risking it anyway. Mother said my first
+            letter written on the boat got by without being cut up. It had no cause for being cut up
+            as I said almost nothing as most of my letters do, but wait until I can tell you. I will
+            have some tale. Well, goodnight sweetheart, Lloyd</postscript>
     </div>
 
     <div type="letter">
-        <opener><dateline>
-            <date when="1918-06-24">June 24th</date>
-            <name type="place">unknown</name>
-        </dateline>
-        <salute>My Dearest Mary,</salute></opener>
-        <p>It is about time to write again and, <emote type="positive">as I feel rather in the humor and have the time</emote>, I
-            will proceed without any further delay.</p>
+        <opener>
+            <dateline>
+                <date when="1918-06-24">June 24th</date>
+                <name type="place">unknown</name>
+            </dateline>
+            <salute>My Dearest Mary,</salute>
+        </opener>
+        <p>It is about time to write again and, <emote type="positive">as I feel rather in the humor
+                and have the time</emote>, I will proceed without any further delay.</p>
         <p>I am still in the same place as I told you in the last letter -- at the Brigade post
-            office and the <factor type="sense">four of us are the only ones left</factor> in this town. I mean Americans, of
-            course. <emote type="neutral">We are having quite a time as we are our own cooks</emote> and are ruled by our own
-            sweet wills. <emote type="negative">I can't say that it will be so pleasant, though, if we are here for a few
-                days more than we are expecting.</emote><factor type="conditions">Anything to eat</factor> is awfully hard to get, especially if
-            you are a soldier. The Army is supposed to feed us, you know, and everything outside the
-            Army is for civilians and God knows they need what little they can get. The people here,
-            two or three men, <factor type="sense">cleaned up the building used for storage of supplies in order to get
-            what might be left behind.</factor> They thought they made a good bargain, too, and I suppose the
-            Americans did leave more than the French ever do.</p>
-        <p>Oh yes, I meant to tell you what we had for <factor type="conditions">breakfast</factor> and all this was cooked by the
-            corporal in charge and what assistance I could give. We had fried eggs, we bought some
-            from a Frenchwoman, steak, Army issue, we got a half-cooked chunk of beef from the
-            Company we ate with, butter or oleo, strawberry jam, bread, and coffee. Bread was Army
-            bread, white bread, too, and about one hundred percent better than the French people
-            eat. <emote type="neutral">That was not so bad, was it, for an Army meal.</emote> <emote type="negative">I only wish I could have one like it
-            every day.</emote></p>
+            office and the <factor type="sense">four of us are the only ones left</factor> in this
+            town. I mean Americans, of course. <emote type="neutral">We are having quite a time as
+                we are our own cooks</emote> and are ruled by our own sweet wills. <emote
+                type="negative">I can't say that it will be so pleasant, though, if we are here for
+                a few days more than we are expecting.</emote><factor type="conditions">Anything to
+                eat</factor> is awfully hard to get, especially if you are a soldier. The Army is
+            supposed to feed us, you know, and everything outside the Army is for civilians and God
+            knows they need what little they can get. The people here, two or three men, <factor
+                type="sense">cleaned up the building used for storage of supplies in order to get
+                what might be left behind.</factor> They thought they made a good bargain, too, and
+            I suppose the Americans did leave more than the French ever do.</p>
+        <p>Oh yes, I meant to tell you what we had for <factor type="conditions">breakfast</factor>
+            and all this was cooked by the corporal in charge and what assistance I could give. We
+            had fried eggs, we bought some from a Frenchwoman, steak, Army issue, we got a
+            half-cooked chunk of beef from the Company we ate with, butter or oleo, strawberry jam,
+            bread, and coffee. Bread was Army bread, white bread, too, and about one hundred percent
+            better than the French people eat. <emote type="neutral">That was not so bad, was it,
+                for an Army meal.</emote>
+            <emote type="negative">I only wish I could have one like it every day.</emote></p>
         <p>Our office is right next to the schoolhouse and we often talk with the schoolmaster, make
-            signs or any other way to <factor type="sense">communicate</factor>. They have separate rooms for boys and girls over
-            here and the <factor type="sense">children that get to school at this place are no larger than would compare
-            with our attendants of the third or fourth grade.</factor> I don't know whether that is as far as
-            they expect the children to go or not. The schoolroom looks a great deal like any
-            schoolroom. The benches or seats are longer than ours -- they must seat two or three
-            together. The room has an abundance of maps, pictures, and blackboards. They seem to
-            study the geography of France but little of any other part of the world. <emote type="positive">We were much
-            interested in the map of France</emote> as we wished to see where we had been in our journey and
-            I must say I was very much surprised at how much we had really covered. I sure want to
-            tell you all about it one of these days. Just take that big map we so often have studied
-            and talk until we can't talk anymore and then just take you in my arms and kiss those
-            sweet rosy lips again. Well, they talk of the girl that was left behind, for my part I
-            can see you just as plain as I ever did and you look a thousand times more dear to me
-            now and <emote type="positive">someday we will be the happiest boy and girl that there possibly can be anywhere
-            in the world.</emote></p>
-        <p>I haven't had a letter from you for over a week now but <emote type="negative">I can't get my mail as I should.</emote>
-            It goes out to the Company and I can't get to the Company. This idea of working in a
-            post office and then can't get your own mail is some idea. I am going to have you send
-            my letters directed to the 69th Brigade, P.O. 35th Division, American Expeditionary
-            Forces. Then if I change again soon, I will immediately let you know.</p>
-        <p>Well, it is getting close to dinnertime and <emote type="neutral">I must help get <factor type="conditions">dinner</factor> -- we are regular
-            cooks now.</emote> Tell me all and everything that you possibly can write as I sure love to read
-            your <factor type="sense">letters</factor> more than anything else, unless it is writing ones for you to read.</p>
-        <p>By the way, I read that story in the <factor type="sense">April American</factor> yesterday. <emote type="positive">It was the luckiest thing
-            I ever got hold of one.</emote> You asked me to read "Pictures Burned in My Memory" I believe
-            and I must say that, as far as I have gone in this business, that story certainly tells
-            the straight stuff. I used to think that a lot of such stories were written by men with
+            signs or any other way to <factor type="sense">communicate</factor>. They have separate
+            rooms for boys and girls over here and the <factor type="sense">children that get to
+                school at this place are no larger than would compare with our attendants of the
+                third or fourth grade.</factor> I don't know whether that is as far as they expect
+            the children to go or not. The schoolroom looks a great deal like any schoolroom. The
+            benches or seats are longer than ours -- they must seat two or three together. The room
+            has an abundance of maps, pictures, and blackboards. They seem to study the geography of
+            France but little of any other part of the world. <emote type="positive">We were much
+                interested in the map of France</emote> as we wished to see where we had been in our
+            journey and I must say I was very much surprised at how much we had really covered. I
+            sure want to tell you all about it one of these days. Just take that big map we so often
+            have studied and talk until we can't talk anymore and then just take you in my arms and
+            kiss those sweet rosy lips again. Well, they talk of the girl that was left behind, for
+            my part I can see you just as plain as I ever did and you look a thousand times more
+            dear to me now and <emote type="positive">someday we will be the happiest boy and girl
+                that there possibly can be anywhere in the world.</emote></p>
+        <p>I haven't had a letter from you for over a week now but <emote type="negative">I can't
+                get my mail as I should.</emote> It goes out to the Company and I can't get to the
+            Company. This idea of working in a post office and then can't get your own mail is some
+            idea. I am going to have you send my letters directed to the 69th Brigade, P.O. 35th
+            Division, American Expeditionary Forces. Then if I change again soon, I will immediately
+            let you know.</p>
+        <p>Well, it is getting close to dinnertime and <emote type="neutral">I must help get <factor
+                    type="conditions">dinner</factor> -- we are regular cooks now.</emote> Tell me
+            all and everything that you possibly can write as I sure love to read your <factor
+                type="sense">letters</factor> more than anything else, unless it is writing ones for
+            you to read.</p>
+        <p>By the way, I read that story in the <factor type="sense">April American</factor>
+            yesterday. <emote type="positive">It was the luckiest thing I ever got hold of
+                one.</emote> You asked me to read "Pictures Burned in My Memory" I believe and I
+            must say that, as far as I have gone in this business, that story certainly tells the
+            straight stuff. I used to think that a lot of such stories were written by men with
             highly colored imaginations but I see now that they could tell even more and still be
             speaking the truth.</p>
-        <p>This must be "fini" or I will miss out on the <factor type="conditions">eats</factor> and that can't be done with impunity
-            in the Army. So, goodbye for a little while my own little sweetheart.</p>
-        <closer><salute>With sincerest truest love,</salute>
-        <name type="person">Lloyd</name></closer>
+        <p>This must be "fini" or I will miss out on the <factor type="conditions">eats</factor> and
+            that can't be done with impunity in the Army. So, goodbye for a little while my own
+            little sweetheart.</p>
+        <closer>
+            <salute>With sincerest truest love,</salute>
+            <name type="person">Lloyd</name>
+        </closer>
     </div>
 
     <div type="letter">
-        <opener><dateline>
-            <date when="1918-07-31">July 31st</date>
-            <name type="place">unknown</name>
-        </dateline>
-        <salute>My Dearest Mary,</salute></opener>
-        <p>Well, I have had another <factor type="sense">letter</factor> from you since I wrote last. This one was dated June 30.
-            It takes about that much time, it seems, for a letter to get to us. Also, I had one from
-            Mother of about the same date. You two seem to write about the same dates every time and
-            when I get a letter from one, I can almost always expect one from the other right
-            soon.</p>
-        
+        <opener>
+            <dateline>
+                <date when="1918-07-31">July 31st</date>
+                <name type="place">unknown</name>
+            </dateline>
+            <salute>My Dearest Mary,</salute>
+        </opener>
+        <p>Well, I have had another <factor type="sense">letter</factor> from you since I wrote
+            last. This one was dated June 30. It takes about that much time, it seems, for a letter
+            to get to us. Also, I had one from Mother of about the same date. You two seem to write
+            about the same dates every time and when I get a letter from one, I can almost always
+            expect one from the other right soon.</p>
+
         <p>We have moved again but not far this time. Moved on my favorite moving day, Sunday, or
-            rather the day the Army has picked for me so many times. We have our office in <factor type="conditions">an old
-            barn</factor> of some sort. <emote type="neutral">Quite a drop from sorting mail on a billiard table.</emote> The <factor type="conditions">floor is so
-            rickety</factor> here that <emote type="negative">we are in danger of going through every time we make any movements.</emote>
-            <emote type="positive">Also, I may say the <factor type="conditions">ventilating system</factor> is good -- extra good -- and the <factor type="conditions">elevator</factor> going
-            down is in perfect working order.</emote> I forgot to state our office was on the second floor.
-            The <factor type="conditions">lighting system</factor> is rather poor, though. I intend to see the landlord about it soon
-            but <emote type="neutral">I am afraid we would have a hard time "comprening" each other and I don't know the
-            <factor type="sense">sign language</factor> for more light yet.</emote></p>
-        
-        <p>I just came from K Co. and <emote type="positive">everyone there seems to be in <factor type="sense">good health and the best of
-            spirits</factor>.</emote> Brought a letter back for Shoemaker, to go out tomorrow. Shoey is working in
-            the kitchen now and, from all appearances, he is getting lots to eat. I suppose they
-            will be moving up to the <factor type="battle">trenches</factor> again as soon as they have been out the usual
-            time.</p>
-        
-        <p>I am going to send you an issue of the <factor type="sense">Stars and Stripes</factor>
-            as soon as I have finished reading it. This is the A.E.F. paper and I think that you
-            will be pleased to see what sort of a paper it is. This paper is not the regular
-            newspapers we get but sort of a sheet that reflects the A.E.F. spirit. Our news sources
-            are the <factor type="sense">Paris edition of the N.Y. Herald</factor>, <factor type="sense">Chicago Tribune</factor>, and the <factor type="sense">Daily Mail</factor>. The last
-            is an English paper put out by the London Daily Mail.</p>
-        
-        <p>Found where there is a ruin of an <factor type="sense">old castle</factor> and as soon as I find the time I am going to
-            see what there is to see there. It is on a small hill that rises rather abruptly out of
-            the valley and, from the looks of things from the ground, it is indeed a hard place to
-            reach even now. Those old timers were fond of such sites I have been told. The fellow
-            that picked this place, picked a good one, too.</p>
-        
+            rather the day the Army has picked for me so many times. We have our office in <factor
+                type="conditions">an old barn</factor> of some sort. <emote type="neutral">Quite a
+                drop from sorting mail on a billiard table.</emote> The <factor type="conditions"
+                >floor is so rickety</factor> here that <emote type="negative">we are in danger of
+                going through every time we make any movements.</emote>
+            <emote type="positive">Also, I may say the <factor type="conditions">ventilating
+                    system</factor> is good -- extra good -- and the <factor type="conditions"
+                    >elevator</factor> going down is in perfect working order.</emote> I forgot to
+            state our office was on the second floor. The <factor type="conditions">lighting
+                system</factor> is rather poor, though. I intend to see the landlord about it soon
+            but <emote type="neutral">I am afraid we would have a hard time "comprening" each other
+                and I don't know the <factor type="sense">sign language</factor> for more light
+                yet.</emote></p>
+
+        <p>I just came from K Co. and <emote type="positive">everyone there seems to be in <factor
+                    type="sense">good health and the best of spirits</factor>.</emote> Brought a
+            letter back for Shoemaker, to go out tomorrow. Shoey is working in the kitchen now and,
+            from all appearances, he is getting lots to eat. I suppose they will be moving up to the
+                <factor type="battle">trenches</factor> again as soon as they have been out the
+            usual time.</p>
+
+        <p>I am going to send you an issue of the <factor type="sense">Stars and Stripes</factor> as
+            soon as I have finished reading it. This is the A.E.F. paper and I think that you will
+            be pleased to see what sort of a paper it is. This paper is not the regular newspapers
+            we get but sort of a sheet that reflects the A.E.F. spirit. Our news sources are the
+                <factor type="sense">Paris edition of the N.Y. Herald</factor>, <factor type="sense"
+                >Chicago Tribune</factor>, and the <factor type="sense">Daily Mail</factor>. The
+            last is an English paper put out by the London Daily Mail.</p>
+
+        <p>Found where there is a ruin of an <factor type="sense">old castle</factor> and as soon as
+            I find the time I am going to see what there is to see there. It is on a small hill that
+            rises rather abruptly out of the valley and, from the looks of things from the ground,
+            it is indeed a hard place to reach even now. Those old timers were fond of such sites I
+            have been told. The fellow that picked this place, picked a good one, too.</p>
+
         <p>Heard from Doug a few days before I got your last letter. He seems to be in the best of
             spirits and he hears from Joe I. occasionally, too. He says she is in Washington D.C.
             working for my able employer. Well, he has a lot of jobs open, it seems, from the way
-            the revised <factor type="prep">draft classification</factor> looks. <emote type="negative">That one took a lot of boys that were not
-            expecting anything just yet.</emote></p>
-        
-        <p>Oh! I must tell you I saw Becker a night or so ago. He showed me a <factor type="sense">letter</factor> he had from
-            Robert and, as a return favor, I gave him the one I had from Doug. <emote type="neutral">Don't misunderstand
-            me and think that is our regular custom in the Army.</emote> That is the exception rather than
-            the rule.</p>
-        
+            the revised <factor type="prep">draft classification</factor> looks. <emote
+                type="negative">That one took a lot of boys that were not expecting anything just
+                yet.</emote></p>
+
+        <p>Oh! I must tell you I saw Becker a night or so ago. He showed me a <factor type="sense"
+                >letter</factor> he had from Robert and, as a return favor, I gave him the one I had
+            from Doug. <emote type="neutral">Don't misunderstand me and think that is our regular
+                custom in the Army.</emote> That is the exception rather than the rule.</p>
+
         <p>Well, it is getting late so I suppose it would be best for me to ring off for this time.
-            So, goodnight once again, little girl. <emote type="negative">I have often wondered how long these goodnights
-            will be said this way</emote>, <emote type="neutral">but it is all for the best and one of these days... Well, it will
-            be some day</emote>. So, goodnight to my own little sweetheart.</p>
-        
-        <closer><salute>Yours with sincerest love,</salute>
-        <name type="person">Lloyd</name></closer>
+            So, goodnight once again, little girl. <emote type="negative">I have often wondered how
+                long these goodnights will be said this way</emote>, <emote type="neutral">but it is
+                all for the best and one of these days... Well, it will be some day</emote>. So,
+            goodnight to my own little sweetheart.</p>
+
+        <closer>
+            <salute>Yours with sincerest love,</salute>
+            <name type="person">Lloyd</name>
+        </closer>
     </div>
 
 </body>
