@@ -60,7 +60,7 @@
         <opener>
             <dateline>
                 <date when="1918-04-00">April 1918</date>
-                <name type="place">at sea</name>
+                <name type="place">At sea</name>
             </dateline>
             <salute>My Dearest Mary,</salute>
         </opener>
@@ -82,7 +82,7 @@
             N.Y. they may take any direction. I walked down one street and when I took a notion to
             turn and go back, I wasn't on the same street at all and I couldn't tell where I made
             any turn.</p>
-        <p>I got a good look at the city <factor type="sense">from the waterfront</factor> today. It
+        <p>I got a <factor type="sense">good look at the city from the waterfront today</factor>. It
             was <factor type="conditions">a bright clear day</factor> and we could see quite a
             distance. I have seen pictures of N.Y. from the Hudson and I can say that the real thing
             was just a picture laid before you. <emote type="neutral">I would like to have stayed at
@@ -107,7 +107,7 @@
         <opener>
             <dateline>
                 <date when="1918-05-29">May 29th</date>
-                <name type="place">unknown</name>
+                <name type="place">France</name>
             </dateline>
             <salute>My Dearest Mary,</salute>
         </opener>
@@ -151,7 +151,7 @@
             anything to them about certain things they can't do now, <emote type="negative">they
                 always say "after the war," and I think that little expression shows to what
                 extremes they are willing to go in <factor type="sense">self
-                sacrifice.</factor></emote><emote type="positive"> I certainly have a very high
+                sacrifice</factor>.</emote><emote type="positive"> I certainly have a very high
                 opinion of the French.</emote> They are most <factor type="sense">highly respected
                 by the American soldiers and they return the compliment</factor>.</p>
 
@@ -194,7 +194,7 @@
         <opener>
             <dateline>
                 <date when="1918-06-24">June 24th</date>
-                <name type="place">unknown</name>
+                <name type="place">France</name>
             </dateline>
             <salute>My Dearest Mary,</salute>
         </opener>
@@ -210,7 +210,7 @@
             supposed to feed us, you know, and everything outside the Army is for civilians and God
             knows they need what little they can get. The people here, two or three men, <factor
                 type="sense">cleaned up the building used for storage of supplies in order to get
-                what might be left behind.</factor> They thought they made a good bargain, too, and
+                what might be left behind</factor>. They thought they made a good bargain, too, and
             I suppose the Americans did leave more than the French ever do.</p>
         <p>Oh yes, I meant to tell you what we had for <factor type="conditions">breakfast</factor>
             and all this was cooked by the corporal in charge and what assistance I could give. We
@@ -268,7 +268,7 @@
         <opener>
             <dateline>
                 <date when="1918-07-31">July 31st</date>
-                <name type="place">unknown</name>
+                <name type="place">France</name>
             </dateline>
             <salute>My Dearest Mary,</salute>
         </opener>
