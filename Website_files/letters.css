@@ -31,7 +31,7 @@ h1 {
     text-align: center;
 }
 div.container {
-    background-color: rgb(250, 227, 152);
+    background-color: rgb(238,236,197);
     line-height: 25px;
 }
 div.sidebar{
@@ -39,13 +39,72 @@ div.sidebar{
     background-color: grey;
     margin-top: 10px;
 }
+/*"Special Container" is the div/text box which holds the letter itself-->*/
 div.special_container {
-    background-color: rgb(250, 227, 152);
+    background-color: rgb(238,236,197);
     float: right;
     margin-top: 10px;
     width: 1250px;  
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
+/* =========================================================================== */
+/* This is the css template for the letter body and the emote and factor spans */
+/* =========================================================================== */
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h2{
+    text-align: left;
+    font-size: 14px;
+}
+
+p, footer.letter{
+    text-indent: 50px;
+    text-align: left;
+    font-family: "Courier", serif;
+    font-size: 14px
+}
+
+span.positive{
+    text-decoration-line: underline;
+}
+
+span.neutral{
+    font-style: italic;
+}
+
+span.negative{
+    font-weight:bold;
+}
+
+span.battle{
+    color: SaddleBrown;
+}
+
+span.trauma{
+    color: Red;
+}
+
+span.prep{
+    color: DarkBlue;
+}
+
+span.conditions{
+    color: DarkOliveGreen;
+}
+
+span.sense{
+    color: DarkGoldenrod;
+}
+/* ====================================================================================================================================== */
 /* This code below was based heavily on the tutotial on dropdown tabs found at this link: https://www.w3schools.com/css/css_dropdowns.asp */
+/* ====================================================================================================================================== */
 ul {
   list-style-type: none;
   margin: 0;
@@ -109,7 +168,7 @@ div.head {
     text-align: center;
     padding: 1px;
 }
-footer {
+footer.main {
     background-color: olive;
     margin-bottom: -8px;
     margin-left: -8px;
