@@ -7,7 +7,9 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
 <!--Attempting to do a batch transformation of the entire collection of letters, as of 11/29 -->
-    
+    <!--Creates a variable for each letter as a document node, from the entire collection of letters -->
+    <xsl:variable name="wwi_letter" as="document-node()+"
+        select="collection('../XML_Markup/?select=*.xml')"/>
     
 <!--Document node template: currently shows all letters in the series but later javascript will show/hide.-->
     
@@ -18,9 +20,16 @@
                 <title>Letters Reading View</title>
             </head>
             <body>
-                <xsl:apply-templates/>
+                <xsl:apply-templates select="$wwi_letter"/>
             </body>
         </html>
+    </xsl:template>
+  
+<!-- Template to match the new corpus, and for each -->  
+    <xsl:template match="$wwi_letter">
+        <xsl:for-each select="$wwi_letter">
+            <xsl:apply-templates/>
+        </xsl:for-each>
     </xsl:template>
 
 <!--Template for processing divs, which are the individual letters in this series, and in the eventual corpus.-->
