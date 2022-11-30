@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../date_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../letter_sample_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<div type="letter">
+    <info> Source:National Library of New Zealande Collection:MS-Papers-0421: Inglis, Lindsay
+        Merritt (Major General), 1894-1966 : Papers Author: Inglis, Lindsay Merritt (Major General)
+        Strand Place Hotel, Strand, London, W.C.2.</info>
+    <opener>
+        <dateline>
+            <date when="1918-08-14">14-8-18</date>
+            <name type="place">Strand Place Hotel, Strand, London</name>
+        </dateline>
+        <salute>Dear Old Girl,</salute>
+    </opener>
+    <p>Here goes for another small note to swell your budget at the post and to relate events.<emote
+            type="positive">Thus far I have been as lazy as I can be. Yesterday and the day before I
+            have been buzzing around during the day doing a fair amount of necessary shopping, and
+            temp(?) now almost fined up for my immediate wants - except for what the tailor is
+            making.</emote> Will cease that sort of uncertainty till just before I go back when I
+        shall plunge in and buy any bulky stuff I want to take back. And talking of shopping -<emote
+            type="negative">I can't make up my mind what to get for you. You have asked of course
+            for something that would do for our home - but so far I haven't got any further ahead
+            with the choosing.</emote><emote type="positive">Then in one of your last letters you
+            talked of some blouse materials you coveted, and that gave me inspiration</emote>- if I
+        could only land somebody to choose them. I've another idea too. I shall try it on. Don't be
+        curious, mum, and you won't be told no lies.</p>
+    <p><emote type="positive">Yesterday afternoon I met(redacted)'s office of the Otago Regiment,
+            and we had several games of five and a swim at the Royal Automobile Club. We also spent
+            the evening together smoking and yarning. The day before I had dinner with Charley
+            Foradick and later on we went round to the Waldorf Hotel to look up Geddis who was
+            staying there only another day or two of leave to run. We found him just turning in, so
+            dug him out of bunk and held a party in his room till a very later hour, when we left
+            him in peace and went our several ways to beds</emote>. Geddis -- commonly known to us
+        as "Little Willie" has a great attraction at a place called Livydon(?) not very far from
+        London - a pretty girl who has absorbed most of his attention during his leaves. I half
+        suspected to find him getting married this time. Forsdick and I offered our assistance and
+        promised to make fitting speeches if he would arrange the ceremony; but he said the time was
+        not yet ripe and offered to make it a double event with me.</p>
+    <p><emote type="neutral">Did I ever tell you, dear, that the word of our engagement was bruited
+            around the N.Z.E.F in France sometime about March last?</emote>Well there is a paper of
+        N.Z. news called the "New Zealander" printed by some benevolent person and issued free to us
+        periodically, and there it was - copied of course from N.Z. papers. <emote type="positive">I
+            have been collecting congratulations from then on.</emote>Dearest old chap, things are
+        not pouring out of my throat onto the paper with the greatest of ease. Same old
+            complaint.<emote type="negative">I feel that I am getting very stale and as dull as
+            dishwater, and since Forsdick wants to take me to meet some of the friends he has made
+            in England I shall be only too pleased to take the opportunity and try to combat the
+            tendency.</emote> I wouldn't be surprised if that is what I need. A man deprived of
+        feminine society grows rough edges after a time too - I'm sure I don't know what you'll find
+        me like when I get back to you, old chap. You'd better collect some files and sandpaper for
+        the process of smoothing me off again! Darling girl,keep your pecker up and smile. <emote
+            type="negative">I think I miss you more on leave than at any other time.</emote></p>
+    <p>
+        <emote type="negative">It feels so much like burning daylight to be without you in a place
+            like this. Quite different from being with the company where I wouldn't have you come
+            for the world - much as I long for you.</emote> Do you see, old chap? Stop me, old lady
+        - I"m getting to be a confirmed growler. <emote type="positive">I am fit and well,
+            dear.</emote>
+        <emote type="negative">Always very much love and longing for you. I've almost forgotten what
+            it feels like to have you in my arms.</emote>
+        <emote type="positive">But someday I'm going to remind both of us just exactly what it's
+            like. Let's have a big wish together for the chance to come soon.</emote> In the
+        meantime, sweetheart, there is always "this". All my love for your dear old self.</p>
+    <closer>
+        <salute>Your</salute>
+        <signed>
+            <name type="person">Lindsay.</name>
+        </signed>
+    </closer>
+</div>
