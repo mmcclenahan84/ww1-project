@@ -13,7 +13,7 @@
     
 <!--Document node template: currently shows all letters in the series but later javascript will show/hide.-->
     
-    <xsl:template match="/">
+    <xsl:template name="xsl:initial-template">
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="letters_workingcopy.css"/>
