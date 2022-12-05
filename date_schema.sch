@@ -11,7 +11,8 @@
             <assert test="$followsDateFormat or $isUnkown">Dates must follow a XXXX-XX-XX format or
                 be the literal string "unknown".</assert>
             <assert test="string-length(.) gt 0">Date element must include text.</assert>
-         <!-- <assert test="format-date(@when,'[MNn] [Do]') eq .">@when value does not match text date.</assert> -->
+            <assert test="format-date(xs:date(@when), '[MNn] [D1o]') eq .">@when value does not
+                match text date.</assert>
         </rule>
     </pattern>
 

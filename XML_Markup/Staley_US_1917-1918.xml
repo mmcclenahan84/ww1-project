@@ -7,7 +7,7 @@
     <div type="letter">
         <opener>
             <dateline>
-                <date when="1917-08-06"> August 6th</date>
+                <date when="1917-08-06">August 6th</date>
                 <name type="place">'Army City' Garnett, Kansas</name>
             </dateline>
             <salute>My Dearest Mary,</salute>
@@ -59,7 +59,7 @@
     <div type="letter">
         <opener>
             <dateline>
-                <date when="1918-04-00">April 1918</date>
+                <date when="1918-04-01">April 1st</date>
                 <name type="place">At sea</name>
             </dateline>
             <salute>My Dearest Mary,</salute>
