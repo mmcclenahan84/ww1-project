@@ -3,7 +3,7 @@
 <div type="letter">
     <opener>
         <dateline>
-            <date when="1916-03-17"/>
+            <date when="1916-03-17">March 17th</date>
             <name type="place">France</name>
         </dateline>
         <salute>Dear Gerald,</salute>

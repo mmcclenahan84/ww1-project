@@ -10,7 +10,7 @@
         Diary, 1919 (ML MSS.97/4 Item 1) [Page 2] Rest Camp Marseilles</info>
     <opener>
         <dateline>
-            <date when="1919-08-07"/>
+            <date when="1919-08-07">August 7th</date>
             <name type="place">unknown</name>
         </dateline>
         <salute>Dear Mick</salute>

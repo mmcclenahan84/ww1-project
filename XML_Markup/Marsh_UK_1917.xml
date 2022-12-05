@@ -6,7 +6,7 @@
     <!-- This was tagged as <name> which is invalid with the schema. I have changed it to <info> for validation purposes. -->
     <opener>
         <dateline>
-            <date when="1917-01-14"/>
+            <date when="1917-01-14">January 14th</date>
             <name type="place">Indian Oceane</name>
         </dateline>
         <salute>Dear Bob,</salute>
