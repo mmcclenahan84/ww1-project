@@ -86,10 +86,10 @@
 
     <xsl:template match="div">
     <!--Creating a count of each emote per letter, to calculcate percentages.-->
-    <xsl:variable name="letter_emotes" as="xs:double" select="count(//emote)"/>
-    <xsl:variable name="letter_pos" as="xs:double" select="//emote[@type='positive'] => count()"/>
-    <xsl:variable name="letter_neu" as="xs:double" select="//emote[@type='neutral'] => count()"/>
-    <xsl:variable name="letter_neg" as="xs:double" select="//emote[@type='neutral'] => count()"/>
+    <xsl:variable name="letter_emotes" as="xs:double" select="count(.//emote)"/>
+    <xsl:variable name="letter_pos" as="xs:double" select=".//emote[@type='positive'] => count()"/>
+    <xsl:variable name="letter_neu" as="xs:double" select=".//emote[@type='neutral'] => count()"/>
+    <xsl:variable name="letter_neg" as="xs:double" select=".//emote[@type='neutral'] => count()"/>
     <!--Position of each letter's bar on the graph: all bars per div will have same position. -->
     <xsl:variable name="y_pos" as="xs:double"
             select="(position() - 1) * ($bar_height + $bar_spacing)"/>
