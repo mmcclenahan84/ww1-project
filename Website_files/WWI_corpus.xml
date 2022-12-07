@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../corpus_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letters>
    <div type="letter">
       <info> Frederick Ernest Andrews, 16 October 1917, France Born: 15 November 1879, Regiment:
@@ -684,7 +685,7 @@
             Williams came through safely if he was there.</emote>
       </p>
       <p>I am enclosing two privilege forms, and will be glad if you will get them signed and
-        returned. <emote type="positive ">I have had some nice afternoons at Torquay and Paignton
+        returned. <emote type="positive">I have had some nice afternoons at Torquay and Paignton
             and was <factor type="conditions">there during the rough weather a short time ago, when
                 the Brixham trawler was wrecked and sea was so rough.</factor>
          </emote> I hope this
@@ -1534,6 +1535,7 @@
       <!-- This was tagged as <name> which is invalid with the schema. I have changed it to <info> for validation purposes. -->
       <opener>
          <dateline>
+            
             <date when="1920-07-21">July 21st</date>
             <name type="place">unknown</name>
          </dateline>
