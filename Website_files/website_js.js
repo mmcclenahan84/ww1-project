@@ -1,30 +1,18 @@
-
-
+"use strict";
+window.addEventListener('DOMContentLoaded', init);
 function init() {
-    console.log("init");
-    let dropdowns = document.getElementsByClassName('dropdown-content');
-    let childrenOfDropdown;
-    for (let i = 0; i < dropdowns.length; i++) {
-        childrenOfDropdown = dropdowns[i].children;
-        for (let j = 0; j < childrenOfDropdown.length; j++) {
-            childrenOfDropdown[j].addEventListener('click', function () {
-                changeContent(
-                "letter" + ((i+1)*(j+1)))
-                console.log(i);
-                console.log(j);
-            });
-        }
+    const dropdowns = document.getElementsByClassName('dd');
+    for (let i = 0, len = dropdowns.length; i < len; i++) {
+        dropdowns[i].addEventListener('click', changeContent, false)
     }
 }
-
-function changeContent(id) {
-    let show_hide = document.getElementsByClassName('special_container')
-    for (i = 0; i < show_hide.length; i++) {
-        show_hide[i].style.display = "none";
+function changeContent(e) {
+    let letters = document.getElementsByClassName('special_container');
+    for (let i = 0; i < letters.length; i++) {
+        letters[i].style.display = "none";
+        console.log("second");
     }
-    console.log(id);
-    document.getElementById(id).style.display = "block";
+    let calc_id = "letter" + this.id.substring(2);
+    console.log(calc_id);
+    document.getElementById(calc_id).style.display = "block";
 }
-
-window.addEventListener('DOMContentLoaded', init, false);
-console.log("bootstrapping event");
