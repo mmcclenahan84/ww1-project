@@ -11,7 +11,6 @@
     <xsl:variable name="bar_height" as="xs:double" select="20"/>
     <xsl:variable name="bar_spacing" as="xs:double" select="$bar_height div 2"/>
     <xsl:variable name="year_spacing" as="xs:double" select="$bar_height"/>
-    <xsl:variable name="year_count" as="xs:integer" select="7"/>
     <xsl:variable name="total_letters" as="xs:double" select="count(//div)"/>
     <xsl:variable name="x_scale" as="xs:double" select="5"/>
     <xsl:variable name="max_width" as="xs:double" select="($x_scale * 100) + 50"/>
@@ -67,7 +66,10 @@
             <!-- ========================================================== -->
             <line x1="0" y1="0" x2="0" y2="-{$max_height}" stroke="black"/>
             <line x1="0" y1="0" x2="{$max_width}" y2="0" stroke="black"/>
-                
+             
+            <!-- ========================================================== -->
+            <!-- Percentage markers, with % under the x-axis                -->
+            <!-- ========================================================== -->
         </svg>
     </xsl:template>
 
@@ -79,13 +81,13 @@
     <xsl:variable name="letter_emotes" as="xs:double" select="count(.//emote)"/>
     <xsl:variable name="letter_pos" as="xs:double" select=".//emote[@type='positive'] => count()"/>
     <xsl:variable name="letter_neu" as="xs:double" select=".//emote[@type='neutral'] => count()"/>
-    <xsl:variable name="letter_neg" as="xs:double" select=".//emote[@type='neutral'] => count()"/>
+    <xsl:variable name="letter_neg" as="xs:double" select=".//emote[@type='negative'] => count()"/>
     <!--Position of each letter's bar on the graph: all bars per div will have same position. -->
     <xsl:variable name="y_pos" as="xs:double"
             select="(position()) * ($bar_height + $bar_spacing)"/>
         
         <!--Conditional statement that makes horizontal lines between year groups -->
-        <xsl:if test=".//date/@when ! substring-before(.,'-') != ./preceding-sibling::div[1]//date/@when ! substring-before(.,'-')">
+        <xsl:if test=".//date/@when ! substring-before(.,'-') != ./following-sibling::div[1]//date/@when ! substring-before(.,'-')">
             <line x1="0" x2="{$max_width}" y1="-{$y_pos+5}" y2="-{$y_pos+5}" stroke="black" stroke-dasharray="2"/>
             <text x="-5" y="-{$y_pos+5}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select=".//date/@when ! substring-before(.,'-')"/>
@@ -97,7 +99,7 @@
     <!--====================================================================================================-->
         <!--Lowest level rectangle: it will be the sum of all three percentages (positive).-->
         <rect x=" 0" y="-{$y_pos}"
-            width="{((($letter_pos + $letter_neu+$letter_neg)div $letter_emotes)*100 *$x_scale )}" height="{$bar_height}"
+            width="{((($letter_pos + $letter_neu +$letter_neg)div $letter_emotes)*100 *$x_scale )}" height="{$bar_height}"
             opacity=".5" fill="green"/>
         <!--Second level rectangle: will be the sum of neutral and negative percentages (neutral).-->
         <rect x=" 0" y="-{$y_pos}"
@@ -107,7 +109,8 @@
         <rect x=" 0" y="-{$y_pos}"
             width="{(($letter_neg div $letter_emotes)*100 *$x_scale )}" height="{$bar_height}"
             opacity=".5" fill="red"/>
-        
+        <!--Test - lets see if it will print the name of the letter writer over each bar. -->
+        <text x="50" y="-{$y_pos+10}" fill="black"><xsl:value-of select=".//date/@when"/><xsl:text> </xsl:text><xsl:value-of select=".//closer//name"/></text>
         
        
     </xsl:template>
