@@ -20,22 +20,22 @@
                 <title>Letters Reading View</title>
             </head>
             <body>
-                <xsl:apply-templates select="$wwi_letter"/>
+                <xsl:apply-templates select="$wwi_letter//div">
+                    <xsl:sort select="opener/dateline/date/@when"/>
+                </xsl:apply-templates>
             </body>
         </html>
     </xsl:template>
   
 <!-- Template to match the new corpus, and for each -->  
     <xsl:template match="$wwi_letter">
-        <xsl:for-each select="$wwi_letter">
             <xsl:apply-templates/>
-        </xsl:for-each>
     </xsl:template>
 
 <!--Template for processing divs, which are the individual letters in this series, and in the eventual corpus.-->
 <!--I specified type here just in case we later use divs for anything else.-->
     <xsl:template match="div[@type = 'letter']">
-        <div class="special_container">
+        <div class="special_container" id="{concat('letter', position())}">
         
         <section>
             <!--Rev2 - Adding a header component to include dateline and salutation, to mirror the footer component.-->

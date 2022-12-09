@@ -20,7 +20,7 @@ div.topnav {
     border-color: black;
     text-decoration: none;
 }
-a{
+a {
     color: black;
     border-style: outset;
     border-color: saddlebrown;
@@ -31,20 +31,20 @@ h1 {
     text-align: center;
 }
 div.container {
-    background-color: rgb(238,236,197);
+    background-color: rgb(238, 236, 197);
     line-height: 25px;
 }
-div.sidebar{
+div.sidebar {
     float: left;
     background-color: grey;
     margin-top: 10px;
 }
 /*"Special Container" is the div/text box which holds the letter itself-->*/
 div.special_container {
-    background-color: rgb(238,236,197);
+    background-color: rgb(238, 236, 197);
     float: right;
     margin-top: 10px;
-    width: 1250px;  
+    width: 1250px;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -53,109 +53,113 @@ div.special_container {
 /* =========================================================================== */
 /* This is the css template for the letter body and the emote and factor spans */
 /* =========================================================================== */
-h1{
+h1 {
     text-align: center;
     font-weight: bold;
     font-size: 14px;
 }
 
-h2{
+h2 {
     text-align: left;
     font-size: 14px;
 }
 
-p, footer.letter{
+p,
+footer.letter {
     text-indent: 50px;
     text-align: left;
     font-family: "Courier", serif;
     font-size: 14px
 }
 
-span.positive{
+span.positive {
     text-decoration-line: underline;
 }
 
-span.neutral{
+span.neutral {
     font-style: italic;
 }
 
-span.negative{
-    font-weight:bold;
+span.negative {
+    font-weight: bold;
 }
 
-span.battle{
+span.battle {
     color: SaddleBrown;
 }
 
-span.trauma{
+span.trauma {
     color: Red;
 }
 
-span.prep{
+span.prep {
     color: DarkBlue;
 }
 
-span.conditions{
+span.conditions {
     color: DarkOliveGreen;
 }
 
-span.sense{
+span.sense {
     color: DarkGoldenrod;
 }
 /* ====================================================================================================================================== */
 /* This code below was based heavily on the tutotial on dropdown tabs found at this link: https://www.w3schools.com/css/css_dropdowns.asp */
 /* ====================================================================================================================================== */
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-left: -8px;
-  margin-right: -8px;
-  overflow: hidden;
-  background-color: Black;
-  text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+    text-align: left;
 }
 li {
-  text-align: center;
+    text-align: center;
 }
 
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: green;
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: green;
 }
 
 li.dropdown {
-  display: inline-block;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: olive;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: olive;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 /* End of the code used in the tutorial for dropdowns */
 div.head {
