@@ -26,7 +26,17 @@ a {
     border-color: saddlebrown;
     text-decoration: none;
 }
+h1.main{
+    font-size: 30px;
+}
+h1.content{
+    font-size: 20px;
+}
 
+h2.research_question{
+    font-size: 15px;
+    text-align: center;
+}
 h1 {
     text-align: center;
 }
@@ -36,7 +46,7 @@ div.container {
 }
 div.sidebar {
     float: left;
-    background-color: grey;
+    background-color: Gainsboro;
     margin-top: 10px;
 }
 /*"Special Container" is the div/text box which holds the letter itself-->*/
@@ -115,6 +125,16 @@ ul {
     overflow: hidden;
     text-align: left;
 }
+ul.letters {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+    text-align: left;
+}
 li {
     text-align: center;
 }
@@ -172,12 +192,12 @@ div.head {
     text-align: center;
     padding: 1px;
 }
+
 footer.main {
     background-color: olive;
-    margin-bottom: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -8px;
-    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 
 }
