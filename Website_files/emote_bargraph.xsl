@@ -57,19 +57,9 @@
         <svg height="{$max_height +50}" width="{$max_width +50}"
             viewBox="-150, -{$max_height +100}, {$max_width+200}, {$max_height+ 375}">
 
-            <!-- Ruling lines: vertically divided by total letters per year to hold the year groups-->
-            <!-- This must be revised - how do I get the percentage based lines to add on top of each other?-->
-            <xsl:for-each select="$letters_1915,$letters_1916,$letters_1917,$letters_1918,$letters_1920,$unknown_years">
-                <line x1="0" x2="{$max_width}" y1="-{(. div $total_letters) * $max_height}"
-                    y2="-{(. div $total_letters) * $max_height}" stroke="black" stroke-dasharray="2"/>
-                <text x="-5" y="-{(. div $total_letters) * $max_height}" text-anchor="end"
-                    dominant-baseline="middle">
-                    <xsl:text>Year</xsl:text>
-                </text>
-            </xsl:for-each>
 
            <xsl:apply-templates select="//div">
-               <xsl:sort select="@when" data-type="number" order="ascending"/>
+               <xsl:sort select="./opener//date/@when"/>
            </xsl:apply-templates> 
             
             <!-- X and Y axes, written after <xsl:apply-templates>          -->
@@ -92,25 +82,37 @@
     <xsl:variable name="letter_neg" as="xs:double" select=".//emote[@type='neutral'] => count()"/>
     <!--Position of each letter's bar on the graph: all bars per div will have same position. -->
     <xsl:variable name="y_pos" as="xs:double"
-            select="(position() - 1) * ($bar_height + $bar_spacing)"/>
+            select="(position()) * ($bar_height + $bar_spacing)"/>
+        
+        <!--Conditional statement that makes horizontal lines between year groups -->
+        <xsl:if test=".//date/@when ! substring-before(.,'-') != ./preceding-sibling::div[1]//date/@when ! substring-before(.,'-')">
+            <line x1="0" x2="{$max_width}" y1="-{$y_pos+5}" y2="-{$y_pos+5}" stroke="black" stroke-dasharray="2"/>
+            <text x="-5" y="-{$y_pos+5}" text-anchor="end" dominant-baseline="middle">
+                <xsl:value-of select=".//date/@when ! substring-before(.,'-')"/>
+            </text>
+        </xsl:if>
     
     <!--====================================================================================================-->
     <!-- Make a rectangle for each percentage                                                               -->
     <!--====================================================================================================-->
-        <!--Lowest level rectangle: it will be the sum of all three percentages.-->
+        <!--Lowest level rectangle: it will be the sum of all three percentages (positive).-->
         <rect x=" 0" y="-{$y_pos}"
             width="{((($letter_pos + $letter_neu+$letter_neg)div $letter_emotes)*100 *$x_scale )}" height="{$bar_height}"
-            opacity=".5" fill="WhiteSmoke"/>
-        <!--Second level rectangle: will be the sum of neutral and negative percentages.-->
+            opacity=".5" fill="green"/>
+        <!--Second level rectangle: will be the sum of neutral and negative percentages (neutral).-->
         <rect x=" 0" y="-{$y_pos}"
             width="{((($letter_neu+$letter_neg)div $letter_emotes)*100 *$x_scale )}" height="{$bar_height}"
-            opacity=".5" fill="LightGray"/>
+            opacity=".5" fill="yellow"/>
         <!--Third level rectangle: will be only the negative percentages, leaving neutral and positive portions uncovered.-->
         <rect x=" 0" y="-{$y_pos}"
             width="{(($letter_neg div $letter_emotes)*100 *$x_scale )}" height="{$bar_height}"
-            opacity=".5" fill="DarkSlateGray"/>
+            opacity=".5" fill="red"/>
+        
+        
+       
     </xsl:template>
 
+    
 
 
 </xsl:stylesheet>
