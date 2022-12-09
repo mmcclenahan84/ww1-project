@@ -15,39 +15,8 @@
     <xsl:variable name="x_scale" as="xs:double" select="5"/>
     <xsl:variable name="max_width" as="xs:double" select="($x_scale * 100) + 50"/>
     <xsl:variable name="max_height" as="xs:double"
-        select="count(//div) * ($bar_height + $bar_spacing)"/>
-    <!-- ================================================================================================= -->
-    <!--Variables for 1st chart are emotes: positive, negative, neutral                                    -->
-    <!-- ================================================================================================= -->
-    <xsl:variable name="distinct_emo_types" as="xs:string+"
-        select="distinct-values(//p/emote/@type)"/>
-    <xsl:variable name="distinct_emo_count" as="xs:integer" select="count($distinct_emo_types)"/>
-
-
-
-    <!--Variable sequences for the letters written in each year. Convenience Variables!-->
-    <xsl:variable name="letters_1915" as="xs:double"
-        select="//div//date/@when[starts-with(., '1915')]/ancestor::div =>count()"/>
-    <!-- 1 letter -->
-    <xsl:variable name="letters_1916" as="xs:double"
-        select="//div//date/@when[starts-with(., '1916')]/ancestor::div =>count()"/>
-    <!-- 26 letters -->
-    <xsl:variable name="letters_1917" as="xs:double"
-        select="//div//date/@when[starts-with(., '1917')]/ancestor::div =>count()"/>
-    <!-- 13 letters -->
-    <xsl:variable name="letters_1918" as="xs:double"
-        select="//div//date/@when[starts-with(., '1918')]/ancestor::div => count()"/>
-    <!-- 6 letters -->
-    <xsl:variable name="letters_1919" as="xs:double"
-        select="//div//date/@when[starts-with(., '1919')]/ancestor::div => count()"/>
-    <!-- 1 letter -->
-    <xsl:variable name="letters_1920" as="xs:double"
-        select="//div//date/@when[starts-with(., '1920')]/ancestor::div => count()"/>
-    <!-- 1 letter -->
-    <xsl:variable name="unknown_years" as="xs:double"
-        select="//div//date/@when[contains(., 'unknown')]/ancestor::div => count()"/>
-    <!--1 letter -->
-    
+        select="count(//div) * ($bar_height + $bar_spacing) +50"/>
+   
 
     <!-- ================================================================================================= -->
     <!--             Templates for SVG Stacked Bar Charts                                                  -->
@@ -70,6 +39,22 @@
             <!-- ========================================================== -->
             <!-- Percentage markers, with % under the x-axis                -->
             <!-- ========================================================== -->
+            <xsl:for-each select="0 to 4">
+                <xsl:variable name="perc_line" as="xs:double" select=". * 25 * $x_scale"/>
+                <line x1="{$perc_line}" y1="0" x2="{$perc_line}" y2="10" stroke="black"/>
+                <text x="{$perc_line}" y="20" text-anchor="end" dominant-baseline="central"><xsl:value-of select=". *25"/><xsl:text>%</xsl:text></text>
+            </xsl:for-each>
+            
+            <!-- ========================================================== -->
+            <!-- Axis labels and Graph Title                                -->
+            <!-- ========================================================== -->
+            <text x="{$max_width div 2}" y="50" text-anchor="middle" font-size="large"
+                >Percentage of Emotive Statements </text>
+            <text x="-50"
+                y="-{$max_height div 2}"
+                text-anchor="middle" writing-mode="tb" font-size="large">Year Letter was Written</text>
+            <text x="{$max_width div 2}" y="-{$max_height + 50}" text-anchor="middle"
+                font-size="x-large">Percentage of Emotive Statements per Letter Written</text>
         </svg>
     </xsl:template>
 
@@ -87,6 +72,7 @@
             select="(position()) * ($bar_height + $bar_spacing)"/>
         
         <!--Conditional statement that makes horizontal lines between year groups -->
+        <!--This still generates too many lines ... need to debug this or else get rid of the lines entirely. -->
         <xsl:if test=".//date/@when ! substring-before(.,'-') != ./following-sibling::div[1]//date/@when ! substring-before(.,'-')">
             <line x1="0" x2="{$max_width}" y1="-{$y_pos+5}" y2="-{$y_pos+5}" stroke="black" stroke-dasharray="2"/>
             <text x="-5" y="-{$y_pos+5}" text-anchor="end" dominant-baseline="middle">
