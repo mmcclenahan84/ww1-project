@@ -29,6 +29,7 @@
                <xsl:sort select="./opener//date/@when"/>
            </xsl:apply-templates> 
             
+            <!-- ========================================================== -->
             <!-- X and Y axes, written after <xsl:apply-templates>          -->
             <!-- to ensure bars do not overlap                              -->
             <!-- ========================================================== -->
@@ -58,7 +59,9 @@
     </xsl:template>
 
 
-
+    <!-- ================================================================================================= -->
+    <!--             Template for Individual Bars per Letter                                               -->
+    <!-- ================================================================================================= -->
 
     <xsl:template match="div">
     <!--Creating a count of each emote per letter, to calculcate percentages.-->
