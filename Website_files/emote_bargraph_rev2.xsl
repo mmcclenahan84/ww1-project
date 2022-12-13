@@ -90,7 +90,7 @@
         <xsl:variable name="pos_bar" as="xs:double" select="((($letter_pos + $letter_neu +$letter_neg)div $letter_emotes)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$pos_bar}" height="{$bar_height}"
-            opacity=".5" fill="green"/>
+            opacity="1" fill="#3CB371"/>
         <xsl:if test="$letter_pos > 0">
         <text x="{(($pos_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
             <xsl:value-of select="round(($letter_pos div $letter_emotes) *100)"/></text>
@@ -100,7 +100,7 @@
         <xsl:variable name="neu_bar" as="xs:double" select="((($letter_neu +$letter_neg)div $letter_emotes)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{($neu_bar)}" height="{$bar_height}"
-            opacity=".5" fill="yellow"/>
+            opacity="1" fill="#FFD700"/>
         <xsl:if test="$letter_neu > 0">
             <text x="{(($neu_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_neu div $letter_emotes) *100)"/></text>
@@ -110,7 +110,7 @@
         <xsl:variable name="neg_bar" as="xs:double" select="(($letter_neg div $letter_emotes)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$neg_bar}" height="{$bar_height}"
-            opacity=".5" fill="red"/>
+            opacity="1" fill="#FF6347"/>
         <xsl:if test="$letter_neg > 0">
             <text x="{(($neg_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_neg div $letter_emotes) *100)"/></text>

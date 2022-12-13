@@ -78,51 +78,51 @@
         <!-- Make a rectangle for each percentage                                                           -->
         <!--================================================================================================-->
         
-        <!--Lowest level rectangle: it will be the sum of factors (trauma).-->
+        <!--Lowest level rectangle: it will be the sum of factors (trauma = red).-->
         <xsl:variable name="trauma_bar" as="xs:double" select="((($letter_trauma+$letter_battle+$letter_prep+$letter_cond+$letter_sense)div $letter_factors)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$trauma_bar}" height="{$bar_height}"
-            opacity=".5" fill="red"/>
+            opacity="1" fill="#FF4500"/>
         <xsl:if test="$letter_trauma > 0">
             <text x="{(($trauma_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_trauma div $letter_factors) *100)"/></text>
         </xsl:if>
         
-        <!--Next level rectangle: it will be the sum of factors minus trauma (battle).-->
+        <!--Next level rectangle: it will be the sum of factors minus trauma (battle = brown).-->
         <xsl:variable name="battle_bar" as="xs:double" select="((($letter_battle+$letter_prep+$letter_cond+$letter_sense)div $letter_factors)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$battle_bar}" height="{$bar_height}"
-            opacity=".5" fill="SaddleBrown"/>
+            opacity="1" fill="#8B4513"/>
         <xsl:if test="$letter_battle > 0">
             <text x="{(($battle_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_battle div $letter_factors) *100)"/></text>
         </xsl:if>
         
-        <!--Next level rectangle: it will be the sum of factors minus trauma and battle (prep).-->
+        <!--Next level rectangle: it will be the sum of factors minus trauma and battle (prep = blue ).-->
         <xsl:variable name="prep_bar" as="xs:double" select="((($letter_prep+$letter_cond+$letter_sense)div $letter_factors)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$prep_bar}" height="{$bar_height}"
-            opacity=".5" fill="DarkBlue"/>
+            opacity="1" fill="#4682B4"/>
         <xsl:if test="$letter_prep > 0">
             <text x="{(($prep_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_prep div $letter_factors) *100)"/></text>
         </xsl:if> 
         
-        <!--Second to last rectangle: it will be the sum of only conditions and sense (conditions).-->
+        <!--Second to last rectangle: it will be the sum of only conditions and sense (conditions = olive green).-->
         <xsl:variable name="cond_bar" as="xs:double" select="((($letter_cond+$letter_sense)div $letter_factors)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$cond_bar}" height="{$bar_height}"
-            opacity=".5" fill="DarkOliveGreen"/>
+            opacity="1" fill="#556B2F"/>
         <xsl:if test="$letter_cond > 0">
             <text x="{(($cond_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_cond div $letter_factors) *100)"/></text>
         </xsl:if> 
         
-        <!--Last rectangle: it will be only the count of sense (sense).-->
+        <!--Last rectangle: it will be only the count of sense (sense = goldenrod).-->
         <xsl:variable name="sense_bar" as="xs:double" select="(($letter_sense div $letter_factors)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$sense_bar}" height="{$bar_height}"
-            opacity=".5" fill="DarkGoldenrod"/>
+            opacity="1" fill="#B8860B"/>
         <xsl:if test="$letter_sense > 0">
             <text x="{(($sense_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_sense div $letter_factors) *100)"/></text>
