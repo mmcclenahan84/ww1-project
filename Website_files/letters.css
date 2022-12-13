@@ -29,20 +29,20 @@ a {
 h1.main{
     font-size: 30px;
 }
-h1.content{
-    font-size: 20px;
-}
 
 h2.research_question{
     font-size: 15px;
     text-align: center;
 }
-h1 {
-    text-align: center;
-}
+/* Regular containers will be text blocks */
 div.container {
     background-color: rgb(238, 236, 197);
     line-height: 25px;
+    text-align: left;
+}
+
+h1.container {
+    text-align: left;
 }
 div.sidebar {
     float: left;
@@ -182,6 +182,7 @@ li.dropdown {
     display: block;
 }
 /* End of the code used in the tutorial for dropdowns */
+
 div.head {
     background-color: olive;
     color: black;
