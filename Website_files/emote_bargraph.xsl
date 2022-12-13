@@ -13,7 +13,7 @@
     <xsl:variable name="year_spacing" as="xs:double" select="$bar_height"/>
     <xsl:variable name="total_letters" as="xs:double" select="count(//div)"/>
     <xsl:variable name="x_scale" as="xs:double" select="5"/>
-    <xsl:variable name="max_width" as="xs:double" select="($x_scale * 100) + 50"/>
+    <xsl:variable name="max_width" as="xs:double" select="($x_scale * 100) + 100"/>
     <xsl:variable name="max_height" as="xs:double"
         select="count(//div) * ($bar_height + $bar_spacing) +50"/>
    
