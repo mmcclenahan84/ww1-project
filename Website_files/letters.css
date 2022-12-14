@@ -46,7 +46,7 @@ div.parent_container{
     align-items: center;
 }
 
-img{
+img.content{
     flex-grow:1;
     margin-top: 50px;
     margin-bottom: 50px;
