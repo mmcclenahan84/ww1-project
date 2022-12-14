@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../corpus_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letters>
    <div type="letter">
       <info> Frederick Ernest Andrews, 16 October 1917, France Born: 15 November 1879, Regiment:
@@ -57,7 +56,7 @@
       <closer>
          <salute>Yours sincerely</salute>
          <signed>
-            <name type="person">F.E. Andrews</name>
+            <name type="person">F.E. Andrews'</name>
          </signed>
       </closer>
    </div>
@@ -1500,8 +1499,8 @@
             pudding &amp; whether it fell through the mail-bag or not is a matter of conjecture.
             Perhaps they thought by the weight it was a bomb or shell &amp; heaved it out of the
             mail. I believe the maximum weight allowed though is 11 lbs. Still hard luck. It may
-            turn up yet &amp; I am living in hopes. Glad to see things are brightening again old
-            cock. You are certainly having a very rough time of it. Everybody is but I think you are
+            turn up yet &amp; I am living in hopes. <emote type="positive">Glad to see things are brightening again old
+            cock.</emote> You are certainly having a very rough time of it. Everybody is but I think you are
             getting more than your share. However I am very pleased to see you are both as game as
             ever. Old pals I hope to be a bit of use when I got back &amp; whatever comes my way be
             sure you are the first for a "cut". Poor old Al &amp; Ted have been up against it a lot.
@@ -1514,9 +1513,9 @@
             of [Tatts?]. Hope youve hooked some more ere this. </p>
       <p>We had our last battle in Palestine.<emote type="positive"> Its a wonderful country</emote>, what we saw of it. And I
             would like a chance at getting land there. The horses had a good go in on wheat crops.
-            We lost 4 officers. It makes one think a bit. However Ive got a good way of standing
+            <factor type="battle">We lost 4 officers.</factor> It makes one think a bit. However Ive got a good way of standing
             side on. My name went in for a decoration but dont know if it will come out. Some do
-            &amp; some dont. I tried to transfer to the flying Corps but my Colonel wouldnt stand
+            &amp; some dont. <factor type="prep">I tried to transfer to the flying Corps</factor> but my Colonel wouldnt stand
             me. And he wont give me a rise so there you are. Still all good things come to those who
             wait. Got a letter from Aunt Molly w.a. &amp; Tommy in France some weeks ago. They both
             mentioned receiving letters from you. I have written them. Lizzie must be very
@@ -1535,7 +1534,6 @@
       <!-- This was tagged as <name> which is invalid with the schema. I have changed it to <info> for validation purposes. -->
       <opener>
          <dateline>
-            
             <date when="1920-07-21">July 21st</date>
             <name type="place">unknown</name>
          </dateline>
