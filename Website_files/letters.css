@@ -6,6 +6,10 @@ body {
     background-attachment: fixed;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
+/* ======================================================================================== */
+/* Top Navigation Bar Components                                                            */
+/* ======================================================================================== */
+
 div.topnav {
     text-align: center;
     font-size: 40px;
@@ -26,24 +30,78 @@ a {
     border-color: saddlebrown;
     text-decoration: none;
 }
+/* Only the TopNav Header is h1.main */
 h1.main{
     font-size: 30px;
 }
 
-h2.research_question{
-    font-size: 15px;
-    text-align: center;
+/* ======================================================================================== */
+/* Elements for all regular text blocks on Home, Methodology, Analysis, and Conclusion */
+/* ======================================================================================== */
+
+div.parent_container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+img{
+    flex-grow:1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 /* Regular containers will be text blocks */
 div.container {
+    flex-grow:1;
     background-color: rgb(238, 236, 197);
-    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width:70%;
+      
+}   
+
+h1.content {
+    font-size: 25px;
+    text-align: left;
+}
+h2.content{
+    font-size: 20px;
     text-align: left;
 }
 
-h1.container {
+p.content{
+    font-size: 16px;
     text-align: left;
+    text-indent: 0px;
+    margin: 30px;
+    color: black;
+    line-height: 25px;
 }
+
+ul.content{
+    font-size: 16px;
+    text-align: left;
+    text-indent: 0px;
+    padding: 30px;
+}
+
+li.con{
+    list-style-type: square;
+    font-size: 16px;
+    text-align: left;
+    margin: 5px;
+}
+
+/* ======================================================================================== */
+/* Elements for Letters page (reading view) only */
+/* ======================================================================================== */
 div.sidebar {
     float: left;
     background-color: Gainsboro;
@@ -114,6 +172,7 @@ span.sense {
     color: DarkGoldenrod;
 }
 /* ====================================================================================================================================== */
+/* Reading View Dropdown Tabs - Letters by Year                                                                                           */
 /* This code below was based heavily on the tutotial on dropdown tabs found at this link: https://www.w3schools.com/css/css_dropdowns.asp */
 /* ====================================================================================================================================== */
 ul {
@@ -183,6 +242,9 @@ li.dropdown {
 }
 /* End of the code used in the tutorial for dropdowns */
 
+/* ====================================================================================================================================== */
+/* Bottom bar // footer for website                                                                                                       */
+/* ====================================================================================================================================== */
 div.head {
     background-color: olive;
     color: black;
@@ -200,5 +262,4 @@ footer.main {
     left: 0;
     bottom: 0;
     width: 100%;
-
 }
