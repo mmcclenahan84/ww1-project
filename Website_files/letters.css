@@ -47,23 +47,15 @@ div.parent_container1{
     align-items: center;
 }
 
-/* This parent container is for rows of flex children */
+/* This parent container is for evenly spaced rows of flex children */
 div.parent_container2{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 70%
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
 }
 
-img.content{
-    flex-grow:1;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
 /* Regular containers will be text blocks */
 div.container {
     flex-grow:1;
@@ -75,16 +67,18 @@ div.container {
     padding: 30px;
     width:70%;     
 }
-/* Testing container 2 for different flex properties */
+/* Container for horizontally spaced blocks (rows) such as SVGs */
 div.container2 {
-    flex-grow:1;
     background-color: rgb(238, 236, 197);
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px; 
-}   
+    padding: 30px;
+    width: 40%;
+} 
+
+/* Other child elements: headings, paragraphs, lists, and images */
 h1.content {
     font-size: 25px;
     text-align: left;
@@ -116,16 +110,29 @@ li.con{
     text-align: left;
     margin: 5px;
 }
-
+img.content{
+    flex-grow:1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 /* ======================================================================================== */
 /* Elements for Letters page (reading view) only */
 /* ======================================================================================== */
+
+/* This parent container is for unevenly spaced items or a grid: sidebar (maybe images?) on left, and letters on right  */
+div.parent_container3 {
+    display: flex;
+}
+
 div.sidebar {
     float: left;
-    background-color: Gainsboro;
+    background-color: rgb(238, 236, 197);
     margin-top: 10px;
 }
-/*"Special Container" is the div/text box which holds the letter itself-->*/
+/*"Special Container" is the div/text box which holds an individual letter*/
 div.special_container {
     background-color: rgb(238, 236, 197);
     float: right;
@@ -137,7 +144,7 @@ div.special_container {
     padding-left: 80px;
 }
 /* =========================================================================== */
-/* This is the css template for the letter body and the emote and factor spans */
+/* This is the css template for the letter inline elements                     */
 /* =========================================================================== */
 h1 {
     text-align: center;
