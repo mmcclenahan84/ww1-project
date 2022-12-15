@@ -1,10 +1,13 @@
 body {
-    background-image: url(https://get.pxhere.com/photo/desk-wood-floor-hardwood-wallpaper-flooring-wood-flooring-laminate-flooring-wood-stain-desktop-picture-1187816.jpg);
+    background-image: url(wood_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    min-height: 100vh;
+    
+    flex-direction: column;
 }
 /* ======================================================================================== */
 /* Top Navigation Bar Components                                                            */
@@ -123,25 +126,36 @@ img.content{
 /* ======================================================================================== */
 
 /* This parent container is for unevenly spaced items or a grid: sidebar (maybe images?) on left, and letters on right  */
+
+div.flex_container_letter{
+    display:flex;
+}
+div.flex_container_letter > div{
+    margin: 40px;
+    padding: 20px;
+}
+
 div.parent_container3 {
     display: flex;
 }
 
 div.sidebar {
-    float: left;
     background-color: rgb(238, 236, 197);
-    margin-top: 10px;
+    margin:30px;
+    font-size:14px;
+    width:150px;
+    height:400px;
 }
 /*"Special Container" is the div/text box which holds an individual letter*/
 div.special_container {
     background-color: rgb(238, 236, 197);
-    float: right;
+   /*   float: right; */
     margin-top: 10px;
-    width: 1250px;
-    padding-top: 50px;
+    margin-right: 20px;
+    /*padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 80px; */
 }
 /* =========================================================================== */
 /* This is the css template for the letter inline elements                     */
@@ -283,7 +297,7 @@ div.head {
 
 footer.main {
     background-color: olive;
-    position: fixed;
+    margin-top: auto;
     left: 0;
     bottom: 0;
     width: 100%;
