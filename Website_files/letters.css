@@ -113,6 +113,27 @@ li.con{
     text-align: left;
     margin: 5px;
 }
+li.positive{
+    text-decoration: underline;
+}
+li.negative{
+    font-weight: bold;
+}
+li.neutral{
+    font-style: italic;
+}
+li.trauma{
+    color: red;
+}
+li.battle{
+    color: saddleBrown;
+}li.prep{
+    color: darkBlue;
+}li.conditions{
+    color: DarkOliveGreen;
+}li.sense{
+    color: DarkGoldenrod;
+}
 img.content{
     flex-grow:1;
     margin-top: 50px;
