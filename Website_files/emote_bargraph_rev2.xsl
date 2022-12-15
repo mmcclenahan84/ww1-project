@@ -54,7 +54,7 @@
                 y="-{$max_height div 2}"
                 text-anchor="middle" writing-mode="tb" font-size="large">Year Letter was Written</text> -->
             <text x="{$max_width div 2}" y="-{$max_height}" text-anchor="middle"
-                font-size="x-large">Percentage of Emotive Statements per Letter Written</text>
+                font-size="x-large">Percentage of Emotive Statements per Letter</text>
         </svg>
     </xsl:template>
 
@@ -73,14 +73,7 @@
     <xsl:variable name="y_pos" as="xs:double"
             select="(position()) * ($bar_height + $bar_spacing)"/>
         
-        <!--Conditional statement that makes horizontal lines between year groups -->
-        <!--This still generates too many lines ... need to debug this or else get rid of the lines entirely. -->
-       <!-- <xsl:if test=".//date/@when ! substring-before(.,'-') != ./following-sibling::div[1]//date/@when ! substring-before(.,'-')">
-            <line x1="0" x2="{$max_width}" y1="-{$y_pos+5}" y2="-{$y_pos+5}" stroke="black" stroke-dasharray="2"/>
-            <text x="-5" y="-{$y_pos+5}" text-anchor="end" dominant-baseline="middle">
-                <xsl:value-of select=".//date/@when ! substring-before(.,'-')"/>
-            </text>
-        </xsl:if> -->
+
     
     <!--====================================================================================================-->
     <!-- Make a rectangle for each percentage                                                               -->
@@ -116,8 +109,8 @@
                 <xsl:value-of select="round(($letter_neg div $letter_emotes) *100)"/></text>
         </xsl:if>
         
-        <!--Print the date of letter written to left of bar, in lieu of a y axis title. -->
-        <text x="-80" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//date/@when"/></text>
+        <!--Print the Year to left of bar, in lieu of a y axis title. Add last names later.-->
+        <text x="-50" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//date/@when ! substring-before(.,'-')"/></text>
         
        
     </xsl:template>
