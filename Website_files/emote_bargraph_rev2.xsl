@@ -22,7 +22,7 @@
     <!-- ================================================================================================= -->
     <xsl:template match="/">
         <svg height="{$max_height +50}" width="{$max_width +50}"
-            viewBox="-150, -{$max_height +100}, {$max_width+200}, {$max_height+ 375}">
+            viewBox="-200, -{$max_height +100}, {$max_width+200}, {$max_height+ 375}">
 
 
            <xsl:apply-templates select="//div">
@@ -109,9 +109,20 @@
                 <xsl:value-of select="round(($letter_neg div $letter_emotes) *100)"/></text>
         </xsl:if>
         
-        <!--Print the Year to left of bar, in lieu of a y axis title. Add last names later.-->
-        <text x="-50" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//date/@when ! substring-before(.,'-')"/></text>
-        
+        <!--Print the Year to left of bar, in lieu of a y axis title. If no signature: Unsigned.  If no date: Unknown.-->
+        <xsl:choose>
+            <xsl:when test=".//date/@when = 'unknown'">
+                <text x="-180" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//closer//name"/><xsl:text>, Unknown</xsl:text></text>
+            </xsl:when>
+            
+            <xsl:when test="string(.//closer//name) != ''">
+                <text x="-180" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//closer//name"/><xsl:text>, </xsl:text><xsl:value-of select=".//date/@when ! substring-before(.,'-')"/></text>
+            </xsl:when>
+            
+            <xsl:otherwise>
+                <text x="-180" y="-{$y_pos -15}" fill="black"><xsl:text>Unsigned, </xsl:text><xsl:value-of select=".//date/@when ! substring-before(.,'-')"/></text>
+            </xsl:otherwise>
+        </xsl:choose>
        
     </xsl:template>
 

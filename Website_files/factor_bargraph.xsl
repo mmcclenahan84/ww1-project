@@ -21,7 +21,7 @@
     <!-- ================================================================================================= -->
     <xsl:template match="/">
         <svg height="{$max_height +50}" width="{$max_width +50}"
-            viewBox="-150, -{$max_height +100}, {$max_width+200}, {$max_height+ 375}">
+            viewBox="-200, -{$max_height +100}, {$max_width+200}, {$max_height+ 375}">
             
             
             <xsl:apply-templates select="//div">
@@ -78,13 +78,22 @@
         <!-- Make a rectangle for each percentage                                                           -->
         <!--================================================================================================-->
         
+        <!--Make a blank rectangle for the letter with 0 factors-->
+        <xsl:if test="$letter_factors = 0">
+            <rect x=" 0" y="-{$y_pos}"
+                width="500" height="{$bar_height}"
+                opacity="1" fill="#FFF8DC"/> 
+            <text x="485" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
+                <xsl:value-of select="$letter_factors"/></text>
+        </xsl:if>
+        
         <!--Lowest level rectangle: it will be the sum of factors (trauma = red).-->
         <xsl:variable name="trauma_bar" as="xs:double" select="((($letter_trauma+$letter_battle+$letter_prep+$letter_cond+$letter_sense)div $letter_factors)*100*$x_scale)"/>
         <rect x=" 0" y="-{$y_pos}"
             width="{$trauma_bar}" height="{$bar_height}"
             opacity="1" fill="#FF4500"/>
         <xsl:if test="$letter_trauma > 0">
-            <text x="{(($trauma_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
+            <text x="{(($trauma_bar)-15)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_trauma div $letter_factors) *100)"/></text>
         </xsl:if>
         
@@ -94,7 +103,7 @@
             width="{$battle_bar}" height="{$bar_height}"
             opacity="1" fill="#8B4513"/>
         <xsl:if test="$letter_battle > 0">
-            <text x="{(($battle_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
+            <text x="{(($battle_bar)-15)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_battle div $letter_factors) *100)"/></text>
         </xsl:if>
         
@@ -104,7 +113,7 @@
             width="{$prep_bar}" height="{$bar_height}"
             opacity="1" fill="#4682B4"/>
         <xsl:if test="$letter_prep > 0">
-            <text x="{(($prep_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
+            <text x="{(($prep_bar)-15)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_prep div $letter_factors) *100)"/></text>
         </xsl:if> 
         
@@ -114,7 +123,7 @@
             width="{$cond_bar}" height="{$bar_height}"
             opacity="1" fill="#556B2F"/>
         <xsl:if test="$letter_cond > 0">
-            <text x="{(($cond_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
+            <text x="{(($cond_bar)-15)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_cond div $letter_factors) *100)"/></text>
         </xsl:if> 
         
@@ -124,12 +133,24 @@
             width="{$sense_bar}" height="{$bar_height}"
             opacity="1" fill="#B8860B"/>
         <xsl:if test="$letter_sense > 0">
-            <text x="{(($sense_bar)-20)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
+            <text x="{(($sense_bar)-15)}" y="-{$y_pos -12}" text-anchor="end" dominant-baseline="middle">
                 <xsl:value-of select="round(($letter_sense div $letter_factors) *100)"/></text>
         </xsl:if> 
         
-        <!--Print the date of letter written to left of bar, in lieu of a y axis title. -->
-        <text x="-80" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//date/@when"/></text>
+        <!--Print the Year to left of bar, in lieu of a y axis title. If no signature: Unsigned.  If no date: Unknown.-->
+        <xsl:choose>
+            <xsl:when test=".//date/@when = 'unknown'">
+                <text x="-180" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//closer//name"/><xsl:text>, Unknown</xsl:text></text>
+            </xsl:when>
+            
+            <xsl:when test="string(.//closer//name) != ''">
+                <text x="-180" y="-{$y_pos -15}" fill="black"><xsl:value-of select=".//closer//name"/><xsl:text>, </xsl:text><xsl:value-of select=".//date/@when ! substring-before(.,'-')"/></text>
+            </xsl:when>
+            
+            <xsl:otherwise>
+                <text x="-180" y="-{$y_pos -15}" fill="black"><xsl:text>Unsigned, </xsl:text><xsl:value-of select=".//date/@when ! substring-before(.,'-')"/></text>
+            </xsl:otherwise>
+        </xsl:choose>
         
     </xsl:template>
 </xsl:stylesheet>
