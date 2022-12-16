@@ -1,6 +1,6 @@
 Introduction to the conclusion:
 
-In our time spent with this material, we have become aware of a few factors that may have negatively impacted the nature of our data. 
+In our time spent with this material, we have become aware of a few outside influences that may have negatively impacted the nature of our data. 
 Firstly is an obvious point we came to early on in our research, which is the simple fact that these letters were being sent between 
 soldiers and thier families back home. Naturally, as to keep morale on the homefront high, it stands to reason that the content in these
 letters will not fully reflect the headspace a soldier finds himself in while in the trenches. Second, we became aware of rampant censorship 
@@ -15,4 +15,16 @@ This change is not only illustrated in the inverted bar charts on our Analysis p
 
 The conclusion to the conclusion: 
 
-As outlined in the chart, the overal
+As outlined in the chart, the overall emotional state of the soldiers seems to trend more positive as the war comes closer to an end, with 1916 being the
+only year that sees a majority of the letters trend Negatively in terms of emotional statements. On looking at the trend of this data, we were able to 
+come to two solid end points. Firstly, we agreed that as the war raged on, soldiers wanted their families back home to hold onto hope they would return. 
+With this in mind, we concluded that this trend was caused by soldiers willingly exempting certain elements from their letters as to keep hope alive 
+in the loved ones they left behind. Secondly, as mentioned in the above paragraph, censorship was exorcised heavily against the soldiers who wrote these
+letters. As such, it can be assumed that any sensitive information relating to preparations, the specifics of battle, etc. may have been removed from 
+these letters before they were sent back home. This alone would remove two of our major wartime factors that we identified as closely tied to negative 
+emotional responses from our data set. Without the prep and battle factors present in our data set, we were left with the more ambiguous factors that 
+did not have a strong enough correlation with a particular emotional response. This brings us back to the positive trend within our data, which we cannot 
+confidently correlate to an actual increase in positivity among the mental health of soldiers from the first world war. There are far too many outside 
+factors that may have influenced the data to do so. Perhaps with a more extensive corpus that covered more of the war as a whole we could have found 
+a stronger correlation. However, as our data stands now, we can only correlate that the mental wellbeing of soldiers in the first world war gradually 
+improved over time, as a majority of the letters reflect a positive trend in the emotional factors we were able to identify. 
