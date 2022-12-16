@@ -57,7 +57,7 @@ div.parent_container2{
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    outline: 5px solid black;
+    
 }
 
 /* Image sizing, compensated to balance padding found in other containers */
@@ -85,7 +85,6 @@ div.container2 {
     margin-right: auto;
     padding: 10px;
     width: 35%;
-    outline: 5px solid red;
 } 
 
 
