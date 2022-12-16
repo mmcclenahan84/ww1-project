@@ -88,27 +88,26 @@ div.container2 {
     outline: 5px solid red;
 } 
 
-<<<<<<< Updated upstream
-div.container_table{
 
+div.container_table{
     background-color: rgb(238, 236, 197);
-=======
-/* Altered version of sidebar - serves as key for both Bargraphs */
-div.key{
-    background-color: rgb(238, 236, 197);
-    font-family: Garamond, serif;
->>>>>>> Stashed changes
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-<<<<<<< Updated upstream
-    width:70%;
-
+    width:70%;     
 }
 
-=======
+/* Altered version of sidebar - serves as key for both Bargraphs */
+div.key{
+    background-color: rgb(238, 236, 197);
+    font-family: Garamond, serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
     font-size:14px;
     width: 10%;
 }
@@ -127,12 +126,13 @@ li.bar_neg{
     color:#FF6347;  
     text-align: left;
 }
->>>>>>> Stashed changes
+
 /* Other child elements: headings, paragraphs, lists, and images */
 h1.content {
     font-size: 25px;
     text-align: left;
 }
+
 h2.content{
     font-size: 20px;
     text-align: left;
