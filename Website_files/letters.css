@@ -70,9 +70,10 @@ div.container {
     padding: 30px;
     width:70%;     
 }
-/* Container for horizontally spaced blocks (rows) such as SVGs */
+/* Container only for SVG Bargraphs */
 div.container2 {
     background-color: rgb(238, 236, 197);
+    font-family: Garamond, serif;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
