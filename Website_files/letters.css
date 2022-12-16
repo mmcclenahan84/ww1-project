@@ -61,7 +61,7 @@ div.parent_container2{
 
 /* Regular containers will be text blocks */
 div.container {
-    flex-grow:1;
+    
     background-color: rgb(238, 236, 197);
     margin-top: 50px;
     margin-bottom: 50px;
@@ -116,7 +116,7 @@ li.con{
 }
 
 img.content{
-    flex-grow:1;
+    
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
