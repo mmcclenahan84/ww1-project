@@ -57,6 +57,12 @@ div.parent_container2{
     justify-content: center;
     align-items: flex-start;
     width: 100%;
+    outline: 5px solid black;
+}
+
+/* Image sizing, compensated to balance padding found in other containers */
+.imgFill {
+  width: 100%;    
 }
 
 /* Regular containers will be text blocks */
@@ -79,20 +85,49 @@ div.container2 {
     margin-right: auto;
     padding: 10px;
     width: 35%;
+    outline: 5px solid red;
 } 
 
+<<<<<<< Updated upstream
 div.container_table{
 
     background-color: rgb(238, 236, 197);
+=======
+/* Altered version of sidebar - serves as key for both Bargraphs */
+div.key{
+    background-color: rgb(238, 236, 197);
+    font-family: Garamond, serif;
+>>>>>>> Stashed changes
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+<<<<<<< Updated upstream
     width:70%;
 
 }
 
+=======
+    font-size:14px;
+    width: 10%;
+}
+/* Different colors needed for the emote graph key.  Factor colors will stay same as reading view. */
+li.bar_pos{
+   color:#3CB371;
+    text-align: left;
+}
+
+li.bar_neu{
+   color: #FFD700; 
+   text-align: left;
+}
+
+li.bar_neg{
+    color:#FF6347;  
+    text-align: left;
+}
+>>>>>>> Stashed changes
 /* Other child elements: headings, paragraphs, lists, and images */
 h1.content {
     font-size: 25px;
@@ -126,14 +161,6 @@ li.con{
     margin: 5px;
 }
 
-img.content{
-    
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
 /* ======================================================================================== */
 /* Elements for Letters page (reading view) only */
 /* ======================================================================================== */
