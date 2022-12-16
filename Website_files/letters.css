@@ -81,6 +81,18 @@ div.container2 {
     width: 35%;
 } 
 
+div.container_table{
+
+    background-color: rgb(238, 236, 197);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width:70%;
+
+}
+
 /* Other child elements: headings, paragraphs, lists, and images */
 h1.content {
     font-size: 25px;
