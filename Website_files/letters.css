@@ -147,7 +147,7 @@ div.parent_container4 {
 div.parent_container5{
     display:flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:flex-start;
     align-items: center;
     width: 60%;
 }
